@@ -20,7 +20,8 @@ git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
 # Copy dotfiles
 cd ~/cozy-gruvbox-i3
 cp -R .config ~/                                            
-chmod -R +x ~/.config/i3/scripts
+chmod -R +x ~/.config/i3/script
+chmod -R +x ~/.config/rofi
 cd ~/parsai/config-files
 sudo cp lightdm.conf slick-greeter.conf /etc/lightdm/
 # Install packages
