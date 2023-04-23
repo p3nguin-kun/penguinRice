@@ -1,5 +1,23 @@
 # p3nguin-kun's Auto Rice Script After Installation (PARSAI)
 [Ubuntu](htrps://ubuntu.com) is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
+# Packages
+- Distro: [Arch Linux](https://archlinux.org)
+
+- Window Manager: [i3](https://i3wm.org)
+- Status bar: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks)
+- Terminal: [xfce4-terminal](https://github.com/xfce-mirror/xfce4-terminal)
+- Browser: [Firefox](https://www.mozilla.org/en-US/firefox/)
+- Shell: [fish](https://fishshell.com/)
+- Launcher: [Rofi](https://github.com/davatorium/rofi)
+- Fonts: [Iosevka](https://typeof.net/Iosevka/) + [FontAwesome](https://fontawesome.com/)
+- Office: [LibreOffice](https://www.libreoffice.org/)
+- Music player: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) + [mpd](https://www.musicpd.org/)
+- Video player: [mpv](https://mpv.io/)
+- Photo viewer: [feh](https://feh.finalrewind.org/)
+- System monitor: [htop](https://htop.dev/)
+- Manage screens: [ARandR](https://christian.amsuess.com/tools/arandr/)
+- Notification: [dunst](https://dunst-project.org/)
+- Lockscreen: [i3lock](https://github.com/i3/i3lock)
 # Installation
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org)
