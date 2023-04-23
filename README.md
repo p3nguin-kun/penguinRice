@@ -1,5 +1,5 @@
 # p3nguin-kun's Auto Rice Script After Installation (PARSAI)
-[Ubuntu](htrps://ubuntu.com) is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
+[Ubuntu](https://ubuntu.com) is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
 # Packages
 - Dotfiles : [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
 - Distro: [Arch Linux](https://archlinux.org)
