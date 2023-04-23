@@ -29,6 +29,7 @@ This script will automatically install fully-featured tiling window manager-base
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org)
 
 > You need to login as normal user to use this script
+
 2. Install [Git](https://git-scm.com/) if you don't have it
 ```
 sudo pacman -S git
