@@ -34,4 +34,7 @@ grep "ILoveCandy" /etc/pacman.conf >/dev/null || sed -i "/#VerbosePkgLists/a ILo
 # Delete dotfiles repo
 cd ..
 rm -rf cozy-minimal-i3
+# Finish ricing
 clear
+echo "Done!( ꈍᴗꈍ)
+Now you need to restart for better experience"
