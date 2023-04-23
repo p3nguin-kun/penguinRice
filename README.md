@@ -3,7 +3,7 @@ WIP
 # Installation
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org)
-2. Install Git if you don't have it
+2. Install [Git](https://git-scm.com/) if you don't have it
 ```
 sudo pacman -S git
 ```
@@ -11,7 +11,7 @@ sudo pacman -S git
 ```
 git clone https://github.com/p3nguin-kun/parsai.git
 ```
-4. Go to parsai directory
+4. Go to [parsai](https://p3nguin-kun.github.io/parsai) directory
 ```
 cd parsai
 ```
