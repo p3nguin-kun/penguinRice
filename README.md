@@ -1,2 +1,2 @@
-# pasaai
-p3nguin-kun's Auto Setup After Arch Installation
+# p3nguin-kun's Auto Rice Script After Installation
+WIP
