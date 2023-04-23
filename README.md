@@ -1,5 +1,5 @@
 # p3nguin-kun's Auto Rice Script After Installation (PARSAI)
-Ubuntu is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
+[Ubuntu](htrps://ubuntu.com) is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
 # Installation
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org)
