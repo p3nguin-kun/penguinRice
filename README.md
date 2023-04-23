@@ -23,6 +23,7 @@ This script will automatically install fully-featured tiling window manager-base
 - Manage screens: [ARandR](https://christian.amsuess.com/tools/arandr/)
 - Notification: [dunst](https://dunst-project.org/)
 - Lockscreen: [i3lock](https://github.com/i3/i3lock)
+
 # Installation
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org)
