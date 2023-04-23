@@ -6,10 +6,13 @@
 
 # Show welcome text
 clear
-echo "Welcome to p3nguin-kun's Auto Rice Script After Installation (PARSAI)
-This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system
+echo "^_^ Welcome to p3nguin-kun's Auto Rice Script After Installation (PARSAI)
+
+Ubuntu is bloated! Arch with PARSAI is better! <(￣︶￣)>
+
+This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system 
 "
-echo "PARSAI will start now
+echo "PARSAI will start now (≧▽≦)
 
 "
 # Clone dotfiles repo
