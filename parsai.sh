@@ -26,8 +26,8 @@ chmod -R +x ~/.config/i3/script
 chmod -R +x ~/.config/rofi
 cd ~/parsai/config-files
 cp .xinitrc ~/
-#sudo cp lightdm.conf /etc/lightdm/
-#sudo cp slick-greeter.conf /etc/lightdm
+sudo cp lightdm.conf /etc/lightdm/
+sudo cp slick-greeter.conf /etc/lightdm
 cd ..
 # Change shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
@@ -36,8 +36,8 @@ chsh -s /usr/local/bin/fish
 grep "^Color" /etc/pacman.conf >/dev/null || sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 # Start LightDM with OS
-#sudo systemctl enable lightdm
-#sudo systemctl enable lightdm.service
+sudo systemctl enable lightdm
+sudo systemctl enable lightdm.service
 # Delete dotfiles repo
 cd ..
 rm -rf cozy-minimal-i3
