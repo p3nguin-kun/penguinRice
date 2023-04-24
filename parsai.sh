@@ -22,8 +22,8 @@ sudo pacman -S --noconfirm acpi arandr archlinux-xdg-menu awesome-terminal-fonts
 # Copy dotfiles
 cd ~/cozy-gruvbox-i3
 cp -R .config ~/                                            
-chmod -R +x ~/.config/i3/script
-chmod -R +x ~/.config/rofi
+chmod -R +x ~/.config/i3/scripts/
+chmod -R +x ~/.config/rofi/
 cd ~/parsai/config-files
 cp .xinitrc ~/
 sudo cp lightdm.conf /etc/lightdm/
