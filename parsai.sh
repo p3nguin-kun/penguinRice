@@ -22,8 +22,7 @@ sudo pacman -S --noconfirm acpi arandr archlinux-xdg-menu awesome-terminal-fonts
 # Copy dotfiles
 cd ~/cozy-gruvbox-i3
 cp -R .config ~/                                            
-chmod -R +x ~/.config/i3/scripts/
-chmod -R +x ~/.config/rofi/
+chmod +x '~/.config/rofi/launchers/launcher.sh' '~/.config/rofi/powermenu/powermenu.sh' '~/.config/i3/scripts/bandwidth2' '~/.config/i3/scripts/battery1' '~/.config/i3/scripts/battery2' '~/.config/i3/scripts/battery-pinebook-pro' '~/.config/i3/scripts/blur-lock' '~/.config/i3/scripts/cpu_usage' '~/.config/i3/scripts/disk' '~/.config/i3/scripts/empty_workspace' '~/.config/i3/scripts/keyboard-layout' '~/.config/i3/scripts/memory' '~/.config/i3/scripts/openweather' '~/.config/i3/scripts/openweather-city' '~/.config/i3/scripts/ppd-status' '~/.config/i3/scripts/temperature' '~/.config/i3/scripts/volume' '~/.config/i3/scripts/vpn'
 cd ~/parsai/config-files
 cp .xinitrc ~/
 sudo cp lightdm.conf /etc/lightdm/
