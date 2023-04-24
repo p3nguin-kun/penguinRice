@@ -33,6 +33,8 @@ chsh -s /usr/local/bin/fish
 # Config pacman (for what?)
 grep "^Color" /etc/pacman.conf >/dev/null || sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
+# Start LightDM with OS
+sudo systemctl enable lightdm -f
 # Delete dotfiles repo
 cd ..
 rm -rf cozy-minimal-i3
