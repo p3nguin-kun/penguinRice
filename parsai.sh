@@ -24,8 +24,8 @@ chmod -R +x ~/.config/i3/script
 chmod -R +x ~/.config/rofi
 cd ~/parsai/config-files
 cp .xinitrc ~/
-sudo cp lightdm.conf /etc/lightdm/
-sudo cp slick-greeter.conf /etc/lightdm
+#sudo cp lightdm.conf /etc/lightdm/
+#sudo cp slick-greeter.conf /etc/lightdm
 cd ..
 # Install packages
 sudo pacman -S --noconfirm acpi arandr archlinux-xdg-menu awesome-terminal-fonts dex dmenu dunst feh file-roller firefox fish galculator gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq libreoffice-still lightdm lightdm-gtk-greeter lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch networkmanager network-manager-applet numlockx playerctl polkit-gnome rofi scrot sed sysstat thunar thunar-archive-plugin thunar-volman ttc-iosevka tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-terminal xorg-xbacklight xorg-xdpyinfo zip
@@ -36,8 +36,8 @@ chsh -s /usr/local/bin/fish
 grep "^Color" /etc/pacman.conf >/dev/null || sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 # Start LightDM with OS
-sudo systemctl enable lightdm
-sudo systemctl enable lightdm.service
+#sudo systemctl enable lightdm
+#sudo systemctl enable lightdm.service
 # Delete dotfiles repo
 cd ..
 rm -rf cozy-minimal-i3
