@@ -1,4 +1,6 @@
 # p3nguin-kun's Auto Rice Script After Installation (PARSAI)
+**Work in progress, pls help me complete this project**
+
 [Ubuntu](https://ubuntu.com) is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
 
 This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system.
