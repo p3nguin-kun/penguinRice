@@ -31,10 +31,11 @@ This script will automatically install fully-featured tiling window manager-base
 - Lockscreen: [i3lock](https://github.com/i3/i3lock)
 
 # Installation
+> Note: You need to login as normal user to use this script
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org) (Choose Minimal profile)
 
-> You need to login as normal user to use this script
+
 
 2. Install [Git](https://git-scm.com/) if you don't have it
 ```
