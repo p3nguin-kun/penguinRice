@@ -4,6 +4,7 @@
 - Author: [@p3nguin-kun](https://github.com/p3nguin-kun)
 - Website: [https://p3nguin-kun.github.io/parsai](https://p3nguin-kun.github.io/parsai)
 - GitHub: [https://github.com/p3nguin-kun/parsai](https://github.com/p3nguin-kun/parsai)
+
 ***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
 
 [Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [PARSAI](https://p3nguin-kun.github.io/parsai/) is better! <(￣︶￣)> 
