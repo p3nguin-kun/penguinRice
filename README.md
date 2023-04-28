@@ -1,5 +1,5 @@
 # ***p3nguin-kun's Auto Rice Script After Installation (PARSAI)***
-#### ***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
+***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
 
 - Author: [@p3nguin-kun](https://github.com/p3nguin-kun)
 - Website: https://p3nguin-kun.github.io/parsai/
