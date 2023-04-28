@@ -1,8 +1,10 @@
 # ***p3nguin-kun's Auto Rice Script After Installation (PARSAI)***
-***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
+
 
 - Author: [@p3nguin-kun](https://github.com/p3nguin-kun)
 - Website: https://p3nguin-kun.github.io/parsai/
+
+***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
 
 [Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [PARSAI](https://p3nguin-kun.github.io/parsai/) is better! <(￣︶￣)> 
 
