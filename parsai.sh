@@ -20,8 +20,8 @@ git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
 # Install packages
 sudo pacman -S --noconfirm acpi arandr archlinux-xdg-menu awesome-terminal-fonts dex dmenu dunst feh file-roller firefox fish galculator gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq libreoffice-still lightdm lightdm-gtk-greeter lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch networkmanager network-manager-applet numlockx playerctl polkit-gnome rofi scrot sed sysstat thunar thunar-archive-plugin thunar-volman ttc-iosevka tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-terminal xorg-xbacklight xorg-xdpyinfo zip
 # Copy dotfiles
-cd ~/cozy-gruvbox-i3
-cp -R .config ~/                                            
+cd ~/cozy-gruvbox-i3/.config
+cp -r i3 rofi dunst gtk-3.0 gtk-4.0 neofetch wallpapers xfce4 ~/.config                                  
 chmod +x '~/.config/rofi/launchers/launcher.sh' '~/.config/rofi/powermenu/powermenu.sh' '~/.config/i3/scripts/bandwidth2' '~/.config/i3/scripts/battery1' '~/.config/i3/scripts/battery2' '~/.config/i3/scripts/battery-pinebook-pro' '~/.config/i3/scripts/blur-lock' '~/.config/i3/scripts/cpu_usage' '~/.config/i3/scripts/disk' '~/.config/i3/scripts/empty_workspace' '~/.config/i3/scripts/keyboard-layout' '~/.config/i3/scripts/memory' '~/.config/i3/scripts/openweather' '~/.config/i3/scripts/openweather-city' '~/.config/i3/scripts/ppd-status' '~/.config/i3/scripts/temperature' '~/.config/i3/scripts/volume' '~/.config/i3/scripts/vpn'
 cd ~/parsai/config-files
 cp .xinitrc ~/
