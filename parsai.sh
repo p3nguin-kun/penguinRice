@@ -31,6 +31,9 @@ cd ..
 # Change shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+# Install Qogir-icon-theme
+git clone https://github.com/vinceliuice/Qogir-icon-theme.git
+sh install.sh
 # Config pacman (for what?)
 grep "^Color" /etc/pacman.conf >/dev/null || sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
