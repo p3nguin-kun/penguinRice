@@ -45,7 +45,7 @@ chsh -s /usr/bin/fish
 
 #Config LightDM
 echo "exec i3" >> ~/.xinitrc
-sudo mkdir -p /usr/share/backgrounds
+sudo mkdir -p /usr/share/backgrounds/
 sudo cp ~/.config/wallpapers/wall2.png /usr/share/backgrounds
 sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf
 sudo sed -i "s/#background=/background=\/usr\/share\/backgrounds\/wall2.png/g" /etc/lightdm/lightdm-gtk-greeter.conf
