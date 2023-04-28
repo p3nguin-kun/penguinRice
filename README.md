@@ -20,6 +20,7 @@ This script will automatically install fully-featured tiling window manager-base
 - Launcher: [Rofi](https://github.com/davatorium/rofi)
 - Fonts: [Iosevka](https://typeof.net/Iosevka/) + [FontAwesome](https://fontawesome.com/)
 - Office: [LibreOffice](https://www.libreoffice.org/)
+- PDF Viewer: [zathura](https://pwmt.org/projects/zathura/)
 - Music player: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) + [mpd](https://www.musicpd.org/)
 - Video player: [mpv](https://mpv.io/)
 - Photo viewer: [feh](https://feh.finalrewind.org/)
