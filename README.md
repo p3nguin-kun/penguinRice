@@ -36,6 +36,12 @@
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
 - 🔒 ***Lockscreen***: [i3lock](https://github.com/i3/i3lock)
 
+# ***What does this script do?***
+- Install some necessary packages such as Firefox, LibreOffice, Vim, ...
+- Automatically rice i3wm, a tiling window manager
+- Automatically config software such as neofetch, dunst, ...
+- Customize your computer
+
 # ***Installation***
 ***Note: You need to login as normal user to use this script***
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
