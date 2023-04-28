@@ -23,15 +23,14 @@ sudo pacman -S --noconfirm acpi arandr archlinux-xdg-menu awesome-terminal-fonts
 mkdir ~/.config
 cd ~/cozy-gruvbox-i3/.config
 cp -r i3 rofi dunst gtk-3.0 gtk-4.0 neofetch wallpapers xfce4 ~/.config                                  
-chmod +x '~/.config/rofi/launchers/launcher.sh' '~/.config/rofi/powermenu/powermenu.sh' '~/.config/i3/scripts/bandwidth2' '~/.config/i3/scripts/battery1' '~/.config/i3/scripts/battery2' '~/.config/i3/scripts/battery-pinebook-pro' '~/.config/i3/scripts/blur-lock' '~/.config/i3/scripts/cpu_usage' '~/.config/i3/scripts/disk' '~/.config/i3/scripts/empty_workspace' '~/.config/i3/scripts/keyboard-layout' '~/.config/i3/scripts/memory' '~/.config/i3/scripts/openweather' '~/.config/i3/scripts/openweather-city' '~/.config/i3/scripts/ppd-status' '~/.config/i3/scripts/temperature' '~/.config/i3/scripts/volume' '~/.config/i3/scripts/vpn'
-cd ~/parsai/config-files
-cp .xinitrc ~/
-sudo cp -i lightdm.conf /etc/lightdm/
-sudo cp -i slick-greeter.conf /etc/lightdm
+#chmod +x '~/.config/rofi/launchers/launcher.sh' '~/.config/rofi/powermenu/powermenu.sh' '~/.config/i3/scripts/bandwidth2' '~/.config/i3/scripts/battery1' '~/.config/i3/scripts/battery2' '~/.config/i3/scripts/battery-pinebook-pro' '~/.config/i3/scripts/blur-lock' '~/.config/i3/scripts/cpu_usage' '~/.config/i3/scripts/disk' '~/.config/i3/scripts/empty_workspace' '~/.config/i3/scripts/keyboard-layout' '~/.config/i3/scripts/memory' '~/.config/i3/scripts/openweather' '~/.config/i3/scripts/openweather-city' '~/.config/i3/scripts/ppd-status' '~/.config/i3/scripts/temperature' '~/.config/i3/scripts/volume' '~/.config/i3/scripts/vpn'
 cd ..
 # Change shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/fish
+chsh -s /usr/bin/fish
+#Config sth
+echo "exec i3" >> ~/.xinitrc
+echo "greeter-session=lightdm-slick-greeter" | grep "#greeter-session=example-gtk-gnome" /etc/lightdm/lightdm.conf
 # Install Qogir-icon-theme
 git clone https://github.com/vinceliuice/Qogir-icon-theme.git
 sh install.sh
