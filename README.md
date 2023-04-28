@@ -53,4 +53,5 @@ cd parsai
 sh parsai.sh
 ```
 6. Follow the instruction
-7. Done!
+7. Restart your computer
+8. Done! Now you can use fully-featured i3wm on your computer
