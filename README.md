@@ -1,5 +1,5 @@
 # p3nguin-kun's Auto Rice Script After Installation (PARSAI)
-- **Work in progress, pls help me complete this project (◍•ᴗ•◍)**
+> **Work in progress, pls help me complete this project (◍•ᴗ•◍)**
 
 [Ubuntu](https://ubuntu.com) is bloated! [Arch](https://archlinux.org) with PARSAI is better! <(￣︶￣)> 
 
