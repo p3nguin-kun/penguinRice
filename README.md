@@ -3,13 +3,13 @@
 
 [Ubuntu](https://ubuntu.com) is bloated! [Arch](https://archlinux.org) with [PARSAI](https://p3nguin-kun.github.io/parsai/) is better! <(￣︶￣)> 
 
-This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system.
+This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.
 
 ![screen1](https://i.imgur.com/FweMsR9.png)
 
 # ***Packages***
 - Dotfiles : [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
-- Distro: [Arch Linux](https://archlinux.org)
+- Distro: [Arch Linux](https://archlinux.org) or Arch-based distro
 
 - Window Manager: [i3](https://i3wm.org)
 - Status bar: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks)
