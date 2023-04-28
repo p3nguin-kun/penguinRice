@@ -7,7 +7,7 @@ This script will automatically install fully-featured tiling window manager-base
 
 ![screen1](https://i.imgur.com/FweMsR9.png)
 
-# Packages
+# ***Packages***
 - Dotfiles : [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
 - Distro: [Arch Linux](https://archlinux.org)
 
@@ -30,7 +30,7 @@ This script will automatically install fully-featured tiling window manager-base
 - Notification: [dunst](https://dunst-project.org/)
 - Lockscreen: [i3lock](https://github.com/i3/i3lock)
 
-# Installation
+# ***Installation***
 ***Note: You need to login as normal user to use this script***
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org) (Choose Minimal profile)
