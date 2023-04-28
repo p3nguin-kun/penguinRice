@@ -2,7 +2,7 @@
 
 
 - Author: [@p3nguin-kun](https://github.com/p3nguin-kun)
-- Website: https://p3nguin-kun.github.io/parsai/
+- Website: [https://p3nguin-kun.github.io/parsai](https://p3nguin-kun.github.io/parsai)
 
 ***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
 
