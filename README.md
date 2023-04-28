@@ -1,9 +1,9 @@
 # ***p3nguin-kun's Auto Rice Script After Installation (PARSAI)***
 
 
-- Author: [@p3nguin-kun](https://github.com/p3nguin-kun)
-- Website: [https://p3nguin-kun.github.io/parsai](https://p3nguin-kun.github.io/parsai)
-- GitHub: [https://github.com/p3nguin-kun/parsai](https://github.com/p3nguin-kun/parsai)
+- 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
+- 🌐 ***Website***: [https://p3nguin-kun.github.io/parsai](https://p3nguin-kun.github.io/parsai)
+- 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/parsai](https://github.com/p3nguin-kun/parsai)
 
 ***Work in progress, pls help me complete this project (◍•ᴗ•◍)***
 
