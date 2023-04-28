@@ -29,7 +29,7 @@
 - 🎵 ***Music player***: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) + [mpd](https://www.musicpd.org/)
 - 🎞️ ***Video player***: [mpv](https://mpv.io/)
 - 🖼️ ***Photo viewer***: [feh](https://feh.finalrewind.org/)
-- 📊 ***Fetch***: [neofetch](https://github.com/dylanaraps/neofetch)
+- ℹ️ ***Fetch***: [neofetch](https://github.com/dylanaraps/neofetch)
 - 📊 ***System monitor***: [htop](https://htop.dev/)
 - 🖥️ ***Manage screens***: [ARandR](https://christian.amsuess.com/tools/arandr/)
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
