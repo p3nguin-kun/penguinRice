@@ -18,18 +18,24 @@ echo "PARSAI will start now (≧▽≦)
 # Update repositories
 sudo pacman -Syu
 
-# Clone dotfiles repo
-cd ~/
-git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
-
-# Install packages
-sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu awesome-terminal-fonts blueberry dex dmenu dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq kitty libreoffice-still lightdm lightdm-gtk-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch nerd-fonts networkmanager network-manager-applet numlockx pavucontrol playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-clipman-plugin xorg-xbacklight xorg-xdpyinfo zathura zip
-
 # Install yay (an aur helper)
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+# Install packages
+sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu awesome-terminal-fonts blueberry dex dmenu dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq kitty libreoffice-still lightdm lightdm-gtk-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch nerd-fonts networkmanager network-manager-applet numlockx pavucontrol playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-clipman-plugin xorg-xbacklight xorg-xdpyinfo zathura zip
+
+# Install AUR stuffs
+yay -S qogir-icon-theme
+yay -S gruvbox-dark-gtk
+yay -S dragon-drop
+yay -S betterlockscreen
+
+# Clone dotfiles repo
+cd ~/
+git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
 
 # Copy dotfiles
 cd ~/cozy-gruvbox-i3
@@ -51,12 +57,6 @@ sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-gr
 sudo sed -i "s/#background=/background=\/usr\/share\/backgrounds\/wall2.png/g" /etc/lightdm/lightdm-gtk-greeter.conf
 sudo sed -i "s/#font-name/font-name=Iosevka/g" /etc/lightdm/lightdm-gtk-greeter.conf
 
-# Install AUR stuffs
-yay -S qogir-icon-theme
-yay -S gruvbox-dark-gtk
-yay -S dragon-drop
-yay -S betterlockscreen
-
 # Config pacman (for what?)
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
@@ -70,8 +70,6 @@ sudo systemctl enable lightdm
 # Delete dotfiles repo
 cd ~/
 rm -rf cozy-minimal-i3
-rm -rf Qogir-icon-theme
-rm -rf yay
 
 # Finish ricing
 clear
