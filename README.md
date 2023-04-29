@@ -41,7 +41,7 @@
 - 📊 ***System monitor***: [htop](https://htop.dev/)
 - 🖥️ ***Manage screens***: [ARandR](https://christian.amsuess.com/tools/arandr/)
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
-- 🔒 ***Lockscreen***: [i3lock](https://github.com/i3/i3lock)
+- 🔒 ***Lockscreen***: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 
 # ***Types of PARSAI users***
 - People who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
