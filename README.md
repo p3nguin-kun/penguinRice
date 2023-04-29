@@ -42,6 +42,12 @@
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
 - 🔒 ***Lockscreen***: [i3lock](https://github.com/i3/i3lock)
 
+# ***Types of PARSAI users
+- People who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
+- Those who want to use hacker computer setup like in many movies.
+- People who want to automatically rice their Linux desktop.
+- Who want productivity Linux desktop for study and work.
+
 # ***What does this script do?***
 - Install some necessary packages such as Firefox, LibreOffice, Vim, ...
 - Automatically rice i3wm, a tiling window manager
