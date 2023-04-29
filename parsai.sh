@@ -55,10 +55,14 @@ sudo sed -i "s/#font-name/font-name=Iosevka/g" /etc/lightdm/lightdm-gtk-greeter.
 yay -S qogir-icon-theme
 yay -S gruvbox-dark-gtk
 yay -S dragon-drop
+yay -S betterlockscreen
 
 # Config pacman (for what?)
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
+
+# Add background for betterlockscreen
+betterlockscreen -u ~/.config/wallpapers/wall2.png
 
 # Start LightDM with OS
 sudo systemctl enable lightdm
