@@ -34,7 +34,7 @@ makepkg -si
 # Copy dotfiles
 cd ~/cozy-gruvbox-i3
 cp -r .config ~/                                  
-chmod +x ~/.config/i3/scripts
+chmod -R +x ~/.config/i3/scripts
 chmod +x ~/.config/rofi/launchers
 chmod +x ~/.config/rofi/powermenu
 cd ~/
