@@ -35,8 +35,8 @@ makepkg -si
 cd ~/cozy-gruvbox-i3
 cp -r .config ~/                                  
 chmod -R +x ~/.config/i3/scripts
-chmod +x ~/.config/rofi/launchers
-chmod +x ~/.config/rofi/powermenu
+chmod -R +x ~/.config/rofi/launchers
+chmod -R +x ~/.config/rofi/powermenu
 cd ~/
 
 # Change shell
