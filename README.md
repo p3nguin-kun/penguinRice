@@ -12,7 +12,7 @@
 
 **This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
 
-# ***Screenshots
+# ***Screenshots***
 ![screen1](https://i.imgur.com/C6uKnQm.png)
 ![screen2](https://i.imgur.com/1Dcfb4Q.png)
 ![screen3](https://i.imgur.com/vSTMAJn.jpg)
