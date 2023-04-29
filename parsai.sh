@@ -25,13 +25,10 @@ cd yay
 makepkg -si
 
 # Install packages
-sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu awesome-terminal-fonts blueberry dex dmenu dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq kitty libreoffice-still lightdm lightdm-gtk-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch nerd-fonts networkmanager network-manager-applet numlockx pavucontrol playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-clipman-plugin xorg-xbacklight xorg-xdpyinfo zathura zip
+sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu awesome-terminal-fonts blueberry dex dmenu dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq kitty libreoffice-still lightdm lightdm-gtk-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch nerd-fonts networkmanager network-manager-applet numlockx pavucontrol picom playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-clipman-plugin xorg-xbacklight xorg-xdpyinfo zathura zip
 
 # Install AUR stuffs
-yay -S qogir-icon-theme
-yay -S gruvbox-dark-gtk
-yay -S dragon-drop
-yay -S betterlockscreen
+yay -S betterlockscreen dragon-drop gruvbox-dark-gtk qogir-icon-theme
 
 # Clone dotfiles repo
 cd ~/
