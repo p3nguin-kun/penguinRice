@@ -48,6 +48,7 @@
 - Those who want to use hacker computer setup like in many movies.
 - People who want to automatically rice their Linux desktop.
 - Who want productivity Linux desktop for study and work.
+- Those who spend a whole day to install Arch Linux manually but lazy  to rice, config
 
 # ***What does this script do?***
 - Install some necessary packages such as Firefox, LibreOffice, Vim, ...
