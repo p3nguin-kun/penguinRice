@@ -12,7 +12,10 @@
 
 **This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
 
-![screen1](https://i.imgur.com/FweMsR9.png)
+# ***Screenshots
+![screen1](https://i.imgur.com/C6uKnQm.png)
+![screen2](https://i.imgur.com/1Dcfb4Q.png)
+![screen3](https://i.imgur.com/vSTMAJn.jpg)
 
 # ***Contents***
 - [Packages](https://github.com/p3nguin-kun/parsai#packages)
@@ -41,6 +44,7 @@
 - 📊 ***System monitor***: [htop](https://htop.dev/)
 - 🖥️ ***Manage screens***: [ARandR](https://christian.amsuess.com/tools/arandr/)
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
+- 🖵 ***Compositor***: [picom](https://github.com/yshui/picom)
 - 🔒 ***Lockscreen***: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 
 # ***Types of PARSAI users***
