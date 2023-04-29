@@ -16,6 +16,7 @@
 
 # ***Contents***
 - [Packages](https://github.com/p3nguin-kun/parsai#packages)
+- [Types of PARSAI users](https://github.com/p3nguin-kun/parsai/blob/main/README.md#types-of-parsai-users)
 - [What does this script do?](https://github.com/p3nguin-kun/parsai#what-does-this-script-do)
 - [Installation](https://github.com/p3nguin-kun/parsai#installation)
 
