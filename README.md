@@ -14,6 +14,11 @@
 
 ![screen1](https://i.imgur.com/FweMsR9.png)
 
+# ***Contents***
+- [Packages](https://github.com/p3nguin-kun/parsai#packages)
+- [What does this script do?](https://github.com/p3nguin-kun/parsai#what-does-this-script-do)
+- [Installation](https://github.com/p3nguin-kun/parsai#installation)
+
 # ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
