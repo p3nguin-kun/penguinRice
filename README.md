@@ -25,7 +25,7 @@
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org)
 - 📊 ***Status bar***: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks)
-- 👨‍💻 ***Terminal***: [xfce4-terminal](https://github.com/xfce-mirror/xfce4-terminal)
+- 👨‍💻 ***Terminal***: [kitty](https://sw.kovidgoyal.net/kitty/)
 - 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/)
