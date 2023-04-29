@@ -42,6 +42,7 @@
 - Automatically rice i3wm, a tiling window manager
 - Automatically config software such as neofetch, dunst, ...
 - Customize your computer
+- Automatically install yay, an AUR helper
 
 # ***Installation***
 ***Note: You need to login as normal user to use this script***
