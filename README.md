@@ -22,6 +22,7 @@
 - 👨‍💻 ***Terminal***: [xfce4-terminal](https://github.com/xfce-mirror/xfce4-terminal)
 - 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
+- 🗂️ ***File Manager***: [ranger](https://ranger.github.io/)
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
 - 🔠 ***Fonts***: [Iosevka](https://typeof.net/Iosevka/) + [FontAwesome](https://fontawesome.com/)
