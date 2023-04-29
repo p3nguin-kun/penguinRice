@@ -23,7 +23,7 @@ cd ~/
 git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
 
 # Install packages
-sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu awesome-terminal-fonts blueberry dex dmenu dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq libreoffice-still lightdm lightdm-gtk-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch networkmanager network-manager-applet numlockx pavucontrol playerctl polkit-gnome ranger rofi scrot sed sysstat ttc-iosevka ttf-font-awesome tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-clipman-plugin xfce4-terminal xorg-xbacklight xorg-xdpyinfo zathura zip
+sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu awesome-terminal-fonts blueberry dex dmenu dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb htop i3-wm i3blocks i3lock i3status jq libreoffice-still lightdm lightdm-gtk-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch nerd-fonts networkmanager network-manager-applet numlockx pavucontrol playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip vim xbindkeys xdg-user-dirs-gtk xfce4-clipman-plugin xfce4-terminal xorg-xbacklight xorg-xdpyinfo zathura zip
 
 # Install yay (an aur helper)
 sudo pacman -S --needed base-devel
