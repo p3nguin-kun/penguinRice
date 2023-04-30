@@ -37,7 +37,7 @@
 - 🔠 ***Fonts***: [Iosevka](https://typeof.net/Iosevka/) + [FontAwesome](https://fontawesome.com/)
 - 🏢 ***Office***: [LibreOffice](https://www.libreoffice.org/)
 - 📄 ***PDF Viewer***: [zathura](https://pwmt.org/projects/zathura/)
-- 🎞️ ***Media player***: [vlc](https://www.videolan.org/vlc/)
+- 🎞️ ***Media player***: [mpv](https://mpv.io)
 - 🖼️ ***Photo viewer***: [feh](https://feh.finalrewind.org/)
 - ℹ️ ***Fetch***: [neofetch](https://github.com/dylanaraps/neofetch)
 - 📊 ***System monitor***: [htop](https://htop.dev/)
