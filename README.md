@@ -22,6 +22,7 @@
 - [Types of PARSAI users](https://github.com/p3nguin-kun/parsai#types-of-parsai-users)
 - [What does this script do?](https://github.com/p3nguin-kun/parsai#what-does-this-script-do)
 - [Installation](https://github.com/p3nguin-kun/parsai#installation)
+- [Tutorial](https://github.com/p3nguin-kun/parsai#tutorial)
 
 # ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
@@ -86,3 +87,6 @@ sh parsai.sh
 6. Follow the instruction
 7. Restart your computer
 8. Done! Now you can use fully-featured i3wm on your computer
+
+# ***Tutorial***
+- PARSAI has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here](https://raw.githubusercontent.com/p3nguin-kun/parsai/main/files/keybindings.txt)
