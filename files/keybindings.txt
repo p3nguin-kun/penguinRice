@@ -1,93 +1,147 @@
-# Keybindings
+# Keybindings for PARSAI
 
- = windows key
+# i3 (window manager)
+• Windows key, Linux key, Alt key, ... :
+Mod
 
-# start xfce4-terminal
-+Return 
+• Full keybinding list :
+Mod + `
 
-# kill focused window
-+q
+• Start terminal :
+Mod + Return
 
-# Application menu search by typing :
-+d
+• Kill focused window :
+Mod + Q
 
-# Window switcher menu :
-+t
+• Application menu :
+Mod + D
 
-# Power menu bottom right:
-+Shift+e
+• Window switcher menu :
+Mod + T
 
-# Lock the system
-+l
+• Power menu :
+Mod + Shift + E
 
-# Reload the configuration file
-+Shift+c
+• Lock the system :
+Mod + Backspace
 
-# Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-+Shift+r
+• Change workspace:
+Mod + 1/2/3/4/...
+Mod + Tab
 
-# Full keybinding list in editor:
-+`
+• Change window focus : 
+Mod + H : Focus left
+Mod + J : Focus down
+Mod + K : Focus up
+Mod + L : Focus right
 
-# change window focus
-+j focus left
-+k focus down
-+b focus up
-+o focus right
+• Alternatively, you can use the cursor keys :
+Mod + Left : Focus left
+Mod + Down : Focus down
+Mod + Up : Focus up
+Mod + Right : Focus right
 
-# alternatively, you can use the cursor keys:
-+Left focus left
-+Down focus down
-+Up focus up
-+Right focus right
+• Move a focused window :
+Mod + Shift + H : Move left
+Mod + Shift + J : Move down
+Mod + Shift + K : Move up
+Mod + Shift + L : Move right
 
-# move a focused window
-+Shift+j move left
-+Shift+k move down
-+Shift+b move up
-+Shift+o move right
+• Alternatively, you can use the cursor keys :
+Mod + Shift + Left : Move left
+Mod + Shift + Down : Move down
+Mod + Shift + Up : Move up
+Mod + Shift + Right : Move right
 
-# alternatively, you can use the cursor keys:
-+Shift+Left move left
-+Shift+Down move down
-+Shift+Up move up
-+Shift+Right move right
+• Enter fullscreen mode for the focused container :
+Mod + F
 
-# split in horizontal orientation
-+h split h
+• Change container layout (stacked, tabbed, toggle split) : 
+Mod + S : Layout stacking
+Mod + W : Layout tabbed
+Mod + E : Layout toggle split
 
-# split in vertical orientation
-+v split v
+• Toggle tiling / floating :
+Mod + Shift + Space
 
-# enter fullscreen mode for the focused container
-+f fullscreen toggle
+• Change focus between tiling / floating windows :
+Mod + Space
 
-# change container layout (stacked, tabbed, toggle split)
-+s layout stacking
-+g layout tabbed
-+e layout toggle split
+• Focus the parent container :
+Mod + A
 
-# toggle tiling / floating
-+Shift+space floating toggle
+• Resize floating window :
+Mod + Right mouse
 
-# change focus between tiling / floating windows
-+space focus mode_toggle
+• Move floating window :
+Mod + Left mouse
 
-# focus the parent container
-+a focus parent
+• Reload the configuration file :
+Mod + Shift + C
 
-# focus the child container
-#+d focus child
+• Restart i3 : 
+Mod + Shift + R
 
-# resize floating window
-+right mouse button
+• Redirect sound to headphones :
+Mod + P
 
-## Multimedia Keys
+• Take screenshot:
+PrtScn
 
-# Redirect sound to headphones
-+p
+# Ranger (file manager)
+• Copy, cut and paste :
+:copy : Copy file
+:paste : Paste file
+:cut : Cut file
 
-## App shortcuts
-+w starts Firefox
-+n starts ranger
-PrtScn Button screenshot
+• Delete file :
+:delete
+
+• Rename file :
+:rename name_of_file
+
+• Drag and drop :
+Ctrl + D
+
+• Quit ranger :
+:q
+
+# Firefox (browser)
+• New tab :
+Ctrl + T
+
+• New window :
+Ctrl + N
+
+• New private window :
+Ctrl + Shift + P
+
+• Change tab :
+Ctrl + Tab
+
+# Vim (text editor)
+• Quit vim
+:q if you saved file
+:q! if you don't want to save file
+:wq : save file and quit vim
+
+• Save file
+:w
+
+• Enter insert mode:
+I
+
+• Back to normal mode:
+Esc
+
+• Move cursor :
+H : Move left
+J : Move down
+K : Move up
+L : Move right
+
+• Alternatively, you can use the cursor keys :
+Left : Move left
+Down : Move down
+Up : Move up
+Right : Move right
