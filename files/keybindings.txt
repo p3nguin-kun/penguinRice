@@ -1,4 +1,4 @@
-# Keybindings for PARSAI
+# Keybindings and commands for PARSAI
 
 # i3 (window manager)
 • Windows key, Linux key, Alt key, ... :
