@@ -1,7 +1,9 @@
 # ***Keybindings and commands for PARSAI***
+
 ## ***Contents***
 1. [i3 (window manager)](https://p3nguin-kun.github.io/parsai/keybindings#i3-window-manager)
 2. [Ranger (file manager)](https://p3nguin-kun.github.io/parsai/keybindings#ranger-file-manager)
+
 ## ***i3 (window manager)***
 ### ***Mod key***
 By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, but you can switch to ``` Alt key ``` in ~/.config/i3/config
@@ -42,6 +44,7 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + Shift + Space ``` - Toggle tiling/floating
 - ``` Mod + Space ``` - Change focus between tiling/floating windows
 - ``` Mod + a ``` - Focus the parent container
+
 ## ***Ranger (file manager)***
 ### ***General***
 - ```Q```, ```q```, ```ZZ```, ```ZQ```, ```:q```, ```:quit```  or ```:exit``` - Quit ranger
