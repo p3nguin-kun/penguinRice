@@ -1,7 +1,7 @@
 # ***Keybindings and commands for PARSAI***
 ## ***Contents***
-1. [i3 (window manager)](https://github.com/p3nguin-kun/parsai/blob/main/keybindings.md#i3-window-manager)
-2. [Ranger (file manager)](https://github.com/p3nguin-kun/parsai/blob/main/keybindings.md#ranger-file-manager)
+1. [i3 (window manager)](https://p3nguin-kun.github.io/parsai/keybindings#i3-window-manager)
+2. [Ranger (file manager)](https://p3nguin-kun.github.io/parsai/keybindings#ranger-file-manager
 ## ***i3 (window manager)***
 ### ***Mod key***
 By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, but you can switch to ``` Alt key ``` in ~/.config/i3/config
