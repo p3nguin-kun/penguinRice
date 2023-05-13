@@ -5,10 +5,13 @@
 2. [Ranger (file manager)](https://p3nguin-kun.github.io/parsai/keybindings#ranger-file-manager)
 
 ## ***i3 (window manager)***
+
 ### ***Mod key***
 By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, but you can switch to ``` Alt key ``` in ~/.config/i3/config
+
 ### ***Full keybinding list***
 ``` Mod + ` ```
+
 ### ***Common keybindings***
 - ``` Mod + d ``` - Start application launcher
 - ``` Mod + Return ``` - Start terminal
@@ -21,6 +24,7 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + Shift + r ``` - Restart i3
 - ``` Mod + p ``` - Redirect sound to headphones/speakers
 - ``` PrtScn ``` - Take screennshot
+
 ### ***Manage windows***
 #### ***Change window focus***
 - ``` Mod + h ``` or ``` Mod + Left ``` - Focus left
@@ -46,11 +50,13 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + a ``` - Focus the parent container
 
 ## ***Ranger (file manager)***
+
 ### ***General***
 - ```Q```, ```q```, ```ZZ```, ```ZQ```, ```:q```, ```:quit```  or ```:exit``` - Quit ranger
 - ```R``` - Reload current directory
 - ```?``` - View manpages/shortcuts
 - ```:```, ```;```, ```!``` - Console
+
 ### ***Navigation***
 
 - ```H``` or ```Left``` - Move left
@@ -67,6 +73,7 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ```Alt + 1/2/3/4/...``` - Go to tab 1/2/3/4/...
 - ```Tab``` - Next tab
 - ```Shift + Tab``` - Previous tab
+
 ### ***File operation***
 - ```r``` or ```:open_with``` - Open file with
 - ```yy``` or ```:copy``` - Copy file
