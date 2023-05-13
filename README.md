@@ -18,11 +18,11 @@
 ![screen3](https://i.imgur.com/vSTMAJn.jpg)
 
 # ***Contents***
-- [Packages](https://github.com/p3nguin-kun/parsai#packages)
-- [Types of PARSAI users](https://github.com/p3nguin-kun/parsai#types-of-parsai-users)
-- [What does this script do?](https://github.com/p3nguin-kun/parsai#what-does-this-script-do)
-- [Installation](https://github.com/p3nguin-kun/parsai#installation)
-- [Tutorial](https://github.com/p3nguin-kun/parsai#tutorial)
+- [Packages](https://p3nguin-kun.github.io/parsai/#packages)
+- [Types of PARSAI users](https://p3nguin-kun.github.io/parsai#types-of-parsai-users)
+- [What does this script do?](https://p3nguin-kun.github.io/parsai#what-does-this-script-do)
+- [Installation](https://p3nguin-kun.github.io/parsai#installation)
+- [Tutorial](https://p3nguin-kun.github.io/parsai#tutorial)
 
 # ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
