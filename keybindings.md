@@ -26,23 +26,28 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` PrtScn ``` - Take screennshot
 
 ### ***Manage windows***
+
 #### ***Change window focus***
 - ``` Mod + h ``` or ``` Mod + Left ``` - Focus left
 - ``` Mod + j ``` or ``` Mod + Down ``` - Focus down
 - ``` Mod + k ``` or ``` Mod + Up ``` - Focus up
 - ``` Mod + l ``` or ``` Mod + Right ``` - Focus right
+
 #### ***Move focused window***
 - ``` Mod + Shift + h ``` or ``` Mod + Shift + Left ``` - Move left
 - ``` Mod + Shift + j ``` or ``` Mod + Shift + Down ``` - Move down
 - ``` Mod + Shift + k ``` or ``` Mod + Shift + Up ``` - Move up
 - ``` Mod + Shift + l ``` or ``` Mod + Shift + Right ``` - Move right
+
 #### ***Change container layout***
 - ``` Mod + s ``` - Stacking
 - ``` Mod + w ``` - Tabbed
 - ``` Mod + e ``` - Toggle split
+
 #### ***Use mouse to manage windows***
 - ``` Mod + LMB ``` - Move window / move floating window
 - ``` Mod + RMB ``` - Resize floating window
+
 #### ***Other manage windows keybindings***
 - ``` Mod + f ``` - Enter fullscreen mode
 - ``` Mod + Shift + Space ``` - Toggle tiling/floating
