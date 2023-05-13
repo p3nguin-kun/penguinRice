@@ -56,6 +56,10 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ```L``` or ```Right``` - Move right
 - ```gg``` - Go to top of list
 - ```G``` - Go to bottom of list
+- ```J``` - Half page down
+- ```K``` - Half page up
+- ```H``` - History back
+- ```L``` - History forward
 - ```~``` or ```:set viewmode!``` - Change viewmode 
 - ```Alt + 1/2/3/4/...``` - Go to tab 1/2/3/4/...
 - ```Tab``` - Next tab
