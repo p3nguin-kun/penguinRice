@@ -89,4 +89,4 @@ sh parsai.sh
 8. Done! Now you can use fully-featured i3wm on your computer
 
 # ***Tutorial***
-- PARSAI has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here](https://raw.githubusercontent.com/p3nguin-kun/parsai/main/files/keybindings.txt)
+- PARSAI has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here]([https://p3nguin-kun.github.io/parsai/keybindings)
