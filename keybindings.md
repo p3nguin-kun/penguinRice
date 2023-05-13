@@ -34,7 +34,7 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 #### ***Use mouse to manage windows***
 - ``` Mod + LMB ``` - Move window / move floating window
 - ``` Mod + RMB ``` - Resize floating window
-#### ****Other manage windows keybindings***
+#### ***Other manage windows keybindings***
 - ``` Mod + F ``` - Enter fullscreen mode
 - ``` Mod + Shift + Space ``` - Toggle tiling/floating
 - ``` Mod + Space ``` - Change focus between tiling/floating windows
