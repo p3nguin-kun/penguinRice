@@ -12,3 +12,8 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + 1/2/3/4/... ``` or ``` Mod + Tab ``` - Change workspace
 - ``` Mod + Backspace ``` - Lock the system
 - ``` Mod + T ``` - Window switcher menu
+- ``` Mod + Shift + C ``` - Reload the configuration file
+- ``` Mod + Shift + R ``` - Restart i3
+- ``` Mod + P ``` - Redirect sound to headphones/speakers
+- ``` PrtScn ``` - Take screennshot
+### ***Manage windows***
