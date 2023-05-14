@@ -23,11 +23,12 @@
 ![screen3](https://i.imgur.com/vSTMAJn.jpg)
 
 # ***Menu***
-- [Packages](#packages)
-- [Types of penguinRice users](#types-of-penguinrice-users)
-- [What does this script do?](#what-does-this-script-do)
+- [Packages](#-packages)
+- [Types of penguinRice users](#-types-of-penguinrice-users)
+- [What does this script do?](#-what-does-this-script-do)
 - [Installation](#installation)
-- [Tutorial](#tutorial)
+- [Tutorial](#-tutorial)
+- [Support](#-support
 
 # 📦 ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
