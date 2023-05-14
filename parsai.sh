@@ -60,6 +60,9 @@ grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/
 # Add background for betterlockscreen
 betterlockscreen -u ~/.config/wallpapers/wall2.png
 
+# Config NeoVim
+git clone https://github.com/p3nguin-kun/penguinVim ~/.config/nvim
+
 # Start LightDM and pipewire with OS
 sudo systemctl enable lightdm
 sudo systemctl enable pipewire pipewire-media-session pipewire-pulse
