@@ -106,3 +106,9 @@ sh penguinrice.sh
 
 # 📑 ***Tutorial***
 - penguinRice has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here](https://p3nguin-kun.github.io/parsai/keybindings)
+
+# 💝 Support
+
+If you like penguinRice and would like to support & appreciate it via donation then I'll gladly accept it.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C6LA1W6)
