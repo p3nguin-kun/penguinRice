@@ -1,5 +1,10 @@
 # ***penguinRice***
 
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/p3nguin-kun/penguinRice?color=d65d0e&style=for-the-badge)
+![lmao](https://img.shields.io/github/repo-size/p3nguin-kun/penguinRice?color=458588&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/p3nguin-kun/penguinRice?color=ebdbb2&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/p3nguin-kun/penguinRice?color=cc241d&style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/p3nguin-kun/penguinRice?color=689d6a&style=for-the-badge)
 
 - 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
 - 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinRice)
