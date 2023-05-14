@@ -1,14 +1,14 @@
-# ***p3nguin-kun's Auto Rice Script After Installation (PARSAI)***
+# ***penguinRice***
 
 
 - 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
-- 🌐 ***Website***: [https://p3nguin-kun.github.io/parsai](https://p3nguin-kun.github.io/parsai)
-- 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/parsai](https://github.com/p3nguin-kun/parsai)
+- 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinRice)
+- 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/penguinRice](https://github.com/p3nguin-kun/penguinRice)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Status***: Complete (◍•ᴗ•◍)
 
-**[Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [PARSAI](https://p3nguin-kun.github.io/parsai/) is better! <(￣︶￣)>**
+**[Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [penguinRice](https://p3nguin-kun.github.io/penguinRice/) is better! <(￣︶￣)>**
 
 **This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
 
@@ -18,13 +18,13 @@
 ![screen3](https://i.imgur.com/vSTMAJn.jpg)
 
 # ***Contents***
-- [Packages](https://p3nguin-kun.github.io/parsai/#packages)
-- [Types of PARSAI users](https://p3nguin-kun.github.io/parsai#types-of-parsai-users)
-- [What does this script do?](https://p3nguin-kun.github.io/parsai#what-does-this-script-do)
-- [Installation](https://p3nguin-kun.github.io/parsai#installation)
-- [Tutorial](https://p3nguin-kun.github.io/parsai#tutorial)
+- [Packages](https://p3nguin-kun.github.io/penguinRice/#packages)
+- [Types of PARSAI users](https://p3nguin-kun.github.io/penguinRice#types-of-parsai-users)
+- [What does this script do?](https://p3nguin-kun.github.io/penguinRice#what-does-this-script-do)
+- [Installation](https://p3nguin-kun.github.io/penguinRice#installation)
+- [Tutorial](https://p3nguin-kun.github.io/penguinRice#tutorial)
 
-# ***Packages***
+# 📦 ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org)
@@ -48,22 +48,24 @@
 - 🖵 ***Compositor***: [picom](https://github.com/yshui/picom)
 - 🔒 ***Lockscreen***: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 
-# ***Types of PARSAI users***
+# 👩‍💻 ***Types of PARSAI users***
 - People who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
 - Those who want to use hacker computer setup like in many movies.
 - People who want to automatically rice their Linux desktop.
 - Who want productivity Linux desktop for study and work.
 - Those who spend a whole day to install Arch Linux manually but lazy  to rice, config
 
-# ***What does this script do?***
+# 📃 ***What does this script do?***
 - Install some necessary packages such as Firefox, LibreOffice, Vim, ...
 - Automatically rice i3wm, a tiling window manager
 - Automatically config software such as neofetch, dunst, pacman (for what?), ...
 - Customize your computer
 - Automatically install yay, an AUR helper
 
-# ***Installation***
+# 🛠️ ***Installation***
+
 ***Note: You need to login as normal user to use this script***
+
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org) (Choose Minimal profile)
 
@@ -73,21 +75,27 @@
 ```
 sudo pacman -S git
 ```
+
 3. Clone this repository
 ```
 git clone https://github.com/p3nguin-kun/parsai.git
 ```
+
 4. Go to [parsai](https://p3nguin-kun.github.io/parsai) directory
 ```
 cd parsai
 ```
+
 5. Run this script
 ```
 sh parsai.sh
 ```
+
 6. Follow the instruction
+
 7. Restart your computer
+
 8. Done! Now you can use fully-featured i3wm on your computer
 
-# ***Tutorial***
+# 📑 ***Tutorial***
 - PARSAI has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here](https://p3nguin-kun.github.io/parsai/keybindings)
