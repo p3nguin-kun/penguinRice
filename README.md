@@ -89,7 +89,7 @@ cd penguinRice
 
 5. Run this script
 ```
-sh parsai.sh
+sh penguinrice.sh
 ```
 
 6. Follow the instruction
