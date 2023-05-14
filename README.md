@@ -28,7 +28,7 @@
 - [What does this script do?](#-what-does-this-script-do)
 - [Installation](#installation)
 - [Tutorial](#-tutorial)
-- [Support](#-support
+- [Support](#-support)
 
 # 📦 ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
