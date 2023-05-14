@@ -24,7 +24,7 @@
 
 # ***Contents***
 - [Packages](https://p3nguin-kun.github.io/penguinRice/#packages)
-- [Types of PARSAI users](https://p3nguin-kun.github.io/penguinRice#types-of-parsai-users)
+- [Types of penguinRice users](https://p3nguin-kun.github.io/penguinRice#types-of-penguinrice-users)
 - [What does this script do?](https://p3nguin-kun.github.io/penguinRice#what-does-this-script-do)
 - [Installation](https://p3nguin-kun.github.io/penguinRice#installation)
 - [Tutorial](https://p3nguin-kun.github.io/penguinRice#tutorial)
