@@ -1,4 +1,4 @@
-# ***Keybindings and commands for PARSAI***
+# ***Keybindings and commands for penguinRice***
 
 ## ***Contents***
 1. [i3 (window manager)](https://p3nguin-kun.github.io/parsai/keybindings#i3-window-manager)
