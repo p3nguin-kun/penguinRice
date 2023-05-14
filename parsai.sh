@@ -1,18 +1,18 @@
 #!/usr/bin/env bash 
 
-# p3nguin-kun's Auto Rice Script After Installation (PARSAI)
+# p3nguin-kun's Auto Rice Script
 # Author: Khanh Hien Hoang/p3nguin-kun (kh4nhhi3n@hotmail.com)
 # GitHub: p3nguin-kun
 
 # Show welcome text
 clear
-echo "^_^ Welcome to p3nguin-kun's Auto Rice Script After Installation (PARSAI)
+echo "^_^ Welcome to penguinRice
 
-Ubuntu is bloated! Arch with PARSAI is better! <(￣︶￣)>
+Ubuntu is bloated! Arch with penguinRice is better! <(￣︶￣)>
 
 This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system 
 "
-echo "PARSAI will start now (≧▽≦)
+echo "penguinRice will start now (≧▽≦)
 
 "
 # Update repositories
