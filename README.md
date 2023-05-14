@@ -17,17 +17,17 @@
 
 **This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
 
-# ***Screenshots***
+
 ![screen1](https://i.imgur.com/C6uKnQm.png)
 ![screen2](https://i.imgur.com/1Dcfb4Q.png)
 ![screen3](https://i.imgur.com/vSTMAJn.jpg)
 
-# ***Contents***
-- [Packages](https://p3nguin-kun.github.io/penguinRice/#packages)
-- [Types of penguinRice users](https://p3nguin-kun.github.io/penguinRice#types-of-penguinrice-users)
-- [What does this script do?](https://p3nguin-kun.github.io/penguinRice#what-does-this-script-do)
-- [Installation](https://p3nguin-kun.github.io/penguinRice#installation)
-- [Tutorial](https://p3nguin-kun.github.io/penguinRice#tutorial)
+# ***Menu***
+- [Packages](#packages)
+- [Types of penguinRice users](#types-of-penguinrice-users)
+- [What does this script do?](#what-does-this-script-do)
+- [Installation](#installation)
+- [Tutorial](#tutorial)
 
 # 📦 ***Packages***
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
