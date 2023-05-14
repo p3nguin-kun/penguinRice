@@ -48,7 +48,7 @@
 - 🖵 ***Compositor***: [picom](https://github.com/yshui/picom)
 - 🔒 ***Lockscreen***: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 
-# 👩‍💻 ***Types of PARSAI users***
+# 👩‍💻 ***Types of penguinRice users***
 - People who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
 - Those who want to use hacker computer setup like in many movies.
 - People who want to automatically rice their Linux desktop.
@@ -61,6 +61,7 @@
 - Automatically config software such as neofetch, dunst, pacman (for what?), ...
 - Customize your computer
 - Automatically install yay, an AUR helper
+- Automatically config NeoVim
 
 # 🛠️ ***Installation***
 
@@ -78,12 +79,12 @@ sudo pacman -S git
 
 3. Clone this repository
 ```
-git clone https://github.com/p3nguin-kun/parsai.git
+git clone https://github.com/p3nguin-kun/penguinRice
 ```
 
-4. Go to [parsai](https://p3nguin-kun.github.io/parsai) directory
+4. Go to [penguinRice](https://p3nguin-kun.github.io/parsai) directory
 ```
-cd parsai
+cd penguinRice
 ```
 
 5. Run this script
