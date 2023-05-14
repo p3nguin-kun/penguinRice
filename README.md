@@ -41,6 +41,7 @@
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
 - 🔠 ***Fonts***: [Iosevka](https://typeof.net/Iosevka/) + [FontAwesome](https://fontawesome.com/)
+- 📄 ***Text editor***: [NeoVim](https://neovim.io) with [penguinVim](https://p3nguin-kun.github.io/penguinVim)
 - 🏢 ***Office***: [LibreOffice](https://www.libreoffice.org/)
 - 📄 ***PDF Viewer***: [zathura](https://pwmt.org/projects/zathura/)
 - 📅 ***Calendar***: [calcurse](https://calcurse.org/)
