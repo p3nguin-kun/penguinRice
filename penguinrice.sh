@@ -12,7 +12,7 @@ Ubuntu is bloated! Arch with penguinRice is better! <(￣︶￣)>
 
 This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system 
 "
-echo "penguinRice will start now (UwU)
+echo "penguinRice will start now (OwO)
 
 "
 # Update repositories
