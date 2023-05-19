@@ -41,6 +41,7 @@ cp -r .config ~/
 chmod -R +x ~/.config/i3/scripts
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
+chmod +x ~/.config/ranger/scope.sh
 cd ~/
 
 # Change shell
