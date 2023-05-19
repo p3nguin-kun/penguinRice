@@ -36,7 +36,7 @@
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org)
 - 📊 ***Status bar***: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks)
-- 👨‍💻 ***Terminal***: [kitty](https://sw.kovidgoyal.net/kitty/)
+- 👨‍💻 ***Terminal***: [xfce4-terminal](https://docs.xfce.org/apps/terminal/start)
 - 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/)
@@ -50,7 +50,7 @@
 - 🎞️ ***Media player***: [mpv](https://mpv.io)
 - 🖼️ ***Photo viewer***: [feh](https://feh.finalrewind.org/)
 - ℹ️ ***Fetch***: [neofetch](https://github.com/dylanaraps/neofetch)
-- 📊 ***System monitor***: [htop](https://htop.dev/)
+- 📊 ***System monitor***: [btop](https://github.com/aristocratos/btop)
 - 🖥️ ***Manage screens***: [ARandR](https://christian.amsuess.com/tools/arandr/)
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
 - 🖵 ***Compositor***: [picom](https://github.com/yshui/picom)
