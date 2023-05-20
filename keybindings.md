@@ -84,6 +84,8 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ```yy``` or ```:copy``` - Copy file
 - ```pp``` or ```:paste``` - Paste file
 - ```dd``` or ```:cut``` - Cut file
+- ```:mkdir``` - New folder
+- ```:touch ``` - New file
 - ```dD```, ```Delete``` or ```:delete``` - Delete file
 - ```cw``` or ```:rename``` - Rename file
 - ```zh```, ```Backspace``` or ```:set show_hidden!``` - Show hidden files
