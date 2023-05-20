@@ -1,8 +1,8 @@
 # ***Keybindings and commands for penguinRice***
 
 ## ***Contents***
-1. [i3 (window manager)](https://p3nguin-kun.github.io/parsai/keybindings#i3-window-manager)
-2. [Ranger (file manager)](https://p3nguin-kun.github.io/parsai/keybindings#ranger-file-manager)
+1. [i3 (window manager)](#i3-window-manager)
+2. [Ranger (file manager)](#ranger-file-manager)
 
 ## ***i3 (window manager)***
 
