@@ -26,7 +26,7 @@ cd yay
 makepkg -si
 
 # Install packages
-sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu blueberry btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm i3blocks i3status jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx papirus-icon-theme pavucontrol pipewire pipewire-media-session pipewire-pulse playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-terminal xorg-xbacklight xorg-xdpyinfo zathura zip
+sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu blueberry btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm i3blocks i3status jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx papirus-icon-theme pavucontrol pipewire pipewire-media-session pipewire-pulse playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip w3m xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-terminal xorg-xbacklight xorg-xdpyinfo zathura zip
 
 # Install AUR stuffs
 yay -S betterlockscreen dragon-drop gruvbox-dark-gtk picom-pijulius-git
