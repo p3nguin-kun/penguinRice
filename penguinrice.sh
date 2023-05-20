@@ -37,7 +37,8 @@ git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
 
 # Copy dotfiles
 cd ~/cozy-gruvbox-i3
-cp -r .config ~/                                  
+cp -r .config ~/      
+cp -r .moc ~/
 chmod -R +x ~/.config/i3/scripts
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
