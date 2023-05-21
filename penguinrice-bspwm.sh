@@ -26,10 +26,10 @@ cd yay
 makepkg -si
 
 # Install packages
-sudo pacman -S --noconfirm acpi alacritty alsa-utils arandr archlinux-xdg-menu blueberry bspwm btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 moc mpv neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx papirus-icon-theme pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sxhkd sysstat ttf-iosevka-nerd ttf-font-awesome tumbler ueberzug unrar unzip wireplumber xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xorg-xbacklight xorg-xdpyinfo zathura zip
+sudo pacman -S --noconfirm acpi alacritty alsa-utils arandr archlinux-xdg-menu blueberry bspwm btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 moc mpv neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sxhkd sysstat ttf-iosevka-nerd ttf-font-awesome tumbler ueberzug unrar unzip wireplumber xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xorg-xbacklight xorg-xdpyinfo zathura zip
 
 # Install AUR stuffs
-yay -S betterlockscreen dragon-drop gruvbox-dark-gtk picom-pijulius-git
+yay -S betterlockscreen dragon-drop gruvbox-dark-gtk picom-pijulius-git qogir-icon-theme
 
 # Clone dotfiles repo
 cd ~/
