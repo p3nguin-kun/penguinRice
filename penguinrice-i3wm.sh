@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/bin/sh
 
 # p3nguin-kun's Auto Rice Script
 # Author: Khanh Hien Hoang/p3nguin-kun (kh4nhhi3n@hotmail.com)
