@@ -6,7 +6,7 @@
 
 # Show welcome text
 clear
-echo "^_^ Welcome to penguinRice
+echo "^_^ Welcome to penguinRice (i3wm ver.)
 
 Ubuntu is bloated! Arch with penguinRice is better! <(￣︶￣)>
 
