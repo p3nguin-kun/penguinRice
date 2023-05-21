@@ -66,8 +66,8 @@
 - Those who spend a whole day to install Arch Linux manually but lazy  to rice, config
 
 # 📃 ***What does this script do?***
-- Install some necessary packages such as Firefox, LibreOffice, Vim, ...
-- Automatically rice i3wm, a tiling window manager
+- Install some necessary packages such as Firefox, LibreOffice, NeoVim, ...
+- Automatically rice tiling window manager
 - Automatically config software such as neofetch, dunst, pacman (for what?), ...
 - Customize your computer
 - Automatically install yay, an AUR helper
