@@ -54,7 +54,7 @@ echo "exec i3" >> ~/.xinitrc
 sudo mkdir -p /usr/share/backgrounds/
 sudo cp ~/.config/wallpapers/wall2.png /usr/share/backgrounds
 sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-greeter/g" /etc/lightdm/lightdm.conf
-sudo cp ~/parsai/config-files/slick-greeter.conf /etc/lightdm/
+sudo cp ~/penguinRice/config-files/slick-greeter.conf /etc/lightdm/
 
 # Config pacman (for what?)
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
