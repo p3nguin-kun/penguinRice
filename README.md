@@ -78,8 +78,6 @@
 1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
 > You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org) (Choose Minimal profile)
 
-
-
 2. Install [Git](https://git-scm.com/) if you don't have it
 ```
 sudo pacman -S git
@@ -97,7 +95,7 @@ cd penguinRice
 
 5. Run this script
 ```
-sh penguinrice.sh
+sh penguinrice-nameofwm.sh
 ```
 
 6. Follow the instruction
