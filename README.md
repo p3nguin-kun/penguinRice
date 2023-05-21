@@ -18,10 +18,12 @@
 
 **This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
 
+|              | i3wm                                        | bspwm                                        |
+| :----------- | :-----------------------------------------  | :------------------------------------------- |
+| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/MpcbPGO.png)   |
+| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![launcher](https://i.imgur.com/9vWtYGZ.png) |
+| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![lock](https://i.imgur.com/zjl2PuZ.png)     |
 
-![screen1](https://i.imgur.com/C6uKnQm.png)
-![screen2](https://i.imgur.com/1Dcfb4Q.png)
-![screen3](https://i.imgur.com/vSTMAJn.jpg)
 
 # ***Menu***
 - [Packages](#-packages)
@@ -32,10 +34,10 @@
 - [Support](#-support)
 
 # 📦 ***Packages***
-- 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3)
+- 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3) and [cozy-gruvbox-bspwm](https://github.com/p3nguin-kun/cozy-gruvbox-bspwm)
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
-- 🪟 ***Window Manager***: [i3](https://i3wm.org)
-- 📊 ***Status bar***: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks)
+- 🪟 ***Window Manager***: [i3](https://i3wm.org) and [bspwm](https://github.com/baskerville/bspwm)
+- 📊 ***Status bar***: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks) and [polybar](https://github.com/polybar/polybar)
 - 👨‍💻 ***Terminal***: [xfce4-terminal](https://docs.xfce.org/apps/terminal/start)
 - 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
