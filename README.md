@@ -37,8 +37,8 @@
 - 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3) and [cozy-gruvbox-bspwm](https://github.com/p3nguin-kun/cozy-gruvbox-bspwm)
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org) and [bspwm](https://github.com/baskerville/bspwm)
-- 📊 ***Status bar***: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks) and [polybar](https://github.com/polybar/polybar)
-- 👨‍💻 ***Terminal***: [xfce4-terminal](https://docs.xfce.org/apps/terminal/start)
+- 📊 ***Status bar***: [i3bar](https://i3wm.org/i3bar/) + [i3blocks](https://github.com/vivien/i3blocks) (i3wm) / [polybar](https://github.com/polybar/polybar) (bspwm)
+- 👨‍💻 ***Terminal***: [xfce4-terminal](https://docs.xfce.org/apps/terminal/start) (i3wm) / [alacritty](https://github.com/alacritty/alacritty) (bspwm)
 - 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/)
