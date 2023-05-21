@@ -8,7 +8,7 @@
 clear
 echo "^_^ Welcome to penguinRice (BSPWM ver.)
 
-Ubuntu is bloated! Arch with penguinRice is better! <(￣︶￣)>
+Ubuntu is bloated! Arch with penguinRice is better! (UwU)
 
 This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system 
 "
@@ -26,7 +26,7 @@ cd yay
 makepkg -si
 
 # Install packages
-sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu blueberry bspwm btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 moc mpv neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sxhkd sysstat ttf-iosevka-nerd ttf-font-awesome tumbler ueberzug unrar unzip wireplumber xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-terminal xorg-xbacklight xorg-xdpyinfo zathura zip
+sudo pacman -S --noconfirm acpi alsa-utils arandr archlinux-xdg-menu blueberry bspwm btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sxhkd sysstat ttf-iosevka-nerd ttf-font-awesome tumbler ueberzug unrar unzip wireplumber xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-terminal xorg-xbacklight xorg-xdpyinfo zathura zip
 
 # Install AUR stuffs
 yay -S betterlockscreen dragon-drop gruvbox-dark-gtk picom-pijulius-git qogir-icon-theme
@@ -38,7 +38,6 @@ git clone https://github.com/p3nguin-kun/cozy-gruvbox-bspwm
 # Copy dotfiles
 cd ~/cozy-gruvbox-bspwm
 cp -r .config ~/
-cp -r .moc ~/
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod -R +x ~/.config/polybar/scripts
@@ -65,13 +64,14 @@ grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/
 # Config NeoVim
 git clone https://github.com/p3nguin-kun/penguinVim ~/.config/nvim
 
-# Start LightDM and pipewire with OS
+# Start services with OS
+sudo systemctl enable mpd.service
 sudo systemctl enable lightdm
 sudo systemctl enable pipewire pipewire-pulse wireplumber
 
 # Delete dotfiles repo
 cd ~/
-rm -rf cozy-minimal-bspwm
+rm -rf cozy-gruvbox-bspwm
 
 # Finish ricing
 clear
