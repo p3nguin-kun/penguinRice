@@ -26,7 +26,7 @@ cd yay
 makepkg -si
 
 # Install packages
-sudo pacman -S --noconfirm acpi alacritty alsa-utils arandr archlinux-xdg-menu blueberry btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm i3blocks i3status jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 moc mpv neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip w3m wireplumber xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xorg-xbacklight xorg-xdpyinfo zathura zip
+sudo pacman -S --noconfirm acpi alacritty alsa-utils arandr archlinux-xdg-menu blueberry btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 moc mpv neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sysstat ttf-iosevka-nerd ttf-font-awesome tumbler unrar unzip w3m wireplumber xautolock xbindkeys xdg-user-dirs-gtk xfce4-power-manager xorg-xbacklight xorg-xdpyinfo zathura zip
 
 # Install AUR stuffs
 yay -S betterlockscreen dragon-drop gruvbox-dark-gtk picom-pijulius-git qogir-icon-theme
@@ -39,6 +39,8 @@ git clone https://github.com/p3nguin-kun/cozy-gruvbox-i3
 cd ~/cozy-gruvbox-i3
 cp -r .config ~/      
 cp -r .moc ~/
+chmod +x ~/.config/polybar/launch.sh
+chmod -R +x ~/.config/polybar/scripts
 chmod -R +x ~/.config/i3/scripts
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
