@@ -31,8 +31,9 @@ if [ "$(id -u)" = 0 ]; then
 fi
 
 # Intro
+clear
 logo "Welcome!"
-printf '%s%sThis script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system. \n\nMy dotfiles DO NOT modify any of your system configuration. \nYou will be prompted for your root password to install missing dependencies and/or to switch to fish shell if its not your default. \n\nThis script doesnt have potential power to break your system, it only copies files from my repo to your HOME directory. \n\nYou need to install a display manager to use bspwm.%s\n\n' "${BLD}" "${CRE}" "${CNC}"
+printf '%s%sThis script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based system. \n\nMy dotfiles DO NOT modify any of your system configuration. \nYou will be prompted for your root password to install missing dependencies and/or to switch to fish shell if its not your default. \n\nThis script doesnt have potential power to break your system, it only copies files from my repo to your HOME directory. %s\n\n' "${BLD}" "${CRE}" "${CNC}"
 
 while true; do
 	read -rp " Do you want to continue? [y/n]: " yn
@@ -108,7 +109,7 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in alacritty bspwm btop calcurse dunst fish mpd ncmpcpp neofetch picom ranger rofi sxhkd wallpapers xfce4; do
+for folder in alacritty bspwm btop calcurse dunst fish mpd ncmpcpp neofetch picom ranger rofi sxhkd wallpapers; do
 	if [ -d "$HOME/.config/$folder" ]; then
 		mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date"
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
@@ -117,7 +118,7 @@ for folder in alacritty bspwm btop calcurse dunst fish mpd ncmpcpp neofetch pico
 	fi
 done
 
-for foler in chrome; do
+for folder in chrome; do
 	if [ -d "$HOME"/.mozilla/firefox/*.default-release/$folder ]; then
 		mv "$HOME"/.mozilla/firefox/*.default-release/$folder "$backup_folder"/${folder}_$date
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
@@ -166,6 +167,17 @@ for archivos in ~/cozy-gruvbox-bspwm/fxcss/*; do
 	fi
 done
 
+for archivos in ~/cozy-gruvbox-bspwm/lightdm-config/*; do
+	sudo cp "${archivos}" /etc/lightdm/
+	if [ $? -eq 0 ]; then
+		printf "%s%s%s copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+		sleep 1
+	else
+		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		sleep 1
+	fi
+done
+
 # Making dotfiles executable
 logo "Making dotfiles executable"
 chmod +x ~/.config/bspwm/bspwmrc
@@ -174,7 +186,6 @@ chmod -R +x ~/.config/polybar
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
 chmod +x ~/.config/ranger/scope.sh
-done
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"
@@ -183,6 +194,15 @@ grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /et
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
+
+# Disable currently enabled display manager
+if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
+	echo "Disabling currently enabled display manager"
+	sudo systemctl disable $(systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm' | awk -F ' ' '{print $1}')
+fi
+
+echo "Enabling LightDM"
+sudo systemctl enable lightdm
 
 # Enabling services
 logo "Enabling services"
