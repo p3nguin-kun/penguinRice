@@ -72,6 +72,7 @@
 - Customize your computer
 - Automatically install yay, an AUR helper
 - Automatically config NeoVim
+- Config Firefox with FirefoxCSS and user.js
 
 # 🛠️ ***Installation***
 
