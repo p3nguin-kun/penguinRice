@@ -49,7 +49,7 @@
 - 🏢 ***Office***: [LibreOffice](https://www.libreoffice.org/)
 - 📄 ***PDF Viewer***: [zathura](https://pwmt.org/projects/zathura/)
 - 📅 ***Calendar***: [calcurse](https://calcurse.org/)
-- 🎞️ ***Media player***: [mpv](https://mpv.io) and [moc](https://github.com/jonsafari/mocp)
+- 🎞️ ***Media player***: [mpv](https://mpv.io) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 - 🖼️ ***Photo viewer***: [feh](https://feh.finalrewind.org/)
 - ℹ️ ***Fetch***: [neofetch](https://github.com/dylanaraps/neofetch)
 - 📊 ***System monitor***: [btop](https://github.com/aristocratos/btop)
