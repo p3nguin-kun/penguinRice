@@ -178,14 +178,16 @@ for archivos in ~/cozy-gruvbox-bspwm/lightdm-config/*; do
 	fi
 done
 
-# Making dotfiles executable
-logo "Making dotfiles executable"
+# Configuring dotfiles
+logo "Configuring dotfiles"
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod -R +x ~/.config/polybar
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
 chmod +x ~/.config/ranger/scope.sh
+cp /etc/X11/xinit/xinitrc .xinitrc
+echo "exec bspwm" >> .xinitrc
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"
