@@ -203,8 +203,8 @@ if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk
 	sudo systemctl disable $(systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm' | awk -F ' ' '{print $1}')
 fi
 
-echo "Enabling LightDM"
-sudo systemctl enable lightdm
+echo "Enabling SDDM"
+sudo systemctl enable sddm
 
 # Enabling services
 logo "Enabling services"

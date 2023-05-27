@@ -48,7 +48,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(acpi alacritty alsa-utils arandr blueberry btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq libreoffice-still lightdm lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sysstat ttc-iosevka ttf-iosevka-nerd ttf-font-awesome tumbler ueberzug unrar unzip wireplumber xautolock xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit zathura zip)
+dependencies=(acpi alacritty alsa-utils arandr blueberry btop calcurse dex dunst feh file-roller firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq libreoffice-still lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sysstat ttc-iosevka ttf-iosevka-nerd ttf-font-awesome tumbler ueberzug unrar unzip wireplumber xautolock xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit zathura zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -79,7 +79,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git qogir-icon-theme ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
@@ -168,8 +168,8 @@ for archivos in ~/cozy-gruvbox-i3/fxcss/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-i3/lightdm-config/*; do
-	sudo cp "${archivos}" /etc/lightdm/
+for archivos in ~/cozy-gruvbox-i3/sddm-config/*; do
+	sudo cp "${archivos}" /etc/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
@@ -187,7 +187,7 @@ chmod -R +x ~/.config/rofi/powermenu
 chmod -R +x ~/.config/i3/scripts
 chmod +x ~/.config/ranger/scope.sh
 cp /etc/X11/xinit/xinitrc .xinitrc
-echo "exec i3" >> .xinitrc
+echo "exec i3" >>.xinitrc
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"
@@ -203,8 +203,8 @@ if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk
 	sudo systemctl disable $(systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm' | awk -F ' ' '{print $1}')
 fi
 
-echo "Enabling LightDM"
-sudo systemctl enable lightdm
+echo "Enabling SDDM"
+sudo systemctl enable sddm
 
 # Enabling services
 logo "Enabling services"
