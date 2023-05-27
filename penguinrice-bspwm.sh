@@ -211,7 +211,7 @@ logo "Enabling services"
 
 systemctl --user enable mpd.service
 systemctl --user start mpd.service
-sudo systemctl enable pipewire pipewire-pulse wireplumber
+sudo systemctl enable pipewire pipewire-pulse wireplumber NetworkManager
 printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 
