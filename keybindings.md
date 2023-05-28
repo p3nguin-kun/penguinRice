@@ -4,6 +4,7 @@
 1. [i3 (window manager)](#i3-window-manager)
 2. [BSPWM (window manager)](#bspwm-window-manager)
 3. [Ranger (file manager)](#ranger-file-manager)
+4. [ncmpcpp (music player)](#ncmpcpp-music-player)
 
 ## ***i3 (window manager)***
 
