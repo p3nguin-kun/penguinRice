@@ -194,6 +194,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 ### ***Music control***
 - ```p``` - Play/pause
 - ```s``` - Stop
+- ```Ctrl + h```/```Backspace``` - Replay playing song
 - ```-```/```=``` or ```Left```/```Right``` - Decrase/increase volume
 - ```<```/```>``` - Next/previous track
 - ```r```,```z```,```y```,```R```,```x``` - Toggle mode (repeat, random, single, cosume, crossfade)
