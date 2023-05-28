@@ -147,3 +147,53 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```o``` - Sort
 - ```u``` - Undo
 - ```z``` - Change settings
+
+## ***ncmpcpp (music player)***
+
+### ***General***
+- ```ncmpcpp``` - Open ncmpcpp in terminal
+- ```q``` - Quit ncmpcpp
+- ```:``` - Execute command
+- ```F1``` - Show help
+- ```u``` - Update database
+- ```1``` - Show playlists
+- ```2``` - Show browser
+- ```3``` - Show search engine
+- ```4``` - Show media library
+- ```5``` - Playlist editor
+- ```6``` - Tag editor
+- ```7``` - Change output
+- ```8``` - Show visualizer
+- ```+``` - Show clock
+- ```.``` - Show lyrics
+- ```@``` - Show server info
+- ```\``` - Toggle user interface
+- ```!``` - Toggle displaying separators between albums
+- ```i``` - Show song info
+- ```I``` - Show artist info
+- ```L``` - Toggle lyrics fetcher
+- ```F``` - Toggle fetching lyrics for playing songs in background
+- ```|``` - Toggle mouse support
+- ```P``` - Toggle display mode
+
+### ***Navigation***
+- ```Up```/```k``` - Move cursor up
+- ```Down```/```j``` - Move cursor down
+- ```[``` - Move cursor up one album
+- ```]``` - Move cursor down one album
+- ```{``` - Move cursor up one artist
+- ```}``` - Move cursor down one artist
+- ```Page Up``` - Page up
+- ```Page Down``` - Page down
+- ```Home``` - Home
+- ```End``` - End
+- ```Tab``` - Switch to next screen in sequence
+```Shift + Tab``` - Switch to previous screen in sequence
+
+### ***Music control***
+- ```p``` - Play/pause
+- ```s``` - Stop
+- ```-```/```=``` or ```Left```/```Right``` - Decrase/increase volume
+- ```<```/```>``` - Next/previous track
+- ```r```,```z```,```y```,```R```,```x``` - Toggle mode (repeat, random, single, cosume, crossfade)
+- ```f```/```b``` - Seek forward/backward
