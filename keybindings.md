@@ -2,7 +2,8 @@
 
 ## ***Contents***
 1. [i3 (window manager)](#i3-window-manager)
-2. [Ranger (file manager)](#ranger-file-manager)
+2. [BSPWM (window manager)](#bspwm-window-manager)
+3. [Ranger (file manager)](#ranger-file-manager)
 
 ## ***i3 (window manager)***
 
@@ -53,6 +54,55 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + Shift + Space ``` - Toggle tiling/floating
 - ``` Mod + Space ``` - Change focus between tiling/floating windows
 - ``` Mod + a ``` - Focus the parent container
+
+## ***BSPWM (window manager)***
+
+### ***Super key***
+By default, ``` Super key ``` will be ``` Windows key ```
+
+### ***Common keybindings***
+- ```Super + Enter``` - Start terminal
+- ```Super + Space``` - Start application launcher
+- ```Super + w``` - Close/kill focused window
+- ```Super + Shift + w``` - Close/kill all windows
+- ```Super + Shift + e``` - Start power menu
+- ```Super + Backspace``` - Lock screen
+- ```Super + 1/2/3/4/...``` - Change workspaces
+- ```Super + Alt + q / r``` - Quit | Restart BSPWM
+- ```Super + Esc``` - Restart SXHKD
+- ```PrtScn``` - Take screenshot
+
+### ***Manage windows***
+
+#### ***Change window state/flags***
+- ```Super + t/shift + t/s/f``` - Set the window state (Tiled, Pseudo Tiled, Floating, Fullscreen)
+- ```Super + Ctrl + m/x/y/z``` - Set the window flags (Marked, Locked, Sticky, Private)
+
+#### ***Change window focus***
+- ``` Super + h ``` or ``` Super + Left ``` - Focus left
+- ``` Super + j ``` or ``` Super + Down ``` - Focus down
+- ``` Super + k ``` or ``` Super + Up ``` - Focus up
+- ``` Super + l ``` or ``` Super + Right ``` - Focus right
+- ```Super (+ Shift) + c``` - Focus the next/previous window
+- ```Super + [ / ]``` - Focus the next/previous desktop
+- ```Super + Tab``` - Focus the last window/desktop
+- ```Super (+ Shift) + 1/2/3/4...``` - Focus desktop/send window to desktop
+
+#### ***Move/resize focused window***
+- ``` Super + Shift + h ``` or ``` Super + Shift + Left ``` - Move left
+- ``` Super + Shift + j ``` or ``` Super + Shift + Down ``` - Move down
+- ``` Super + Shift + k ``` or ``` Super + Shift + Up ``` - Move up
+- ``` Super + Shift + l ``` or ``` Super + Shift + Right ``` - Move right
+- ``` Super + Alt + h/j/k/l``` or ```Super + Alt + Left/Down/Up/Right``` - Expand window
+- ```Super + Alt + Shift + h/j/k/l``` - Contract window
+- ```Super + LMB``` - Move window with left mouse button
+- ```Super + RMB``` - Resize window with right mouse button
+
+#### ***Preselect***
+- ```Super + Ctrl + h/j/k/l``` - Preselect the direction
+- ```Super + Ctrl + 1/2/3/4/...``` - Preselect the ratio
+- ```Super + Ctrl + Space``` - Cancel the preselection for focused window
+- ```Super + Ctrl + Shift + Space``` - Cancel the preselection for focused desktop
 
 ## ***Ranger (file manager)***
 
