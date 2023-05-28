@@ -107,6 +107,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 ## ***Ranger (file manager)***
 
 ### ***General***
+-```ranger```- Open ranger in terminal
 - ```Q```, ```q```, ```ZZ```, ```ZQ```, ```:q```, ```:quit```  or ```:exit``` - Quit ranger
 - ```R``` - Reload current directory
 - ```?``` - View manpages/shortcuts
