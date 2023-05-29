@@ -228,3 +228,53 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Ctrl + h```/```Backspace``` - Jump to parent directory
 - ```Delete``` - Delete selected items from disk
 - ```G``` - Jump to playlist editor (playlists only)
+
+### ***Search engine***
+- ```Enter``` - Add item to playlist and play it/change option
+- ```Space``` - Add item to playlist
+- ```e``` - Edit song
+- ```y``` - Start searching
+- ```3``` - Reset search constraints and clear results
+
+### ***Media library***
+- ```4``` - Switch between two/three columns mode
+- ```Left```/```h``` - Previous column
+- ```Right```/```l``` - Next column
+- ```Enter``` - Add item to playlist and play it
+- ```Space``` - Add item to playlist
+- ```e``` - Edit song
+- ```e``` - Edit tag (left column)/album (middle/right column)
+- ``` ` ``` - Toggle type of tag used in left column
+- ```m``` - Toggle sort mode
+
+### ***Playlist editor***
+- ```Left```/```h``` - Previous column
+- ```Right```/```l``` - Next column
+- ```Enter``` - Add item to playlist and play it
+- ```Space``` - Add item to playlist/select it
+- ```e``` - Edit song
+- ```e``` - Edit playlist name
+- ```Ctrl + k```/```m``` - Move selected item(s) up
+- ```n```/```Ctrl + j``` - Move selected item(s) down
+- ```Delete``` - Delete selected playlists (left column)
+- ```Delete``` - Delete selected item(s) from playlist (right column)
+- ```c``` - Clear playlist
+- ```C``` - Clear playlist except selected items
+
+### ***Lyrics***
+- ```Space``` - Toggle reloading lyrics upon song change
+- ```e``` - Open lyrics in external editor
+- ``` ` ``` - Refetch lyrics
+
+### ***Tiny tag editor***
+- ```Enter``` - Edit tag
+- ```y``` - Save
+
+### ***Tag editor***
+- ```Enter``` - Edit tag/filename of selected item (left column)
+- ```Enter``` - Perform operation on all/selected items (middle column)
+- ```Space``` - Switch to albums/directories view (left column)
+- ```Space``` - Select item (right column)
+- ```Left```/```h``` - Previous column
+- ```Right```/```l``` - Next column
+    Ctrl-H Backspace - Jump to parent directory (left column, directories view)
