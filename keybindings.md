@@ -217,3 +217,14 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```o``` - Jump to current song
 - ```U``` - Toggle playing song centering
 
+### ***Browser***
+- ```Enter``` - Enter directory/Add item to playlist and play it
+- ```Space``` - Add item to playlist/select it
+- ```e``` - Edit song
+- ```e``` - Edit playlist name
+- ```2``` - Browse MPD database/local filesystem
+- ``` ` ``` - Toggle sort mode
+- ```o``` - Locate playing song
+- ```Ctrl + h```/```Backspace``` - Jump to parent directory
+- ```Delete``` - Delete selected items from disk
+- ```G``` - Jump to playlist editor (playlists only)
