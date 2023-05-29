@@ -5,6 +5,7 @@
 2. [BSPWM (window manager)](#bspwm-window-manager)
 3. [Ranger (file manager)](#ranger-file-manager)
 4. [ncmpcpp (music player)](#ncmpcpp-music-player)
+5. [Calcurse (calendar)](#calcurse-calendar)
 
 ## ***i3 (window manager)***
 
@@ -278,3 +279,43 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Left```/```h``` - Previous column
 - ```Right```/```l``` - Next column
     Ctrl-H Backspace - Jump to parent directory (left column, directories view)
+
+## ***Calcurse (calendar)***
+
+### ***General***
+- ```calcurse``` - Open calcurse in terminal
+- ```?``` - Help
+- ```q``` - Quit
+- ```:``` - Command
+- ```i``` - Import
+- ```x``` - Export
+- ```R``` - Reload
+- ```C``` - Config
+- ```o``` - Other commands
+
+### ***Navigation***
+- ```Tab``` - Change window
+- ```Ctrl + Tab``` - Previous window
+- ```Ctrl + n``` - Next view
+- ```Ctrl + p``` - Previous view
+- ```h``` - Left
+- ```j``` - Down
+- ```k``` - Up
+- ```l``` - Right
+- ```g``` - Go to
+- ```Ctrl + g``` - Today
+
+### ***Manage calendar***
+- ```0``` - Begin week
+- ```$``` - End week
+- ```Ctrl + a``` - Add appointment
+- ```Ctrl + t``` - Add todo
+- ```t``` - +1 day
+- ```T``` - -1 day
+- ```w``` - +1 week
+- ```W``` - -1 week
+- ```m``` - +1 month
+- ```M``` - -1 month
+- ```y``` - +1 year
+- ```Ctrl + r``` - Redraw
+- ```Y``` - -1 year
