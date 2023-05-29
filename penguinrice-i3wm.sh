@@ -79,7 +79,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
