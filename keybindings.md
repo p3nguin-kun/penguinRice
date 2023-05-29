@@ -199,3 +199,21 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```<```/```>``` - Next/previous track
 - ```r```,```z```,```y```,```R```,```x``` - Toggle mode (repeat, random, single, cosume, crossfade)
 - ```f```/```b``` - Seek forward/backward
+
+### ***Playlist***
+- ```Enter``` - Play selected item
+- ```Delete``` - Delete selected item(s) from playlist
+- ```c``` - Clear playlist
+- ```C``` - Clear playlist except selected item(s)
+- ```Ctrl + p``` - Set priority of selected items
+- ```Ctrl + k```/```m``` - Move selected item(s) up
+- ```n```/```Ctrl + j``` - Move selected item(s) down
+- ```M``` - Move selected item(s) to cursor position
+- ```A``` - Add item to playlist
+- ```e``` - Edit song
+- ```S``` - Save playlist
+- ```Ctrl + v``` - Sort playlist
+- ```Ctrl + R``` - Reverse playlist
+- ```o``` - Jump to current song
+- ```U``` - Toggle playing song centering
+
