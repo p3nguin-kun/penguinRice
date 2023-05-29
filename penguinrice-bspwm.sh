@@ -109,7 +109,7 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in alacritty bspwm btop calcurse dunst fish mpd ncmpcpp neofetch picom ranger rofi sxhkd wallpapers; do
+for folder in alacritty bspwm btop calcurse dunst fish gtk-3.0 gtk-4.0 mpd ncmpcpp neofetch picom ranger rofi sxhkd wallpapers; do
 	if [ -d "$HOME/.config/$folder" ]; then
 		mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date"
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
