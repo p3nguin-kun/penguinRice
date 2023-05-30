@@ -48,7 +48,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(acpi alacritty alsa-utils arandr blueberry bspwm btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sxhkd sysstat ttc-iosevka ttf-iosevka-nerd ttf-font-awesome ueberzug unrar unzip wireplumber xarchiver xautolock xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit zathura zip)
+dependencies=(acpi alacritty alsa-utils arandr blueberry bspwm btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sxhkd sysstat ttc-iosevka ttf-iosevka-nerd ttf-font-awesome ueberzug unrar unzip wireplumber xarchiver xautolock xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit zathura zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -78,7 +78,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
@@ -167,6 +167,17 @@ for archivos in ~/cozy-gruvbox-bspwm/fxcss/*; do
 	fi
 done
 
+for archivos in ~/cozy-gruvbox-bspwm/sddm-config/*; do
+	sudo cp -R "${archivos}" /etc/
+	if [ $? -eq 0 ]; then
+		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+		sleep 1
+	else
+		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		sleep 1
+	fi
+done
+
 # Configuring dotfiles
 logo "Configuring dotfiles"
 chmod +x ~/.config/bspwm/bspwmrc
@@ -186,22 +197,14 @@ grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 
-# Configuring LightDM
-logo "Configuring LightDM"
-
-git clone https://github.com/p3nguin-kun/lightdm-evo-gruvbox.git
-sudo cp -r lightdm-evo-gruvbox /usr/share/lightdm-webkit/themes/lightdm-evo-gruvbox
-sudo sed -i 's/^webkit_theme\s*=\s*\(.*\)/webkit_theme = lightdm-evo-gruvbox #\1/g' /etc/lightdm/lightdm-webkit2-greeter.conf
-sudo sed -i 's/^\(#?greeter\)-session\s*=\s*\(.*\)/greeter-session = lightdm-webkit2-greeter #\1/ #\2g' /etc/lightdm/lightdm.conf
-
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
 	echo "Disabling currently enabled display manager"
 	sudo systemctl disable $(systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm' | awk -F ' ' '{print $1}')
 fi
 
-echo "Enabling LightDM"
-sudo systemctl enable LightDM
+echo "Enabling SDDM"
+sudo systemctl enable sddm
 
 # Enabling services
 logo "Enabling services"
