@@ -68,10 +68,9 @@
 # 📃 ***What does this script do?***
 - Install some necessary packages such as Firefox, LibreOffice, NeoVim, ...
 - Automatically rice tiling window manager
-- Automatically config software such as neofetch, dunst, pacman (for what?), ...
+- Automatically config software such as neovim, neofetch, dunst, pacman (for what?), ...
 - Customize your computer
 - Automatically install yay, an AUR helper
-- Automatically config NeoVim
 - Config Firefox with FirefoxCSS and user.js
 
 # 🛠️ ***Installation***
