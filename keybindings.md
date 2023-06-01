@@ -133,6 +133,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Shift + Tab``` - Previous tab
 
 ### ***File operation***
+- ```:mount``` - List external drives/devices
 - ```r``` or ```:open_with``` - Open file with
 - ```yy``` or ```:copy``` - Copy file
 - ```pp``` or ```:paste``` - Paste file
