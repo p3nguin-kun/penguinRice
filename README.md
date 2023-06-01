@@ -90,7 +90,7 @@ sudo pacman -S git
 git clone https://github.com/p3nguin-kun/penguinRice
 ```
 
-4. Go to [penguinRice](https://p3nguin-kun.github.io/parsai) directory
+4. Go to [penguinRice](https://p3nguin-kun.github.io/penguinRice) directory
 ```
 cd penguinRice
 ```
@@ -108,6 +108,12 @@ sh penguinrice-nameofwm.sh
 
 # 📑 ***Tutorial***
 - penguinRice has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here](https://p3nguin-kun.github.io/penguinRice/keybindings)
+
+# ***Contributions***
+
+1. Fork this project.
+2. Edit the scripts, add/edit the keybindings.
+3. Make a pull request.
 
 # 💝 Support
 
