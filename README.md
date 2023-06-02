@@ -15,7 +15,7 @@
 
 **[Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [penguinRice](https://p3nguin-kun.github.io/penguinRice/) is better! <(￣︶￣)>**
 
-**This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
+**This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
 
 | DE/WM        | i3wm                                        | bspwm                                        | openbox
 | :----------- | :-----------------------------------------  | :------------------------------------------- | :-------------------------------------- |
