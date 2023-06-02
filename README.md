@@ -19,9 +19,9 @@
 
 | DE/WM        | i3wm                                        | bspwm                                        | openbox
 | :----------- | :-----------------------------------------  | :------------------------------------------- | :-------------------------------------- |
-| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/MpcbPGO.png)   | ![img](https://i.imgur.com/ZipD3Vr.png) |
-| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![launcher](https://i.imgur.com/9vWtYGZ.png) | same as i3wm and bspwm                  |
-| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![lock](https://i.imgur.com/zjl2PuZ.png)     | same as i3wm and bspwm                  |
+| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/MpcbPGO.png)   | ![img](https://i.imgur.com/IXS8iCl.png) |
+| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![launcher](https://i.imgur.com/9vWtYGZ.png) | ![img2](https://i.imgur.com/ZhE1CGf.png)|
+| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![lock](https://i.imgur.com/zjl2PuZ.png)     | ![img3](https://i.imgur.com/cvk3DkS.png)|
 
 
 # ***Menu***
