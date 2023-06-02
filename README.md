@@ -38,7 +38,7 @@
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/) and [xfce4-terminal](https://docs.xfce.org/apps/terminal/start) (Openbox only)
-- 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)https://docs.xfce.org/apps/terminal/start
+- 🎨 ***Color Scheme***: [Gruvbox](https://github.com/morhetz/gruvbox)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start) (Openbox only)
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
