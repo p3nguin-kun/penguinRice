@@ -78,7 +78,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme sddm-theme-aerial-git ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
@@ -93,10 +93,10 @@ clear
 
 # Downloading dotfiles
 logo "Downloading dotfiles"
-[ -d ~/cozy-gruvbox-bspwm ] && rm -rf ~/cozy-gruvbox-bspwm
-printf "Cloning rice from https://github.com/p3nguin-kun/cozy-gruvbox-bspwm\n"
+[ -d ~/everforest-bspwm ] && rm -rf ~/everforest-bspwm
+printf "Cloning rice from https://github.com/p3nguin-kun/everforest-bspwm\n"
 cd
-git clone --depth=1 https://github.com/p3nguin-kun/cozy-gruvbox-bspwm.git
+git clone --depth=1 https://github.com/p3nguin-kun/everforest-bspwm.git
 sleep 2
 clear
 
@@ -145,7 +145,7 @@ printf "Copying files to respective directories..\n"
 
 [ ! -d ~/.config ] && mkdir -p ~/.config
 
-for archivos in ~/cozy-gruvbox-bspwm/.config/*; do
+for archivos in ~/everforest-bspwm/.config/*; do
 	cp -R "${archivos}" ~/.config/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -156,7 +156,7 @@ for archivos in ~/cozy-gruvbox-bspwm/.config/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-bspwm/fxcss/*; do
+for archivos in ~/everforest-bspwm/fxcss/*; do
 	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -167,7 +167,7 @@ for archivos in ~/cozy-gruvbox-bspwm/fxcss/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-bspwm/sddm-config/*; do
+for archivos in ~/everforest-bspwm/sddm-config/*; do
 	sudo cp -R "${archivos}" /etc/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
