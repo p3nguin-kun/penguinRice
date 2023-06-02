@@ -79,7 +79,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme sddm-theme-aerial-git ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
@@ -94,10 +94,10 @@ clear
 
 # Downloading dotfiles
 logo "Downloading dotfiles"
-[ -d ~/cozy-gruvbox-i3 ] && rm -rf ~/cozy-gruvbox-i3
-printf "Cloning rice from https://github.com/p3nguin-kun/cozy-gruvbox-i3\n"
+[ -d ~/everforest-i3 ] && rm -rf ~/everforest-i3
+printf "Cloning rice from https://github.com/p3nguin-kun/everforest-i3\n"
 cd
-git clone --depth=1 https://github.com/p3nguin-kun/cozy-gruvbox-i3.git
+git clone --depth=1 https://github.com/p3nguin-kun/everforest-i3.git
 sleep 2
 clear
 
@@ -110,7 +110,7 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in alacritty btop calcurse dunst fish i3 mpd ncmpcpp neofetch picom ranger rofi wallpapers; do
+for folder in alacritty btop calcurse dunst fish i3 mpd ncmpcpp neofetch picom ranger rofi wallpapers xfce4; do
 	if [ -d "$HOME/.config/$folder" ]; then
 		mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date"
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
@@ -146,7 +146,7 @@ printf "Copying files to respective directories..\n"
 
 [ ! -d ~/.config ] && mkdir -p ~/.config
 
-for archivos in ~/cozy-gruvbox-i3/.config/*; do
+for archivos in ~/everforest-i3/.config/*; do
 	cp -R "${archivos}" ~/.config/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -157,7 +157,7 @@ for archivos in ~/cozy-gruvbox-i3/.config/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-i3/fxcss/*; do
+for archivos in ~/everforest-i3/fxcss/*; do
 	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -168,7 +168,7 @@ for archivos in ~/cozy-gruvbox-i3/fxcss/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-i3/sddm-config/*; do
+for archivos in ~/everforest-i3/sddm-config/*; do
 	sudo cp -R "${archivos}" /etc/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
