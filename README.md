@@ -19,9 +19,9 @@
 
 | DE/WM        | i3wm                                        | bspwm                                        | openbox
 | :----------- | :-----------------------------------------  | :------------------------------------------- | :-------------------------------------- |
-| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/MpcbPGO.png)   | ![img](https://i.imgur.com/IXS8iCl.png) |
-| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![launcher](https://i.imgur.com/9vWtYGZ.png) | ![img2](https://i.imgur.com/ZhE1CGf.png)|
-| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![lock](https://i.imgur.com/zjl2PuZ.png)     | ![img3](https://i.imgur.com/cvk3DkS.png)|
+| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/uHWEeEQ.png)   | ![img](https://i.imgur.com/IXS8iCl.png) |
+| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![img2](https://i.imgur.com/ZhE1CGf.png)     | ![img2](https://i.imgur.com/ZhE1CGf.png)|
+| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![img3](https://i.imgur.com/cvk3DkS.png)     | ![img3](https://i.imgur.com/cvk3DkS.png)|
 
 
 # ***Menu***
