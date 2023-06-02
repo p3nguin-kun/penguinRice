@@ -48,7 +48,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(acpi alsa-utils arandr archlinux-xdg-menu blueberry btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx openbox obconf pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sysstat thunar ttc-iosevka ttf-iosevka-nerd ttf-font-awesome udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xfce4-terminal xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zip)
+dependencies=(acpi alacritty alsa-utils arandr archlinux-xdg-menu blueberry btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb jq libreoffice-still lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx openbox obconf pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sysstat thunar ttc-iosevka ttf-iosevka-nerd ttf-font-awesome udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -78,7 +78,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop gruvbox-dark-gtk picom-animations-git pixterm-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop everforest-gtk-theme-git picom-animations-git pixterm-git qogir-icon-theme sddm-sugar-dark ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
@@ -93,10 +93,10 @@ clear
 
 # Downloading dotfiles
 logo "Downloading dotfiles"
-[ -d ~/cozy-gruvbox-openbox ] && rm -rf ~/cozy-gruvbox-bspwm
-printf "Cloning rice from https://github.com/p3nguin-kun/cozy-gruvbox-openbox\n"
+[ -d ~/everforest-openbox ] && rm -rf ~/everforest-bspwm
+printf "Cloning rice from https://github.com/p3nguin-kun/everforest-openbox\n"
 cd
-git clone --depth=1 https://github.com/p3nguin-kun/cozy-gruvbox-openbox.git
+git clone --depth=1 https://github.com/p3nguin-kun/everforest-openbox.git
 sleep 2
 clear
 
@@ -109,7 +109,7 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in btop calcurse dunst fish gtk-3.0 gtk-4.0 mpd ncmpcpp openbox neofetch picom ranger rofi sxhkd wallpapers xfce4; do
+for folder in alacritty btop calcurse dunst fish gtk-3.0 gtk-4.0 mpd ncmpcpp openbox neofetch picom ranger rofi wallpapers xfce4; do
 	if [ -d "$HOME/.config/$folder" ]; then
 		mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date"
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
@@ -146,7 +146,7 @@ printf "Copying files to respective directories..\n"
 [ ! -d ~/.config ] && mkdir -p ~/.config
 [ ! -d ~/.themes ] && mkdir -p ~./themes
 
-for archivos in ~/cozy-gruvbox-openbox/config/*; do
+for archivos in ~/everforest-openbox/config/*; do
 	cp -R "${archivos}" ~/.config/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -157,7 +157,7 @@ for archivos in ~/cozy-gruvbox-openbox/config/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-openbox/fxcss/*; do
+for archivos in ~/everforest-openbox/fxcss/*; do
 	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -168,7 +168,7 @@ for archivos in ~/cozy-gruvbox-openbox/fxcss/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-openbox/sddm-config/*; do
+for archivos in ~/everforest-openbox/sddm-config/*; do
 	sudo cp -R "${archivos}" /etc/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -179,8 +179,8 @@ for archivos in ~/cozy-gruvbox-openbox/sddm-config/*; do
 	fi
 done
 
-for archivos in ~/cozy-gruvbox-openbox/themes/*; do
-	cp -R "${archivos}" ~/.themes/
+for archivos in ~/everforest-openbox/themes/*; do
+	cp -R ~/everforest-openbox/themes/everforest ~/.themes/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
