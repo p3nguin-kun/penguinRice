@@ -33,7 +33,7 @@
 - [Support](#-support)
 
 # 📦 ***Packages***
-- 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3), [cozy-gruvbox-bspwm](https://github.com/p3nguin-kun/cozy-gruvbox-bspwm) and [everforest-openbox](https://github.com/p3nguin-kun/everforest-openbox)
+- 🔴 ***Dotfiles***: [cozy-gruvbox-i3](https://github.com/p3nguin-kun/cozy-gruvbox-i3), [everforest-bspwm](https://github.com/p3nguin-kun/everforest-bspwm) and [everforest-openbox](https://github.com/p3nguin-kun/everforest-openbox)
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar)
