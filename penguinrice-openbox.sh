@@ -179,15 +179,15 @@ for archivos in ~/everforest-openbox/sddm-config/*; do
 	fi
 done
 
-for archivos in ~/everforest-openbox/themes/*; do
-	cp -R ~/everforest-openbox/themes/everforest ~/.themes/
-	if [ $? -eq 0 ]; then
-		printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
-	else
-		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
-		sleep 1
-	fi
+cp -R ~/everforest-openbox/themes/everforest ~/.themes/
+THEMES=~/.themes/everforest
+if [ -d "~/.themes/everforest" ]; then
+	printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+fi
 done
 
 # Configuring dotfiles
