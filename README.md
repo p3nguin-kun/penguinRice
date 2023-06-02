@@ -18,11 +18,11 @@
 
 **This script will automatically install fully-featured tiling window manager-based system on any Arch Linux or Arch-based distro.**
 
-|              | i3wm                                        | bspwm                                        |
-| :----------- | :-----------------------------------------  | :------------------------------------------- |
-| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/MpcbPGO.png)   |
-| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![launcher](https://i.imgur.com/9vWtYGZ.png) |
-| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![lock](https://i.imgur.com/zjl2PuZ.png)     |
+| DE/WM        | i3wm                                        | bspwm                                        | openbox
+| :----------- | :-----------------------------------------  | :------------------------------------------- | :-------------------------------------- |
+| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/MpcbPGO.png)   | ![img](https://i.imgur.com/ZipD3Vr.png) |
+| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![launcher](https://i.imgur.com/9vWtYGZ.png) | same as i3wm and bspwm                  |
+| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![lock](https://i.imgur.com/zjl2PuZ.png)     | same as i3wm and bspwm                  |
 
 
 # ***Menu***
