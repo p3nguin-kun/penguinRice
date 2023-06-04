@@ -48,7 +48,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty alsa-utils arandr blueberry btop calcurse dunst feh firefox fish gthumb gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq libreoffice-still lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim nerd-fonts networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sysstat ttc-iosevka ttf-iosevka-nerd ttf-font-awesome udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zip)
+dependencies=(alacritty alsa-utils arandr blueberry btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq libreoffice-still lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim networkmanager network-manager-applet numlockx pavucontrol pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sysstat ttc-iosevka ttf-iosevka-nerd udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
