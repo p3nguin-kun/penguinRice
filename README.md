@@ -39,7 +39,7 @@
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/) and [xfce4-terminal](https://docs.xfce.org/apps/terminal/start) (Openbox only)
 - 🎨 ***Color Scheme***: [Everforest](https://github.com/sainnhe/everforest)
-- 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/)
+- 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/) with [penguinFox](https://github.com/p3nguin-kun/penguinFox)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start) (Openbox only)
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
