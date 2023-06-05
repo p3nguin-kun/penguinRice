@@ -70,7 +70,7 @@
 - Automatically config software such as neovim, neofetch, dunst, pacman (for what?), ...
 - Customize your computer
 - Automatically install yay, an AUR helper
-- Config Firefox with FirefoxCSS and user.js
+- Config Firefox with FirefoxCSS and hardened with arkenfox user.js
 
 # 🛠️ ***Installation***
 
