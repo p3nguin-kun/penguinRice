@@ -188,7 +188,7 @@ else
 	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 	sleep 1
 fi
-done
+
 
 # Configuring dotfiles
 logo "Configuring dotfiles"
