@@ -98,6 +98,9 @@ printf "Cloning rice from https://github.com/p3nguin-kun/everforest-bspwm\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/everforest-bspwm.git
 sleep 2
+printf "Cloning Firefox config from https://github.com/p3nguin-kun/penguinFox\n"
+cd
+git clone --depth=1 https://github.com/p3nguin-kun/penguinFox.git
 clear
 
 # Backup dotfiles
@@ -156,7 +159,7 @@ for archivos in ~/everforest-bspwm/.config/*; do
 	fi
 done
 
-for archivos in ~/everforest-bspwm/fxcss/*; do
+for archivos in ~/penguinFox/*; do
 	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
@@ -198,6 +201,10 @@ grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /et
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
+
+# Updating arkenfox user.js and overriding settings
+logo "Updating arkenfox user.js and overriding settings"
+sh ~/.mozilla/firefox/*.default-release/updater.sh
 
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
