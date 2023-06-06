@@ -6,6 +6,7 @@
 3. [Ranger (file manager)](#ranger-file-manager)
 4. [ncmpcpp (music player)](#ncmpcpp-music-player)
 5. [Calcurse (calendar)](#calcurse-calendar)
+6. [zathura (pdf viewer)(#zathura-pdf-viewer)
 
 ## ***i3 (window manager)***
 
@@ -320,3 +321,53 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```y``` - +1 year
 - ```Ctrl + r``` - Redraw
 - ```Y``` - -1 year
+
+## ***zathura (pdf viewer)***
+
+### ***General***
+- ```zathura``` - Open zathura from terminal
+- ```:``` - Open command
+- ```q``` - Quit
+- ```Ctrl + c```, ```Esc``` - Abort
+- ```o```, ```O``` - Open document
+- ```R``` - Reload document
+
+### ***Navigation***
+- ```h/j/k/l``` or ```Left/Down/Up/Right``` - Scroll
+- ```J``` or ```Page Down``` - Next page
+- ```K``` or ```Page Up``` - Previous page
+- ```H```, ```L``` - Go to top or bottom of the current page
+- ```Ctrl + t```, ```Ctrl + d```, ```Ctrl + u```, ```Ctrl+ y``` - Scroll a half page left, down, up, right
+- ```gg```, ```G```, ```1/2/3/4/...G``` - Go to the first page, the last page or the nth page
+- ```t```, ```Ctrl + f```, ```Ctrl + b```, ```space```, ```Shift + space```, ```y``` - Scroll a full page left, down, up or right
+- ```P``` - Snaps to the current page
+- ```Ctrl + o```, ```Ctrl + i``` - Move backward and forward through the jump list
+- ```Ctrl + j```, ```Ctrl + k``` - Bisect forward and backward between the last two jump points
+- ```f``` - Follow links
+- ```F``` - Display link target
+- ```c``` - Copy link target into the clipboard
+
+### ***View***
+- ```a```, ```s``` - Adjust window in best-fit or width mode
+- ```Ctrl + r``` - Recolor
+- ```r``` - Rotate 90 degrees
+- ```Tab``` - Show index and switch to Index mode 
+- ```d``` - Toggle dual page view
+- ```F5``` - Switch to presentation mode
+- ```F11``` - Switch to fullscreen mode
+- ```Ctrl + m``` - Toggle input bar
+- ```Ctrl + n``` - Toggle status bar
+- ```+```, ```-```, ```=``` - Zoom in, zoom out or original size
+- ```z - I```, ```z - O```, ```z - 0``` - Zoom in, zoom out or original size
+
+### ***Search***
+- ```/```, ```?``` - Search for text
+- ```n```, ```N``` - Search for the next or previous result
+
+### ***Index mode***
+- ```k```, ```j``` - Move to upper or lower entry
+- ```I``` - Expand entry
+- ```L``` - Expand all entries
+- ```h``` - Collapse entry
+- ```H``` - Collapse all entries
+- ```space```, ```Enter``` - Select and open entry
