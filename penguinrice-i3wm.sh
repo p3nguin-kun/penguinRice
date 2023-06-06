@@ -188,6 +188,8 @@ chmod -R +x ~/.config/i3/scripts
 chmod +x ~/.config/ranger/scope.sh
 cp /etc/X11/xinit/xinitrc .xinitrc
 echo "exec i3" >>.xinitrc
+touch ~/.Xresources
+printf "Xcursor.theme: Qogir-dark\nXcursor.size: 16" >>~/.Xresources
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"

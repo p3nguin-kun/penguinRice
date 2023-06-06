@@ -188,6 +188,8 @@ chmod -R +x ~/.config/rofi/powermenu
 chmod +x ~/.config/ranger/scope.sh
 cp /etc/X11/xinit/xinitrc .xinitrc
 echo "exec bspwm" >>.xinitrc
+touch ~/.Xresources
+printf "Xcursor.theme: Qogir-dark\nXcursor.size: 16" >>~/.Xresources
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"

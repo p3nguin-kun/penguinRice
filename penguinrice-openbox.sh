@@ -189,7 +189,6 @@ else
 	sleep 1
 fi
 
-
 # Configuring dotfiles
 logo "Configuring dotfiles"
 chmod -R +x ~/.config/openbox/scripts
@@ -197,6 +196,8 @@ chmod -R +x ~/.config/polybar
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
 chmod +x ~/.config/ranger/scope.sh
+touch ~/.Xresources
+printf "Xcursor.theme: Qogir-dark\nXcursor.size: 16" >>~/.Xresources
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"
