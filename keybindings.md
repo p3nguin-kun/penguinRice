@@ -6,7 +6,7 @@
 3. [Ranger (file manager)](#ranger-file-manager)
 4. [ncmpcpp (music player)](#ncmpcpp-music-player)
 5. [Calcurse (calendar)](#calcurse-calendar)
-6. [zathura (pdf viewer)(#zathura-pdf-viewer)
+6. [zathura (pdf viewer)](#zathura-pdf-viewer)
 
 ## ***i3 (window manager)***
 
