@@ -19,11 +19,11 @@
 
 - ***Note***: I changed the wallpaper so the screenshot won't look the same after you install penguinRice
 
-| DE/WM        | i3wm                                        | bspwm                                        | openbox
-| :----------- | :-----------------------------------------  | :------------------------------------------- | :-------------------------------------- |
-| Screenshot   | ![screen1](https://i.imgur.com/C6uKnQm.png) | ![screen](https://i.imgur.com/uHWEeEQ.png)   | ![img](https://i.imgur.com/IXS8iCl.png) |
-| App launcher | ![screen2](https://i.imgur.com/1Dcfb4Q.png) | ![img2](https://i.imgur.com/ZhE1CGf.png)     | ![img2](https://i.imgur.com/ZhE1CGf.png)|
-| Lockscreen   | ![screen3](https://i.imgur.com/vSTMAJn.jpg) | ![img3](https://i.imgur.com/cvk3DkS.png)     | ![img3](https://i.imgur.com/cvk3DkS.png)|
+| DE/WM        | i3wm                                           | bspwm                                          | openbox
+| :----------- | :--------------------------------------------- | :--------------------------------------------- | :--------------------------------------------- |
+| Screenshot   | ![i3wm](https://i.imgur.com/lWdAuJh.png)       | ![bspwm](https://i.imgur.com/Dff0iNs.png)      | ![openbox](https://i.imgur.com/RiqAWbW.png)    |
+| App launcher | ![launcher](https://i.imgur.com/A9psUwK.png)   | ![launcher](https://i.imgur.com/A9psUwK.png)   | ![launcher](https://i.imgur.com/A9psUwK.png)   |
+| Lockscreen   | ![lockscreen](https://i.imgur.com/FfobRr0.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
 
 
 # ***Menu***
