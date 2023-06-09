@@ -71,7 +71,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Shift + e``` - Start power menu
 - ```Super + Backspace``` - Lock screen
 - ```Super + 1/2/3/4/...``` - Change workspaces
-- ```Super + Alt + q / r``` - Quit | Restart BSPWM
+- ```Super + Alt + q / r``` - Quit / Restart BSPWM
 - ```Super + Esc``` - Restart SXHKD
 - ```PrtScn``` - Take screenshot
 
