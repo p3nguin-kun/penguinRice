@@ -21,7 +21,7 @@
 
 | DE/WM        | i3wm                                           | bspwm                                          | openbox
 | :----------- | :--------------------------------------------- | :--------------------------------------------- | :--------------------------------------------- |
-| Screenshot   | ![i3wm](https://i.imgur.com/lWdAuJh.png)       | ![bspwm](https://i.imgur.com/Dff0iNs.png)      | ![openbox](https://i.imgur.com/RiqAWbW.png)    |
+| Screenshot   | ![i3wm](https://i.imgur.com/lWdAuJh.png)       | ![bspwm](https://i.imgur.com/Dff0iNs.png)      | ![openbox](https://i.imgur.com/5Dgqa78.png)    |
 | App launcher | ![launcher](https://i.imgur.com/A9psUwK.png)   | ![launcher](https://i.imgur.com/A9psUwK.png)   | ![launcher](https://i.imgur.com/A9psUwK.png)   |
 | Lockscreen   | ![lockscreen](https://i.imgur.com/FfobRr0.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
 
