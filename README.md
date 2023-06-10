@@ -17,7 +17,7 @@
 
 **This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
 
-- ***Note***: I changed the wallpaper so the screenshot won't look the same after you install penguinRice
+
 
 | DE/WM        | i3wm                                           | bspwm                                          | openbox
 | :----------- | :--------------------------------------------- | :--------------------------------------------- | :--------------------------------------------- |
