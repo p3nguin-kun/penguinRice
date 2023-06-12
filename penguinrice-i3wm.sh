@@ -48,7 +48,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty alsa-utils arandr blueberry btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim networkmanager network-manager-applet numlockx pavucontrol picom pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sddm sed sysstat ttc-iosevka ttf-iosevka-nerd udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps zip)
+dependencies=(alacritty alsa-utils arandr blueberry btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq lightdm lightdm-slick-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim networkmanager network-manager-applet numlockx pavucontrol picom pipewire pipewire-pulse playerctl polkit-gnome polybar ranger rofi scrot sed sysstat ttc-iosevka ttf-iosevka-nerd udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -79,7 +79,7 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen chili-sddm-theme dragon-drop everforest-gtk-theme-git pixterm-git qogir-icon-theme ttf-icomoon-feather
+yay -S --noconfirm betterlockscreen dragon-drop everforest-gtk-theme-git pixterm-git qogir-icon-theme ttf-icomoon-feather
 
 # Preparing folders
 logo "Preparing folders"
@@ -171,8 +171,8 @@ for archivos in ~/penguinFox/*; do
 	fi
 done
 
-for archivos in ~/everforest-i3/sddm-config/*; do
-	sudo cp -R "${archivos}" /etc/
+for archivos in ~/everforest-i3/lightdm-config/*; do
+	sudo cp -R "${archivos}" /etc/lightdm/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
@@ -206,14 +206,21 @@ sleep 2
 logo "Updating arkenfox user.js and overriding settings"
 sh ~/.mozilla/firefox/*.default-release/updater.sh
 
+# Configuring LightDM
+logo "Configuring LightDM"
+
+sudo mkdir -p /usr/share/backgrounds/
+sudo cp ~/.config/wallpapers/wall2.png /usr/share/backgrounds
+sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-greeter/g" /etc/lightdm/lightdm.conf
+
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
 	echo "Disabling currently enabled display manager"
 	sudo systemctl disable $(systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm' | awk -F ' ' '{print $1}')
 fi
 
-echo "Enabling SDDM"
-sudo systemctl enable sddm
+echo "Enabling LightDM"
+sudo systemctl enable lightdm
 
 # Enabling services
 logo "Enabling services"
