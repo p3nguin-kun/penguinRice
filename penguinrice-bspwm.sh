@@ -170,8 +170,8 @@ for archivos in ~/penguinFox/*; do
 	fi
 done
 
-for archivos in ~/everforest-bspwm/sddm-config/*; do
-	sudo cp -R "${archivos}" /etc/
+for archivos in ~/everforest-bspwm/lightdm-config/*; do
+	sudo cp -R "${archivos}" /etc/lightdm/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
@@ -206,14 +206,21 @@ sleep 2
 logo "Updating arkenfox user.js and overriding settings"
 sh ~/.mozilla/firefox/*.default-release/updater.sh
 
+# Configuring LightDM
+logo "Configuring LightDM"
+
+sudo mkdir -p /usr/share/backgrounds/
+sudo cp ~/.config/wallpapers/wall2.png /usr/share/backgrounds
+sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-greeter/g" /etc/lightdm/lightdm.conf
+
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
 	echo "Disabling currently enabled display manager"
 	sudo systemctl disable $(systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm' | awk -F ' ' '{print $1}')
 fi
 
-echo "Enabling SDDM"
-sudo systemctl enable sddm
+echo "Enabling LightDM"
+sudo systemctl enable lightdm
 
 # Enabling services
 logo "Enabling services"
