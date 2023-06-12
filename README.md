@@ -39,7 +39,7 @@
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar)
-- 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/) and [xfce4-terminal](https://docs.xfce.org/apps/terminal/start) (Openbox only)
+- 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
 - 🎨 ***Color Scheme***: [Everforest](https://github.com/sainnhe/everforest)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/) with [penguinFox](https://github.com/p3nguin-kun/penguinFox)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start) (Openbox only)
