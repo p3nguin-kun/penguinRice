@@ -5,7 +5,7 @@
 2. [BSPWM (window manager)](#bspwm-window-manager)
 3. [Openbox (window manager)](#openbox-window-manager)
 4. [Ranger (file manager)](#ranger-file-manager)
-5. [NeoVim (text editor)]((#neovim-text-editor)
+5. [NeoVim (text editor)](#neovim-text-editor)
 6. [ncmpcpp (music player)](#ncmpcpp-music-player)
 7. [Calcurse (calendar)](#calcurse-calendar)
 8. [zathura (pdf viewer)](#zathura-pdf-viewer)
