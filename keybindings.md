@@ -72,7 +72,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Shift + w``` - Close/kill all windows
 - ```Super + Shift + e``` - Start power menu
 - ```Super + Backspace``` - Lock screen
-- ```Super + 1/2/3/4/...``` - Change workspaces
+- ```Super + 1/2/3/4/...``` and ```Ctrl + Alt + Left/Right``` - Change workspaces
 - ```Super + Alt + q / r``` - Quit / Restart BSPWM
 - ```Super + Esc``` - Restart SXHKD
 - ```PrtScn``` - Take screenshot
@@ -117,13 +117,28 @@ By default, ``` Super key ``` will be ``` Windows key ```
 ### ***Common keybindings***
 - ``` Super + Space ``` - Start application launcher
 - ``` Super + Enter ``` - Start terminal
-- ``` Super + q ``` - Kill focused window
+- ``` Super + q ``` and ```Alt + F4``` - Kill focused window
 - ``` Super + Shift + e ``` - Power menu
-- ``` Super + 1/2/3/4/... ``` - Change workspace
 - ``` Super + Backspace ``` - Lock the system
 - ``` Super + Tab ``` and ```Alt + Tab``` - Window switcher menu
-- ``` openbox --restart ``` - Restart Openbox
+- ``` openbox --restart ``` and ``` Super + Shift + r ``` - Restart Openbox
 - ``` PrtScn ``` - Take screennshot
+- ``` Super + v ``` - Toggle audio settings (volume, audio devices, ...)
+
+### ***Manage windows***
+- ``` Super (+ Shift) + 1/2/3/4/... ``` - Change workspace / Send window to workspace
+- ``` Super (+ Shift) + Left / Right ``` - Change workspace / Send window to next/previous workspace
+- ``` Super + Left / Right ``` - Snap window to left/right
+- ``` Super + Up / Down ``` - Make window larger/ smaller
+- ``` Super + Ctrl + Left / Down / Up / Right ``` - Move window to edge
+- ``` Super + a ``` - Move window to center
+- ``` Super + t ``` - Toggle title bar
+- ``` Super + f ``` - Toggle maximize
+- ``` Super + z ``` - Toggle minimize
+- ``` Super + u ``` - Toggle shade
+- ``` Super + r ``` - Resize
+- ``` Super + m ``` - Move
+- ``` Alt + Space ``` - Window menu
 
 ## ***Ranger (file manager)***
 
