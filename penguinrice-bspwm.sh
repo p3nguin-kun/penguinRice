@@ -183,7 +183,7 @@ done
 
 # Configuring dotfiles
 logo "Configuring dotfiles"
-chmod +x ~/.config/bspwm/bspwmrc
+chmod -R +x ~/.config/bspwm/
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod -R +x ~/.config/polybar
 chmod -R +x ~/.config/rofi/launchers
