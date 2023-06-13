@@ -45,7 +45,7 @@
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start) (Openbox only)
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
-- 🔠 ***Fonts***: [Iosevka](https://typeof.net/Iosevka/) + [FontAwesome](https://fontawesome.com/)
+- 🔠 ***Fonts***: [Iosevka](https://typeof.net/Iosevka/) + [Nerd Fonts](https://www.nerdfonts.com/)
 - 📄 ***Text editor***: [NeoVim](https://neovim.io) with [penguinVim](https://p3nguin-kun.github.io/penguinVim)
 - 🏢 ***Office***: [LibreOffice](https://www.libreoffice.org/)
 - 📄 ***PDF Viewer***: [zathura](https://pwmt.org/projects/zathura/)
