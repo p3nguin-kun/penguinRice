@@ -187,7 +187,7 @@ logo "Configuring dotfiles"
 chmod -R +x ~/.config/polybar
 chmod -R +x ~/.config/rofi/launchers
 chmod -R +x ~/.config/rofi/powermenu
-chmod -R +x ~/.config/i3/scripts
+chmod -R +x ~/.config/i3
 chmod +x ~/.config/ranger/scope.sh
 cp /etc/X11/xinit/xinitrc .xinitrc
 echo "exec i3" >>.xinitrc
