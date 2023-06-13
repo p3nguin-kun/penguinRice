@@ -3,10 +3,12 @@
 ## ***Contents***
 1. [i3 (window manager)](#i3-window-manager)
 2. [BSPWM (window manager)](#bspwm-window-manager)
-3. [Ranger (file manager)](#ranger-file-manager)
-4. [ncmpcpp (music player)](#ncmpcpp-music-player)
-5. [Calcurse (calendar)](#calcurse-calendar)
-6. [zathura (pdf viewer)](#zathura-pdf-viewer)
+3. [Openbox (window manager)](#openbox-window-manager)
+4. [Ranger (file manager)](#ranger-file-manager)
+5. [NeoVim (text editor)]((#neovim-text-editor)
+6. [ncmpcpp (music player)](#ncmpcpp-music-player)
+7. [Calcurse (calendar)](#calcurse-calendar)
+8. [zathura (pdf viewer)](#zathura-pdf-viewer)
 
 ## ***i3 (window manager)***
 
@@ -107,6 +109,8 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Ctrl + Space``` - Cancel the preselection for focused window
 - ```Super + Ctrl + Shift + Space``` - Cancel the preselection for focused desktop
 
+## ***Openbox (window manager)***
+
 ## ***Ranger (file manager)***
 
 ### ***General***
@@ -151,6 +155,8 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```o``` - Sort
 - ```u``` - Undo
 - ```z``` - Change settings
+
+## ***NeoVim (text editor)***
 
 ## ***ncmpcpp (music player)***
 
