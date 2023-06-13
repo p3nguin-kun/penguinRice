@@ -38,7 +38,7 @@
 - 🔴 ***Dotfiles***: [everforest-i3](https://github.com/p3nguin-kun/everforest-i3), [everforest-bspwm](https://github.com/p3nguin-kun/everforest-bspwm) and [everforest-openbox](https://github.com/p3nguin-kun/everforest-openbox)
 - 💿 ***Distro***: [Arch Linux](https://archlinux.org) or Arch-based distro
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
-- 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar)
+- 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
 - 🎨 ***Color Scheme***: [Everforest](https://github.com/sainnhe/everforest)
 - 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/) with [penguinFox](https://github.com/p3nguin-kun/penguinFox)
