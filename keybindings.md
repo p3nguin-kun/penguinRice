@@ -111,6 +111,20 @@ By default, ``` Super key ``` will be ``` Windows key ```
 
 ## ***Openbox (window manager)***
 
+### ***Super key***
+By default, ``` Super key ``` will be ``` Windows key ```
+
+### ***Common keybindings***
+- ``` Super + Space ``` - Start application launcher
+- ``` Super + Enter ``` - Start terminal
+- ``` Super + q ``` - Kill focused window
+- ``` Super + Shift + e ``` - Power menu
+- ``` Super + 1/2/3/4/... ``` - Change workspace
+- ``` Super + Backspace ``` - Lock the system
+- ``` Super + Tab ``` and ```Alt + Tab``` - Window switcher menu
+- ``` openbox --restart ``` - Restart Openbox
+- ``` PrtScn ``` - Take screennshot
+
 ## ***Ranger (file manager)***
 
 ### ***General***
