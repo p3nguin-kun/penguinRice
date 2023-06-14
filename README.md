@@ -47,7 +47,6 @@
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
 - 🔠 ***Fonts***: [JetBrainsMono](https://www.jetbrains.com/lp/mono/) + [Nerd Fonts](https://www.nerdfonts.com/)
 - 📄 ***Text editor***: [NeoVim](https://neovim.io) with [penguinVim](https://p3nguin-kun.github.io/penguinVim)
-- 🏢 ***Office***: [LibreOffice](https://www.libreoffice.org/)
 - 📄 ***PDF Viewer***: [zathura](https://pwmt.org/projects/zathura/)
 - 📅 ***Calendar***: [calcurse](https://calcurse.org/)
 - 🎞️ ***Media player***: [mpv](https://mpv.io) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
