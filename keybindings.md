@@ -102,6 +102,8 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Alt + Shift + h/j/k/l``` - Contract window
 - ```Super + LMB``` - Move window with left mouse button
 - ```Super + RMB``` - Resize window with right mouse button
+- ``` Super + r ``` - Rotate windows
+- ``` Super + = ``` - Make split ratio equal
 
 #### ***Preselect***
 - ```Super + Ctrl + h/j/k/l``` - Preselect the direction
