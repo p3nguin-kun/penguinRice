@@ -30,12 +30,13 @@
 - [Packages](#-packages)
 - [Types of penguinRice users](#-types-of-penguinrice-users)
 - [What does this script do?](#-what-does-this-script-do)
+- [Style selector](#style-selector)
 - [Installation](#installation)
 - [Tutorial](#-tutorial)
 - [Support](#-support)
 
 # 📦 ***Packages***
-- 🔴 ***Dotfiles***: [everforest-i3](https://github.com/p3nguin-kun/everforest-i3), [everforest-bspwm](https://github.com/p3nguin-kun/everforest-bspwm) and [everforest-openbox](https://github.com/p3nguin-kun/everforest-openbox)
+- 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
@@ -71,6 +72,10 @@
 - Config Firefox with FirefoxCSS, harden with arkenfox user.js and install uBlock Origin
 - Change ```Caps Lock``` to ```Escape``` (because nobody use Caps Lock)
 
+# ***Style selector***
+penguinRice now has style selector for people want to change desktop's style, just press ```Alt + space``` and style selector will appear on your screen
+![styleselector](https://i.imgur.com/7Xl9lJB.png)
+
 # 🛠️ ***Installation***
 
 ***Note: You need to login as normal user to use this script***
@@ -95,17 +100,17 @@ cd penguinRice
 
 5. Run this script
 ```
-sh penguinrice-nameofwm.sh
+sh penguinrice.sh
 ```
 
 6. Follow the instruction
 
 7. Restart your computer
 
-8. Done! Now you can use fully-featured i3wm on your computer
+8. Done! Now you can use fully-featured floating/tiling window manager on your computer
 
 # 📑 ***Tutorial***
-- penguinRice has a keybinding list, you can read it by pressing ``` Mod + ` ``` or click [here](https://p3nguin-kun.github.io/penguinRice/keybindings)
+- penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](https://p3nguin-kun.github.io/penguinRice/keybindings)
 
 # ***Contributions***
 
