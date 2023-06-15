@@ -197,6 +197,7 @@ logo "Configuring dotfiles"
 chmod -R +x ~/.config/bspwm/
 chmod -R +x ~/.config/openbox
 chmod -R +x ~/.config/i3
+chmod -R +x ~/.config/style
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod -R +x ~/.config/polybar
 chmod -R +x ~/.config/rofi
