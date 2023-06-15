@@ -18,22 +18,35 @@
 **This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
 
 
-
-| DE/WM        | i3wm                                           | bspwm                                          | openbox
-| :----------- | :--------------------------------------------- | :--------------------------------------------- | :--------------------------------------------- |
-| Screenshot   | ![i3wm](https://i.imgur.com/lWdAuJh.png)       | ![bspwm](https://i.imgur.com/Dff0iNs.png)      | ![openbox](https://i.imgur.com/LXS7K7p.png)    |
-| App launcher | ![launcher](https://i.imgur.com/A9psUwK.png)   | ![launcher](https://i.imgur.com/A9psUwK.png)   | ![launcher](https://i.imgur.com/A9psUwK.png)   |
-| Lockscreen   | ![lockscreen](https://i.imgur.com/FfobRr0.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
-
-
 # ***Menu***
+- [Screenshots](#screenshots)
 - [Packages](#-packages)
 - [Types of penguinRice users](#-types-of-penguinrice-users)
 - [What does this script do?](#-what-does-this-script-do)
 - [Style selector](#style-selector)
-- [Installation](#installation)
+- [Installation](#-installation)
 - [Tutorial](#-tutorial)
 - [Support](#-support)
+
+# ***Screenshots***
+## ***Everforest***
+### ***BSPWM***
+
+| desktop                                   | launcher                                     | lockscreen                                     |
+| :---------------------------------------: | :-------------------------------------------:| :--------------------------------------------: |
+| ![bspwm](https://i.imgur.com/Dff0iNs.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
+
+### ***Openbox***
+
+| desktop | launcher | lockscreen |
+| :-----: | :------: | :--------: |
+| ![openbox](https://i.imgur.com/LXS7K7p.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
+
+### ***i3***
+
+| desktop | launcher | lockscreen |
+| :-----: | :------: | :--------: |
+| ![i3wm](https://i.imgur.com/lWdAuJh.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
 
 # 📦 ***Packages***
 - 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
