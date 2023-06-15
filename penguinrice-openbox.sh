@@ -182,6 +182,7 @@ for archivos in ~/everforest-openbox/lightdm-config/*; do
 	fi
 done
 
+mkdir ~/.themes
 cp -R ~/everforest-openbox/themes/everforest ~/.themes/
 if [ -d "~/.themes/everforest" ]; then
 	printf "%s%s%s folder copied successfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
