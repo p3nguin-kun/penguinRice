@@ -30,42 +30,16 @@
 
 # ***Screenshots***
 ## ***Everforest***
-### ***BSPWM***
 
-| desktop                                   | launcher                                     | lockscreen                                     |
-| :---------------------------------------: | :-------------------------------------------:| :--------------------------------------------: |
-| ![bspwm](https://i.imgur.com/Dff0iNs.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
-
-### ***Openbox***
-
-| desktop | launcher | lockscreen |
-| :-----: | :------: | :--------: |
-| ![openbox](https://i.imgur.com/LXS7K7p.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
-
-### ***i3***
-
-| desktop | launcher | lockscreen |
-| :-----: | :------: | :--------: |
-| ![i3wm](https://i.imgur.com/lWdAuJh.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
+| bspwm | openbox | i3 | launcher | lockscreen |
+| :---: | :-----: | :---: | :------: | :--------: |
+| ![bspwm](https://i.imgur.com/Dff0iNs.png) | ![openbox](https://i.imgur.com/LXS7K7p.png) | ![i3wm](https://i.imgur.com/lWdAuJh.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
 
 ## ***Tokyo Night***
-### ***BSPWM***
 
-| desktop | launcher | lockscreen |
-| :-----: | :------: | :--------: |
-| ![img](https://i.imgur.com/8ukG2qw.png) | ![img](https://i.imgur.com/XH7OHeW.png) | ![img](https://i.imgur.com/H2AoxMW.png) |
-
-### ***Openbox***
-
-| desktop | launcher | lockscreen |
-| :-----: | :------: | :--------: |
-| ![img](https://i.imgur.com/0rNI4F1.png) | ![img](https://i.imgur.com/XH7OHeW.png) | ![img](https://i.imgur.com/H2AoxMW.png) |
-
-### ***i3***
-
-| desktop | launcher | lockscreen |
-| :-----: | :------: | :--------: |
-| ![img](https://i.imgur.com/eAVXR2k.png) | ![img](https://i.imgur.com/XH7OHeW.png) | ![img](https://i.imgur.com/H2AoxMW.png) |
+| bspwm | openbox | i3 | launcher | lockscreen |
+| :-----: | :-----: | :------: | :------: | :--------: |
+| ![img](https://i.imgur.com/8ukG2qw.png) | ![img](https://i.imgur.com/0rNI4F1.png) | ![img](https://i.imgur.com/eAVXR2k.png) | ![img](https://i.imgur.com/XH7OHeW.png) | ![img](https://i.imgur.com/H2AoxMW.png) |
 
 # 📦 ***Packages***
 - 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
