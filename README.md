@@ -11,7 +11,7 @@
 - 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/penguinRice](https://github.com/p3nguin-kun/penguinRice)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
-***Status***: Work in progress. PLS DON'T USE IT!!!
+***Status***: Complete
 
 **[Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [penguinRice](https://p3nguin-kun.github.io/penguinRice/) is better! <(￣︶￣)>**
 
