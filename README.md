@@ -24,7 +24,7 @@
 - [Types of penguinRice users](#-types-of-penguinrice-users)
 - [What does this script do?](#-what-does-this-script-do)
 - [Style selector](#style-selector)
-- [Installation](#-installation)
+- [Installation](#%EF%B8%8F-installation)
 - [Tutorial](#-tutorial)
 - [Support](#-support)
 
