@@ -147,6 +147,7 @@ logo "Installing dotfiles.."
 printf "Copying files to respective directories..\n"
 
 [ ! -d ~/.config ] && mkdir -p ~/.config
+[ ! -d ~/.themes ] && mkdir -p ~/.themes
 
 for archivos in ~/penguinDotfiles/.config/*; do
 	cp -R "${archivos}" ~/.config/
@@ -160,7 +161,7 @@ for archivos in ~/penguinDotfiles/.config/*; do
 done
 
 for archivos in ~/penguinDotfiles/themes/*; do
-	cp -R "${archivos}" ~/.config/
+	cp -R "${archivos}" ~/.themes/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
