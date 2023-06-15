@@ -26,6 +26,7 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + 1/2/3/4/... ``` or ``` Mod + Tab ``` - Change workspace
 - ``` Mod + Backspace ``` - Lock the system
 - ``` Mod + t ``` - Window switcher menu
+- ``` Alt + Space ``` - Change style
 - ``` Mod + Shift + c ``` - Reload the configuration file
 - ``` Mod + Shift + r ``` - Restart i3
 - ``` Mod + p ``` - Redirect sound to headphones/speakers
@@ -73,6 +74,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Shift + e``` - Start power menu
 - ```Super + Backspace``` - Lock screen
 - ```Super + 1/2/3/4/...``` and ```Ctrl + Alt + Left/Right``` - Change workspaces
+- ``` Alt + Space ``` - Change style
 - ```Super + Alt + q / r``` - Quit / Restart BSPWM
 - ```Super + Esc``` - Restart SXHKD
 - ```PrtScn``` - Take screenshot
@@ -123,6 +125,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ``` Super + Shift + e ``` - Power menu
 - ``` Super + Backspace ``` - Lock the system
 - ``` Super + Tab ``` and ```Alt + Tab``` - Window switcher menu
+- ``` Alt + Space ``` - Change style
 - ``` openbox --restart ``` and ``` Super + Shift + r ``` - Restart Openbox
 - ``` PrtScn ``` - Take screennshot
 - ``` Super + v ``` - Toggle audio settings (volume, audio devices, ...)
@@ -140,7 +143,6 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ``` Super + u ``` - Toggle shade
 - ``` Super + r ``` - Resize
 - ``` Super + m ``` - Move
-- ``` Alt + Space ``` - Window menu
 
 ## ***Ranger (file manager)***
 
