@@ -12,6 +12,7 @@
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Status***: Work in progress. PLS DON'T USE IT!!!
+
 **[Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [penguinRice](https://p3nguin-kun.github.io/penguinRice/) is better! <(￣︶￣)>**
 
 **This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
