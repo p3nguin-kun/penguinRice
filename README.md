@@ -17,6 +17,9 @@
 
 **This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
 
+Showcase video:
+
+[<img src="https://img.youtube.com/vi/aYcmIjYeFaU/maxresdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/aYcmIjYeFaU)
 
 # ***Menu***
 - [Screenshots](#screenshots)
