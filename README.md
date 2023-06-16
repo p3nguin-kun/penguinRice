@@ -29,39 +29,39 @@
 - [Support](#-support)
 
 # ***Screenshots***
-## ***Everforest: Greenish style for eye protection.n***
+## ***Everforest: Greenish style for eye protection.***
 
-| bspwm | openbox | i3 | launcher | lockscreen |
+| bspwm | openbox | i3wm | launcher | lockscreen |
 | :-----: | :----: | :-----: | :-----: | :-----: |
 | ![bspwm](https://i.imgur.com/Dff0iNs.png) | ![openbox](https://i.imgur.com/LXS7K7p.png) | ![i3wm](https://i.imgur.com/lWdAuJh.png) | ![launcher](https://i.imgur.com/A9psUwK.png) | ![lockscreen](https://i.imgur.com/FfobRr0.png) |
 
 ## ***Tokyo Night:  A clean theme that celebrates the lights of Downtown Tokyo at night.***
 
-| bspwm | openbox | i3 | launcher | lockscreen |
+| bspwm | openbox | i3wm | launcher | lockscreen |
 | :-----: | :----: | :-----: | :-----: | :-----: |
 | ![img](https://i.imgur.com/8ukG2qw.png) | ![img](https://i.imgur.com/0rNI4F1.png) | ![img](https://i.imgur.com/eAVXR2k.png) | ![img](https://i.imgur.com/XH7OHeW.png) | ![img](https://i.imgur.com/H2AoxMW.png) |
 
 ## ***Gruvbox: Retro groove style.***
 
-| bspwm | openbox | i3 | launcher | lockscreen |
+| bspwm | openbox | i3wm | launcher | lockscreen |
 | :-----: | :----: | :-----: | :-----: | :-----: |
 | ![img](https://i.imgur.com/BqYy56B.png) | ![img](https://i.imgur.com/RnDNwKk.png) | ![img](https://i.imgur.com/9ZF3WYF.png) | ![img](https://i.imgur.com/N9Q8tyS.png) | ![img](https://i.imgur.com/PRgFmcU.png)
 
 ## ***Nord: An arctic, north-bluish style.***
 
-| bspwm | openbox | i3 | launcher | lockscreen |
+| bspwm | openbox | i3wm | launcher | lockscreen |
 | :-----: | :----: | :-----: | :-----: | :-----: |
 | ![img](https://i.imgur.com/EvaZ5cR.png) | ![img](https://i.imgur.com/h4lRU2P.png) | ![img](https://i.imgur.com/UbI9j7O.png) | ![img](https://i.imgur.com/OoArZbj.png) | ![img](https://i.imgur.com/akecz3f.png)
 
 ## ***Catppuccin: Cute style with pastel colorpalette***
 
-| bspwm | openbox | i3 | launcher | lockscreen |
+| bspwm | openbox | i3wm | launcher | lockscreen |
 | :-----: | :----: | :-----: | :-----: | :-----: |
 | ![img](https://i.imgur.com/GetMHxj.png) | ![img](https://i.imgur.com/u94BEgG.png) | ![img](https://i.imgur.com/8XIJCIl.png) | ![img](https://i.imgur.com/3OVkISz.png) | ![img](https://i.imgur.com/k0oJm3k.png)
 
 ## ***Dracula: Halloween style (but you can still use it any day of the year)***
 
-| bspwm | openbox | i3 | launcher | lockscreen |
+| bspwm | openbox | i3wm | launcher | lockscreen |
 | :-----: | :----: | :-----: | :-----: | :-----: |
 | ![img](https://i.imgur.com/1vsXK9F.png) | ![img](https://i.imgur.com/IWkbOb4.png) | ![img](https://i.imgur.com/aGb5CKV.png) | ![img](https://i.imgur.com/kFgbyZC.png) | ![img](https://i.imgur.com/4Dl0FbM.png)
 
