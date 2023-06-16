@@ -41,6 +41,12 @@
 | :-----: | :-----: | :------: | :------: | :--------: |
 | ![img](https://i.imgur.com/8ukG2qw.png) | ![img](https://i.imgur.com/0rNI4F1.png) | ![img](https://i.imgur.com/eAVXR2k.png) | ![img](https://i.imgur.com/XH7OHeW.png) | ![img](https://i.imgur.com/H2AoxMW.png) |
 
+## ***Gruvbox***
+
+| bspwm | openbox | i3 | launcher | lockscreen |
+| :---: | :-----: | :-: | :------: | :--------: |
+| ![img](https://i.imgur.com/BqYy56B.png) | ![img](https://i.imgur.com/RnDNwKk.png) | ![img](https://i.imgur.com/9ZF3WYF.png) | ![img](https://i.imgur.com/N9Q8tyS.png) | ![img](https://i.imgur.com/PRgFmcU.png)
+
 # 📦 ***Packages***
 - 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
