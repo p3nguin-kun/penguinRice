@@ -105,7 +105,7 @@
 # ***Style selector***
 penguinRice now has style selector for people want to change desktop's style, just press ```Alt + space``` and style selector will appear on your screen
 
-![img](https://i.imgur.com/s2FbqA6.png)
+![img](https://i.imgur.com/7txD27N.png)
 
 # 🛠️ ***Installation***
 
