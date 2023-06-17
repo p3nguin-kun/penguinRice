@@ -188,6 +188,16 @@ battery = BAT1
 adapter = ACT0
 ```
 
+- (Everforest and Gruvbox) Edit battery_i
+```
+[module/battery_i]
+type = internal/battery
+
+full-at = 99
+battery = BAT0 (change to your battery)
+adapter = AC (change to your adapter)
+```
+
 # 💝 Support
 
 If you like penguinRice and would like to support & appreciate it via donation then I'll gladly accept it.
