@@ -23,9 +23,9 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + Return ``` - Start terminal
 - ``` Mod + q ``` - Kill focused window
 - ``` Mod + Shift + e ``` - Power menu
-- ``` Mod + 1/2/3/4/... ``` or ``` Mod + Tab ``` - Change workspace
+- ``` Mod + 1/2/3/4/... ``` - Change workspace
 - ``` Mod + Backspace ``` - Lock the system
-- ``` Mod + t ``` - Window switcher menu
+- ``` Mod + Tab ``` - Window switcher menu
 - ``` Alt + Space ``` - Change style
 - ``` Mod + Shift + c ``` - Reload the configuration file
 - ``` Mod + Shift + r ``` - Restart i3
@@ -77,6 +77,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Shift + w``` - Close/kill all windows
 - ```Super + Shift + e``` - Start power menu
 - ```Super + Backspace``` - Lock screen
+- ``` Super + Tab ``` - Window switcher menu
 - ```Super + 1/2/3/4/...``` and ```Ctrl + Alt + Left/Right``` - Change workspaces
 - ``` Alt + Space ``` - Change style
 - ```Super + Alt + q / r``` - Quit / Restart BSPWM
@@ -97,7 +98,6 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ``` Super + l ``` or ``` Super + Right ``` - Focus right
 - ```Super (+ Shift) + c``` - Focus the next/previous window
 - ```Super + [ / ]``` - Focus the next/previous desktop
-- ```Super + Tab``` - Focus the last window/desktop
 - ```Super (+ Shift) + 1/2/3/4...``` - Focus desktop/send window to desktop
 
 #### ***Move/resize focused window***
