@@ -31,6 +31,7 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 - ``` Mod + Shift + r ``` - Restart i3
 - ``` Mod + p ``` - Redirect sound to headphones/speakers
 - ``` PrtScn ``` - Take screennshot
+- ``` Mod + Shift + b ``` - Toggle Polybar
 
 ### ***Manage windows***
 
@@ -66,6 +67,9 @@ By default, ``` Mod key ``` will be ``` Windows key ``` or ``` Super key ```, bu
 ### ***Super key***
 By default, ``` Super key ``` will be ``` Windows key ```
 
+### ***Full keybindings list***
+``` Super + ` ```
+
 ### ***Common keybindings***
 - ```Super + Enter``` - Start terminal
 - ```Super + Space``` - Start application launcher
@@ -78,6 +82,7 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```Super + Alt + q / r``` - Quit / Restart BSPWM
 - ```Super + Esc``` - Restart SXHKD
 - ```PrtScn``` - Take screenshot
+- ``` Super + Shift + b ``` - Toggle Polybar
 
 ### ***Manage windows***
 
