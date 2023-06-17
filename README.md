@@ -29,6 +29,7 @@ Showcase video:
 - [Style selector](#style-selector)
 - [Installation](#%EF%B8%8F-installation)
 - [Tutorial](#-tutorial)
+- [Issues](#issues)
 - [Support](#-support)
 
 # ***Screenshots***
@@ -151,6 +152,41 @@ sh penguinrice.sh
 1. Fork this project.
 2. Edit the scripts, add/edit the keybindings.
 3. Make a pull request.
+
+# ***Issues***
+## **Battery percentage does not show up**
+Because each device is different, I can't configure it to work on all devices, but you can fix it by doing the following:
+- Go to ```~/.config/polybar```
+- Open ```modules.ini``` with any text editor
+- Find this
+```
+[module/battery]
+type = internal/battery
+
+; This is useful in case the battery never reports 100% charge
+full-at = 99
+
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = AC
+```
+- Run ```ls -1 /sys/class/power_supply/``` to list batteries and adapters
+- Edit
+
+example:
+```
+[module/battery]
+type = internal/battery
+
+; This is useful in case the battery never reports 100% charge
+full-at = 99
+
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT1
+adapter = ACT0
+```
 
 # 💝 Support
 
