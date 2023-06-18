@@ -195,6 +195,9 @@ By default, ``` Super key ``` will be ``` Windows key ```
 - ```z``` - Change settings
 
 ## ***NeoVim (text editor)***
+Too lazy to make NeoVim and NvChad cheatsheets
+- ```:help``` - Tutorial
+- ```:NvCheatsheet``` - NvChad cheatsheet
 
 ## ***ncmpcpp (music player)***
 
