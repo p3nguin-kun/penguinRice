@@ -236,7 +236,7 @@ clear
 logo "Configuring LightDM"
 
 sudo mkdir -p /usr/share/backgrounds/
-sudo cp ~/.config/wallpapers/wall2.png /usr/share/backgrounds
+sudo cp ~/.config/wallpapers/everforest-wall2.png /usr/share/backgrounds
 sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-greeter/g" /etc/lightdm/lightdm.conf
 clear
 
