@@ -98,6 +98,9 @@ printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
 sleep 2
+printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
+cd
+git clone --depth=1 https://github.com/p3nguin-kun/penguinFox.git
 clear
 
 # Backup dotfiles
