@@ -8,6 +8,7 @@
 
 - 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
 - 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinRice)
+- ***Wiki***: [https://github.com/p3nguin-kun/penguinRice/wiki](https://github.com/p3nguin-kun/penguinRice/wiki)
 - 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/penguinRice](https://github.com/p3nguin-kun/penguinRice)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
