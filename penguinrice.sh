@@ -98,9 +98,6 @@ printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
 sleep 2
-printf "Cloning Firefox config from https://github.com/p3nguin-kun/penguinFox\n"
-cd
-git clone --depth=1 https://github.com/p3nguin-kun/penguinFox.git
 clear
 
 # Backup dotfiles
@@ -141,6 +138,7 @@ done
 
 printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 5
+clear
 
 # Installing dotfiles
 logo "Installing dotfiles.."
@@ -192,6 +190,14 @@ for archivos in ~/penguinDotfiles/lightdm-config/*; do
 		sleep 1
 	fi
 done
+clear
+
+# Installing NvChad
+logo "Installing NvChad"
+rm -rf ~/.local/share/nvim
+rm -rf ~/.config/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+clear
 
 # Configuring dotfiles
 logo "Configuring dotfiles"
@@ -207,6 +213,7 @@ cp /etc/X11/xinit/xinitrc .xinitrc
 echo "exec bspwm" >>.xinitrc
 touch ~/.Xresources
 printf "Xcursor.theme: Qogir-dark\nXcursor.size: 16" >>~/.Xresources
+clear
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"
@@ -215,10 +222,12 @@ grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /et
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
+clear
 
 # Updating arkenfox user.js and overriding settings
 logo "Updating arkenfox user.js and overriding settings"
 sh ~/.mozilla/firefox/*.default-release/updater.sh
+clear
 
 # Configuring LightDM
 logo "Configuring LightDM"
@@ -226,6 +235,7 @@ logo "Configuring LightDM"
 sudo mkdir -p /usr/share/backgrounds/
 sudo cp ~/.config/wallpapers/wall2.png /usr/share/backgrounds
 sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-slick-greeter/g" /etc/lightdm/lightdm.conf
+clear
 
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
@@ -235,6 +245,7 @@ fi
 
 echo "Enabling LightDM"
 sudo systemctl enable lightdm
+clear
 
 # Enabling services
 logo "Enabling services"
@@ -244,6 +255,7 @@ systemctl --user start mpd.service
 sudo systemctl enable pipewire pipewire-pulse wireplumber NetworkManager
 printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
+clear
 
 # Changing shell to fish and goodbye
 logo "Changing default shell to fish"
