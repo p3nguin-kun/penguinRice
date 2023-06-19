@@ -272,5 +272,4 @@ if [[ $SHELL != "/usr/bin/fish" ]]; then
 	chsh -s /usr/bin/fish
 else
 	printf "%s%sYour shell is already fish\nGood bye! installation finished, now reboot%s\n" "${BLD}" "${CGR}" "${CNC}"
-	fish
 fi
