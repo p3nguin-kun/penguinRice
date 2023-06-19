@@ -146,7 +146,7 @@ sh penguinrice.sh
 
 # 📑 ***Tutorial***
 - penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](https://p3nguin-kun.github.io/penguinRice/keybindings)
-
+- You can read penguinRice's wiki [here](https://github.com/p3nguin-kun/penguinRice/wiki)
 # ***Contributions***
 
 1. Fork this project.
