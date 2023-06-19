@@ -82,7 +82,7 @@ yay -S --noconfirm betterlockscreen dragon-drop picom-pijulius-git qogir-icon-th
 
 # Installing lmaofetch
 logo "Installing lmaofetch"
-git clone https://github.com/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && chmod +x usr/local/bin/lmaofetch
+git clone https://github.com/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && chmod +x /usr/local/bin/lmaofetch
 
 # Preparing folders
 logo "Preparing folders"
