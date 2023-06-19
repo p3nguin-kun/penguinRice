@@ -125,6 +125,15 @@ for folder in alacritty bspwm btop calcurse dunst fish gtk-3.0 gtk-4.0 i3 mpd nc
 	fi
 done
 
+for folder in wallpapers; do
+	if [ -d "$HOME"/$folder ]; then
+		mv "$HOME"/$folder "$backup_folder"/${folder}_$date
+		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
+	else
+		echo "The folder $folder does not exist in $HOME/.mozilla/firefox/"
+	fi
+done
+
 for folder in chrome; do
 	if [ -d "$HOME"/.mozilla/firefox/*.default-release/$folder ]; then
 		mv "$HOME"/.mozilla/firefox/*.default-release/$folder "$backup_folder"/${folder}_$date
@@ -197,6 +206,18 @@ for archivos in ~/penguinDotfiles/lightdm-config/*; do
 		sleep 1
 	fi
 done
+
+for archivos in ~/penguinDotfiles/wallpapers/*; do
+	cp -R "${archivos}" ~/
+	if [ $? -eq 0 ]; then
+		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+		sleep 1
+	else
+		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		sleep 1
+	fi
+done
+
 clear
 
 # Installing NvChad
