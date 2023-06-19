@@ -80,6 +80,10 @@ fi
 echo "Installing AUR packages"
 yay -S --noconfirm betterlockscreen dragon-drop picom-pijulius-git qogir-icon-theme ttf-icomoon-feather
 
+# Installing lmaofetch
+logo "Installing lmaofetch
+git clone https://github.com/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && chmod +x usr/local/bin/lmaofetch
+
 # Preparing folders
 logo "Preparing folders"
 if [ ! -e $HOME/.config/user-dirs.dirs ]; then
