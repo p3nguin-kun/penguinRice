@@ -82,6 +82,7 @@ yay -S --noconfirm betterlockscreen dragon-drop picom-pijulius-git qogir-icon-th
 
 # Installing lmaofetch
 logo "Installing lmaofetch"
+cd
 git clone https://github.com/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && sudo chmod +x /usr/local/bin/lmaofetch
 
 # Preparing folders
@@ -280,7 +281,7 @@ logo "Enabling services"
 
 systemctl --user enable mpd.service
 systemctl --user start mpd.service
-sudo systemctl enable pipewire pipewire-pulse wireplumber NetworkManager
+sudo systemctl enable NetworkManager
 printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 clear
