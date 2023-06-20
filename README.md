@@ -8,10 +8,10 @@
 
 i dont use github anymore, pls switch to codeberg
 
-- 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
+- 👩‍💻 ***Author***: [@p3nguin-kun](https://codeberg.org/p3nguin-kun)
 - 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinRice)
 - ***Wiki***: [https://github.com/p3nguin-kun/penguinRice/wiki](https://github.com/p3nguin-kun/penguinRice/wiki)
-- 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/penguinRice](https://github.com/p3nguin-kun/penguinRice)
+- 🐈‍⬛ ***Codeberg***: https://codeberg.org/p3nguin-kun/penguinRice
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Status***: Complete
