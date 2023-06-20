@@ -6,6 +6,8 @@
 ![GitHub issues](https://img.shields.io/github/issues/p3nguin-kun/penguinRice?color=cc241d&style=for-the-badge)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/p3nguin-kun/penguinRice?color=689d6a&style=for-the-badge)
 
+i dont use github anymore, pls switch to codeberg
+
 - 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
 - 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinRice)
 - ***Wiki***: [https://github.com/p3nguin-kun/penguinRice/wiki](https://github.com/p3nguin-kun/penguinRice/wiki)
