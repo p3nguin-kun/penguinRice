@@ -258,12 +258,6 @@ logo "Updating arkenfox user.js and overriding settings"
 sh ~/.mozilla/firefox/*.default-release/updater.sh
 clear
 
-# Configuring LightDM
-logo "Configuring LightDM"
-
-sudo sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-webkit2-greeter/g" /etc/lightdm/lightdm.conf
-clear
-
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
 	echo "Disabling currently enabled display manager"
