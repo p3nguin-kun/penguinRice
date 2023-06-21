@@ -98,7 +98,8 @@ clear
 
 # Downloading dotfiles
 logo "Downloading dotfiles"
-[ -d ~/everforest-bspwm ] && rm -rf ~/everforest-bspwm
+[ -d ~/penguinDotfiles ] && rm -rf ~/penguinDotfiles
+[ -d ~/penguinFox ] && rm -rf ~/penguinFox
 printf "Cloning rice from https://codeberg.org/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://codeberg.org/p3nguin-kun/penguinDotfiles.git
