@@ -83,7 +83,7 @@ yay -S --noconfirm betterlockscreen dragon-drop picom-pijulius-git qogir-icon-th
 # Installing lmaofetch
 logo "Installing lmaofetch"
 cd
-git clone https://github.com/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && sudo chmod +x /usr/local/bin/lmaofetch
+git clone https://codeberg.org/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && sudo chmod +x /usr/local/bin/lmaofetch
 
 # Preparing folders
 logo "Preparing folders"
@@ -99,13 +99,13 @@ clear
 # Downloading dotfiles
 logo "Downloading dotfiles"
 [ -d ~/everforest-bspwm ] && rm -rf ~/everforest-bspwm
-printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
+printf "Cloning rice from https://codeberg.org/p3nguin-kun/penguinDotfiles\n"
 cd
-git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
+git clone --depth=1 https://codeberg.org/p3nguin-kun/penguinDotfiles.git
 sleep 2
-printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
+printf "Cloning rice from https://codeberg.org/p3nguin-kun/penguinDotfiles\n"
 cd
-git clone --depth=1 https://github.com/p3nguin-kun/penguinFox.git
+git clone --depth=1 https://codeberg.org/p3nguin-kun/penguinFox.git
 clear
 
 # Backup dotfiles
