@@ -112,7 +112,7 @@ sh penguinrice.sh
 8. Done! Now you can use fully-featured floating/tiling window manager on your computer
 
 # ***Tutorial***
-- penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](hhttps://codeberg.org/p3nguin-kun/penguinRice/wiki/2.-Keybindings-and-commands)
+- penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](https://github.com/p3nguin-kun/penguinRice/wiki/2.-Keybindings-and-commands)
 - You can read penguinRice's wiki [here](https://codeberg.org/p3nguin-kun/penguinRice/wiki)
 
 # ***Contributions***
