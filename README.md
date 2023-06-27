@@ -2,8 +2,8 @@
 
 i dont use github anymore, pls switch to codeberg
 
-- 👩‍💻 ***Author***: [p3nguin-kun](https://codeberg.org/p3nguin-kun)
-- ***Wiki***: https://codeberg.org/p3nguin-kun/penguinRice/wiki
+- 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
+- ***Wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Status***: Complete
@@ -37,7 +37,7 @@ Showcase video:
 | ![img](https://i.imgur.com/Keg5lHS.png) |
 
 # ***Packages***
-- 🔴 ***Dotfiles***: [penguinDotfiles](https://codeberg.org/p3nguin-kun/penguinDotfiles)
+- 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
@@ -92,7 +92,7 @@ sudo pacman -S git
 
 3. Clone this repository
 ```
-git clone https://codeberg.org/p3nguin-kun/penguinRice
+git clone https://github.com/p3nguin-kun/penguinRice
 ```
 
 4. Go to penguinRice directory
