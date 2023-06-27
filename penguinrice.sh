@@ -3,7 +3,6 @@
 # penguinRice
 # p3nguin-kun's auto rice script
 # Author: Khanh Hien Hoang (p3nguin-kun)
-# GitHub: p3nguin-kun
 # Website: https://p3nguin-kun.github.io
 
 CRE=$(tput setaf 1)
@@ -20,7 +19,7 @@ logo() {
 
 	local text="${1:?}"
 	echo -en "                                 
-  penguinRice (bspwm ver.)\n\n"
+  penguinRice\n\n"
 	printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}"
 }
 
@@ -48,7 +47,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty alsa-utils arandr blueberry bspwm btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb i3-wm jq lightdm lightdm-webkit-theme-litarvan lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neofetch neovim networkmanager network-manager-applet numlockx obconf openbox pavucontrol pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd sysstat thunar ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xf86-input-libinput xf86-input-evdev xf86-video-amdgpu xf86-video-ati xf86-video-fbdev xf86-video-intel xf86-video-nouveau xf86-video-vmware xfce4-power-manager xfce4-screenshooter xorg xorg-xbacklight xorg-xdpyinfo xorg-xinit xss-lock zathura zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps zip)
+dependencies=(alacritty alsa-utils arandr archlinux-xdg-menu bspwm btop calcurse dunst feh fish gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet numlockx obconf openbox pavucontrol picom pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xorg xorg-drivers xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -58,7 +57,7 @@ is_installed() {
 printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
 for paquete in "${dependencies[@]}"; do
 	if ! is_installed "$paquete"; then
-		sudo pacman -S "$paquete" --noconfirm
+		sudo pacman -S --noconfirm "$paquete"
 		printf "\n"
 	else
 		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
@@ -78,35 +77,26 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen dragon-drop picom-pijulius-git qogir-icon-theme ttf-icomoon-feather
-
-# Installing lmaofetch
-logo "Installing lmaofetch"
-cd
-git clone https://codeberg.org/p3nguin-kun/lmaofetch && sudo cp ~/lmaofetch/lmaofetch /usr/local/bin/ && sudo chmod +x /usr/local/bin/lmaofetch
+yay -S --noconfirm betterlockscreen brave-bin dragon-drop lmaofetch qogir-icon-theme ttf-icomoon-feather
 
 # Preparing folders
-logo "Preparing folders"
+logo "Preparing Folders"
 if [ ! -e $HOME/.config/user-dirs.dirs ]; then
 	xdg-user-dirs-update
-	echo "Creating xdg-user-dirs "
+	echo "Creating xdg-user-dirs"
 else
 	echo "user-dirs.dirs already exists"
 fi
-sleep 2
+sleep 2 
 clear
 
 # Downloading dotfiles
 logo "Downloading dotfiles"
 [ -d ~/penguinDotfiles ] && rm -rf ~/penguinDotfiles
-[ -d ~/penguinFox ] && rm -rf ~/penguinFox
 printf "Cloning rice from https://codeberg.org/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://codeberg.org/p3nguin-kun/penguinDotfiles.git
 sleep 2
-printf "Cloning rice from https://codeberg.org/p3nguin-kun/penguinDotfiles\n"
-cd
-git clone --depth=1 https://codeberg.org/p3nguin-kun/penguinFox.git
 clear
 
 # Backup dotfiles
@@ -136,24 +126,6 @@ for folder in wallpapers; do
 	fi
 done
 
-for folder in chrome; do
-	if [ -d "$HOME"/.mozilla/firefox/*.default-release/$folder ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-release/$folder "$backup_folder"/${folder}_$date
-		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
-	else
-		echo "The folder $folder does not exist in $HOME/.mozilla/firefox/"
-	fi
-done
-
-for file in user.js; do
-	if [ -e "$HOME"/.mozilla/firefox/*.default-release/$file ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-release/$file "$backup_folder"/${file}_$date
-		echo "$file file backed up successfully at $backup_folder/${file}_$date"
-	else
-		echo "The file $file does not exist in $HOME/.mozilla/firefox/"
-	fi
-done
-
 printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 5
 clear
@@ -178,17 +150,6 @@ done
 
 for archivos in ~/penguinDotfiles/themes/*; do
 	cp -R "${archivos}" ~/.themes/
-	if [ $? -eq 0 ]; then
-		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
-	else
-		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
-		sleep 1
-	fi
-done
-
-for archivos in ~/penguinFox/*; do
-	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
@@ -254,10 +215,11 @@ printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 clear
 
-# Updating arkenfox user.js and overriding settings
-logo "Updating arkenfox user.js and overriding settings"
-sh ~/.mozilla/firefox/*.default-release/updater.sh
-clear
+# Install LightDM
+logo "Installing LightDM theme"
+cd
+git clone https://codeberg.org/p3nguin-kun/lightdm-minimal
+sudo cp -R ~/lightdm-minimal /usr/share/lightdm-webkit/themes/minimal
 
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
