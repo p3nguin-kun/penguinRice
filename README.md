@@ -50,7 +50,7 @@ Showcase video:
 - 📅 ***Calendar***: [calcurse](https://calcurse.org/)
 - 🎞️ ***Media player***: [mpv](https://mpv.io) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 - 🖼️ ***Photo viewer***: [feh](https://feh.finalrewind.org/)
-- ℹ️ ***Fetch***: [lmaofetch](https://codeberg.org/p3nguin-kun/lmaofetch)
+- ℹ️ ***Fetch***: [lmaofetch](https://github.com/p3nguin-kun/lmaofetch)
 - 📊 ***System monitor***: [btop](https://github.com/aristocratos/btop)
 - 🖥️ ***Manage screens***: [ARandR](https://christian.amsuess.com/tools/arandr/)
 - 🔔 ***Notification***: [dunst](https://dunst-project.org/)
