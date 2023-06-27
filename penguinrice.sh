@@ -3,6 +3,7 @@
 # penguinRice
 # p3nguin-kun's auto rice script
 # Author: Khanh Hien Hoang (p3nguin-kun)
+# GitHub: p3nguin-kun
 # Website: https://p3nguin-kun.github.io
 
 CRE=$(tput setaf 1)
@@ -93,9 +94,9 @@ clear
 # Downloading dotfiles
 logo "Downloading dotfiles"
 [ -d ~/penguinDotfiles ] && rm -rf ~/penguinDotfiles
-printf "Cloning rice from https://codeberg.org/p3nguin-kun/penguinDotfiles\n"
+printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
-git clone --depth=1 https://codeberg.org/p3nguin-kun/penguinDotfiles.git
+git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
 sleep 2
 clear
 
@@ -184,9 +185,11 @@ done
 clear
 
 # Installing NvChad
+[ -d ~/NvChad ] && rm -rf ~/NvChad
 logo "Installing NvChad"
 rm -rf ~/.local/share/nvim
 rm -rf ~/.config/nvim
+cd
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 clear
 
@@ -215,10 +218,11 @@ printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 clear
 
-# Install LightDM
+# Install LightDM theme
+[ -d ~/lightdm-minimal ] && rm -rf ~/lightdm-minimal
 logo "Installing LightDM theme"
 cd
-git clone https://codeberg.org/p3nguin-kun/lightdm-minimal
+git clone https://github.com/p3nguin-kun/lightdm-minimal
 sudo cp -R ~/lightdm-minimal /usr/share/lightdm-webkit/themes/minimal
 
 # Disable currently enabled display manager
