@@ -42,7 +42,7 @@ Showcase video:
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
 - 🌐 ***Browser***: [Brave](https://brave.com/)
-- 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start) (Openbox only)
+- 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start)
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
 - 📄 ***Text editor***: [NeoVim](https://neovim.io) with [NvChad](https://github.com/NvChad/NvChad)
