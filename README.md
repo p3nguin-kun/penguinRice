@@ -30,7 +30,7 @@ Showcase video:
 
 | Everforest | Tokyo Night | Gruvbox |
 | :--------: | :---------: | :-----: |
-| ![img](https://i.imgur.com/B9SdLpk.png) | ![img](https://i.imgur.com/wMMFW8w.png) | ![img](https://i.imgur.com/E2vApoC.png) |
+| ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/wMMFW8w.png) | ![img](https://i.imgur.com/E2vApoC.png) |
 | Nord | Catppuccin | Dracula |
 | ![img](https://i.imgur.com/ABglZDS.png) | ![img](https://i.imgur.com/4AYL12A.png) | ![img](https://i.imgur.com/ZbMtf6x.png) |
 | Monochrome |
