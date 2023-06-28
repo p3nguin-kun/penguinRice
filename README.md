@@ -1,14 +1,12 @@
 # ***penguinRice***
 
-i dont use github anymore, pls switch to codeberg
-
 - 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - ***Wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Status***: Complete
 
-**This script will automatically install fully-featured tiling/floating window manager-based system on any supported Linux distro.**
+**This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
 
 Showcase video:
 
@@ -82,8 +80,7 @@ penguinRice now has style selector for people want to change desktop's style, ju
 
 1. Install [Git](https://git-scm.com/) if you don't have it
 ```
-sudo pacman -S git  (Arch Linux or Arch-based)
-sudo apt install git  (Ubuntu)
+sudo pacman -S git
 ```
 
 2. Clone this repository
@@ -98,8 +95,7 @@ cd penguinRice
 
 4. Run this script
 ```
-sh penguinrice-arch.sh  (If you use Arch Linux or Arch-based distro)
-sh penguinrice-ubuntu.sh  (If you use Ubuntu)
+sh penguinrice.sh
 ```
 
 5. Follow the instruction
