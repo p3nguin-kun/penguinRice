@@ -8,9 +8,7 @@ i dont use github anymore, pls switch to codeberg
 
 ***Status***: Complete
 
-**[Ubuntu](https://ubuntu.com) is bloated! [Arch Linux](https://archlinux.org) with [penguinRice](https://codeberg.org/p3nguin-kun/penguinRice) is better! <(￣︶￣)>**
-
-**This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
+**This script will automatically install fully-featured tiling/floating window manager-based system on any supported Linux distro.**
 
 Showcase video:
 
@@ -102,7 +100,8 @@ cd penguinRice
 
 5. Run this script
 ```
-sh penguinrice.sh
+sh penguinrice-arch.sh  (If you use Arch Linux or Arch-based distro)
+sh penguinrice-ubuntu.sh  (If you use Ubuntu)
 ```
 
 6. Follow the instruction
