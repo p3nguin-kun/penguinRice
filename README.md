@@ -80,35 +80,33 @@ penguinRice now has style selector for people want to change desktop's style, ju
 
 ***Note: You need to login as normal user to use this script***
 
-1. Install [Arch Linux](https://archlinux.org) or any Arch-based distro
-> You can use [archinstall](https://wiki.archlinux.org/title/archinstall) to install [Arch Linux](https://archlinux.org) (Choose Minimal profile)
-
-2. Install [Git](https://git-scm.com/) if you don't have it
+1. Install [Git](https://git-scm.com/) if you don't have it
 ```
-sudo pacman -S git
+sudo pacman -S git  (Arch Linux or Arch-based)
+sudo apt install git  (Ubuntu)
 ```
 
-3. Clone this repository
+2. Clone this repository
 ```
 git clone https://github.com/p3nguin-kun/penguinRice
 ```
 
-4. Go to penguinRice directory
+3. Go to penguinRice directory
 ```
 cd penguinRice
 ```
 
-5. Run this script
+4. Run this script
 ```
 sh penguinrice-arch.sh  (If you use Arch Linux or Arch-based distro)
 sh penguinrice-ubuntu.sh  (If you use Ubuntu)
 ```
 
-6. Follow the instruction
+5. Follow the instruction
 
-7. Restart your computer
+6. Restart your computer
 
-8. Done! Now you can use fully-featured floating/tiling window manager on your computer
+7. Done! Now you can use fully-featured floating/tiling window manager on your computer
 
 # ***Tutorial***
 - penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](https://github.com/p3nguin-kun/penguinRice/wiki/2.-Keybindings-and-commands)
