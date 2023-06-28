@@ -279,4 +279,4 @@ rm -rf betterlockscreen-main i3lock-color lmaofetch Qogir-icon-theme
 # Changing shell to fish and goodbye
 logo "Changing default shell to fish"
 chsh -s /usr/bin/fish
-printf "Goodbye!"
+printf "Goodbye and see you again! Now reboot."
