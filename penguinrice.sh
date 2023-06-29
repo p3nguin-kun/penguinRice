@@ -219,7 +219,6 @@ for archivos in ~/penguinFox/*; do
   cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
   if [ $? -eq 0 ]; then
 	printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-	sleep 1
   else
 	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 	sleep 1
