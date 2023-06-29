@@ -67,7 +67,6 @@ Showcase video:
 - Customize your computer
 - Automatically install yay, an AUR helper
 - Config Firefox with FirefoxCSS, harden with arkenfox user.js and install uBlock Origin
-- Change ```Caps Lock``` to ```Escape``` (because nobody use Caps Lock)
 
 # ***Style selector***
 penguinRice now has style selector for people want to change desktop's style, just press ```Alt + space``` and style selector will appear on your screen
