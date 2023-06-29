@@ -62,10 +62,9 @@ for paquete in "${dependencies[@]}"; do
 		printf "\n"
 	else
 		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
-		sleep 1
 	fi
 done
-sleep 3
+sleep 1
 clear
 
 # Installing yay
@@ -88,7 +87,7 @@ if [ ! -e $HOME/.config/user-dirs.dirs ]; then
 else
 	echo "user-dirs.dirs already exists"
 fi
-sleep 2 
+sleep 1
 clear
 
 # Downloading dotfiles
@@ -97,13 +96,13 @@ logo "Downloading dotfiles"
 printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
-sleep 2
+sleep 1
 clear
 
 # Backup dotfiles
 logo "Backing-up dotfiles"
 printf "Backup files will be stored in %s%s%s/.RiceBackup%s \n\n" "${BLD}" "${CRE}" "$HOME" "${CNC}"
-sleep 10
+sleep 1
 
 if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
@@ -128,7 +127,7 @@ for folder in wallpapers; do
 done
 
 printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
-sleep 5
+sleep 1
 clear
 
 # Installing dotfiles
@@ -142,7 +141,6 @@ for archivos in ~/penguinDotfiles/.config/*; do
 	cp -R "${archivos}" ~/.config/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
 	else
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
@@ -153,7 +151,6 @@ for archivos in ~/penguinDotfiles/themes/*; do
 	cp -R "${archivos}" ~/.themes/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
 	else
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
@@ -164,7 +161,6 @@ for archivos in ~/penguinDotfiles/lightdm-config/*; do
 	sudo cp -R "${archivos}" /etc/lightdm/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
 	else
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
@@ -175,13 +171,14 @@ for archivos in ~/penguinDotfiles/wallpapers; do
 	cp -R "${archivos}" ~/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
 	else
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
 	fi
 done
 
+printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
 clear
 
 # Installing NvChad
@@ -191,6 +188,8 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.config/nvim
 cd
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
 clear
 
 # Configuring dotfiles
@@ -207,6 +206,8 @@ cp /etc/X11/xinit/xinitrc .xinitrc
 echo "exec bspwm" >>.xinitrc
 touch ~/.Xresources
 printf "Xcursor.theme: Qogir-dark\nXcursor.size: 16" >>~/.Xresources
+printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
 clear
 
 # Configuring pacman (for what???)
@@ -215,7 +216,7 @@ logo "Configuring pacman (for what???)"
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
-sleep 2
+sleep 1
 clear
 
 # Install LightDM theme
@@ -224,6 +225,8 @@ logo "Installing LightDM theme"
 cd
 git clone https://github.com/p3nguin-kun/lightdm-minimal
 sudo cp -R ~/lightdm-minimal /usr/share/lightdm-webkit/themes/minimal
+printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
 
 # Disable currently enabled display manager
 if systemctl list-unit-files | grep enabled | grep -E 'gdm|lightdm|lxdm|lxdm-gtk3|sddm|slim|xdm'; then
@@ -243,7 +246,7 @@ systemctl --user start mpd.service
 sudo systemctl enable NetworkManager
 systemctl --user enable pipewire pipewire-pulse wireplumber
 printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
-sleep 2
+sleep 1
 clear
 
 # Changing shell to fish and goodbye
