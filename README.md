@@ -37,7 +37,7 @@ Showcase video:
 - 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
 - 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
 - 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
-- 🌐 ***Browser***: [Brave](https://brave.com/)
+- 🌐 ***Browser***: [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [penguinFox](https://github.com/p3nguin-kun/penguinFox)
 - 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start)
 - 🐚 ***Shell***: [fish](https://fishshell.com/)
 - 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
