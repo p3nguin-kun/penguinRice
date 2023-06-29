@@ -77,7 +77,24 @@ else
 fi
 
 echo "Installing AUR packages"
-yay -S --noconfirm betterlockscreen brave-bin dragon-drop lmaofetch qogir-icon-theme ttf-icomoon-feather
+aur=(betterlockscreen brave-bin dragon-drop lmaofetch qogir-icon-theme ttf-icomoon-feather)
+
+is_installed() {
+	pacman -Qi "$1" &>/dev/null
+	return $?
+}
+
+printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
+for paquete in "${aur[@]}"; do
+	if ! is_installed "$paquete"; then
+		yay -S --noconfirm "$paquete"
+		printf "\n"
+	else
+		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
+	fi
+done
+sleep 1
+clear
 
 # Preparing folders
 logo "Preparing Folders"
