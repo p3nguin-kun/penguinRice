@@ -1,114 +1,111 @@
 # ***penguinRice***
 
-- 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
-- ***Wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
-- 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
-
-***Status***: Complete
+- 👩‍💻 ***author***: [p3nguin-kun](https://github.com/p3nguin-kun)
+- ***wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
+- 🗨️ ***discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 **This script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
 
-Showcase video:
+showcase video:
 
 [<img src="https://img.youtube.com/vi/aYcmIjYeFaU/maxresdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/aYcmIjYeFaU)
 
-# ***Menu***
-- [Screenshots](#screenshots)
-- [Packages](#packages)
-- [Types of penguinRice users](#types-of-penguinrice-users)
-- [What does this script do?](#what-does-this-script-do)
-- [Style selector](#style-selector)
-- [Installation](#installation)
-- [Tutorial](#tutorial)
-- [Support](#support)
+# ***menu***
+- [screenshots](#screenshots)
+- [packages](#packages)
+- [types of penguinRice users](#types-of-penguinrice-users)
+- [what does this script do?](#what-does-this-script-do)
+- [style selector](#style-selector)
+- [installation](#installation)
+- [tutorial](#tutorial)
+- [support](#support)
 
-# ***Screenshots***
+# ***screenshots***
 
-| Everforest | Tokyo Night | Gruvbox |
+| everforest | tokyo night | gruvbox |
 | :--------: | :---------: | :-----: |
 | ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/wMMFW8w.png) | ![img](https://i.imgur.com/CEKxCch.png) |
-| Nord | Catppuccin | Dracula |
+| nord | catppuccin | dracula |
 | ![img](https://i.imgur.com/ABglZDS.png) | ![img](https://i.imgur.com/hMRV1Bs.png) | ![img](https://i.imgur.com/aCYPnLm.png) |
-| Monochrome |
+| monochrome |
 | ![img](https://i.imgur.com/lyDNUkM.png) |
 
-# ***Packages***
-- 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
-- 🪟 ***Window Manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
-- 📊 ***Status bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
-- 👨‍💻 ***Terminal***: [alacritty](https://alacritty.org/)
-- 🌐 ***Browser***: [Brave](https://brave.com/)
-- 🗂️ ***File Manager***: [ranger](https://ranger.github.io/) and [Thunar](https://docs.xfce.org/xfce/thunar/start)
-- 🐚 ***Shell***: [fish](https://fishshell.com/)
-- 🏘️ ***Launcher***: [Rofi](https://github.com/davatorium/rofi)
-- 📄 ***Text editor***: [NeoVim](https://neovim.io) with [NvChad](https://github.com/NvChad/NvChad)
-- 📄 ***PDF Viewer***: [zathura](https://pwmt.org/projects/zathura/)
-- 📅 ***Calendar***: [calcurse](https://calcurse.org/)
-- 🎞️ ***Media player***: [mpv](https://mpv.io) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
-- 🖼️ ***Photo viewer***: [feh](https://feh.finalrewind.org/)
-- ℹ️ ***Fetch***: [lmaofetch](https://github.com/p3nguin-kun/lmaofetch)
-- 📊 ***System monitor***: [btop](https://github.com/aristocratos/btop)
-- 🖥️ ***Manage screens***: [ARandR](https://christian.amsuess.com/tools/arandr/)
-- 🔔 ***Notification***: [dunst](https://dunst-project.org/)
-- 🖵 ***Compositor***: [picom](https://github.com/yshui/picom)
-- 🔒 ***Lockscreen***: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
+# ***packages***
+- ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
+- ***window manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
+- ***bar***: [polybar](https://github.com/polybar/polybar), [plank](https://launchpad.net/plank) (openbox)
+- ***terminal***: [alacritty](https://alacritty.org/)
+- ***browser***: [Brave](https://brave.com/)
+- ***file manager***: [ranger](https://ranger.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start)
+- ***shell***: [fish](https://fishshell.com/)
+- ***Launcher***: [rofi](https://github.com/davatorium/rofi)
+- ***text editor***: [neovim](https://neovim.io) with [nvchad](https://github.com/NvChad/NvChad)
+- ***pdf viewer***: [zathura](https://pwmt.org/projects/zathura/)
+- ***calendar***: [calcurse](https://calcurse.org/)
+- ***video player***: [mpv](https://mpv.io)
+- ***music player***: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
+- ***photo viewer***: [feh](https://feh.finalrewind.org/)
+- ***fetch***: [lmaofetch](https://github.com/p3nguin-kun/lmaofetch)
+- ***system monitor***: [btop](https://github.com/aristocratos/btop)
+- ***manage screens***: [arandr](https://christian.amsuess.com/tools/arandr/)
+- ***notification***: [dunst](https://dunst-project.org/)
+- ***compositor***: [picom](https://github.com/yshui/picom)
+- ***lockscreen***: [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 
-# ***Types of penguinRice users***
-- People who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
-- Those who want to use hacker computer setup like in many movies.
-- People who want to automatically rice their Linux desktop.
-- Who want productivity Linux desktop for study and work.
-- Those who spend a whole day to install Arch Linux manually but lazy  to rice, config
+# ***types of penguinRice users***
+- people who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
+- those who want to use hacker computer setup like in many movies.
+- people who want to automatically rice their Linux desktop.
+- who want productivity Linux desktop for study and work.
+- those who spend a whole day to install Arch Linux manually but lazy to rice their system
 
-# ***What does this script do?***
-- Install some necessary packages such as Firefox, LibreOffice, NeoVim, ...
-- Automatically rice tiling window manager
-- Automatically config software such as neovim, neofetch, dunst, pacman (for what?), ...
-- Customize your computer
-- Automatically install yay, an AUR helper
-- Config Firefox with FirefoxCSS, harden with arkenfox user.js and install uBlock Origin
+# ***what does this script do?***
+- install some necessary packages such as brave, neovim, ...
+- automatically rice your system
+- customize your computer
+- automatically install yay, an AUR helper
 
-# ***Style selector***
+# ***style selector***
 penguinRice now has style selector for people want to change desktop's style, just press ```Alt + space``` and style selector will appear on your screen
 
 ![img](https://i.imgur.com/KaAwop3.png)
 
-# ***Installation***
+# ***installation***
 
-***Note: You need to login as normal user to use this script***
+***note: you need to login as normal user to use this script***
 
-1. Install [Git](https://git-scm.com/) if you don't have it
+1. install [Git](https://git-scm.com/) if you don't have it
 ```
 sudo pacman -S git
 ```
 
-2. Clone this repository
+2. clone this repository
 ```
 git clone https://github.com/p3nguin-kun/penguinRice
 ```
 
-3. Go to penguinRice directory
+3. go to penguinRice directory
 ```
 cd penguinRice
 ```
 
-4. Run this script
+4. run this script
 ```
 sh penguinrice.sh
 ```
 
-5. Follow the instruction
+5. follow the instruction
 
-6. Restart your computer
+6. restart your computer
 
-7. Done! Now you can use fully-featured floating/tiling window manager on your computer
+7. done! Now you can use fully-featured floating/tiling window manager on your computer
 
-# ***Tutorial***
+# ***tutorial***
 - penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](https://github.com/p3nguin-kun/penguinRice/wiki/2.-Keybindings-and-commands)
-- You can read penguinRice's wiki [here](https://codeberg.org/p3nguin-kun/penguinRice/wiki)
+- you can read penguinRice's wiki [here](https://codeberg.org/p3nguin-kun/penguinRice/wiki)
 
-# ***Contributions***
+# ***contributions***
 
-1. Fork this project.
-2. Edit the scripts, add/edit the keybindings.
-3. Make a pull request.
+1. fork this project.
+2. edit the scripts, add/edit the keybindings.
+3. make a pull request.
