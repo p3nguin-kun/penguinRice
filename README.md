@@ -1,6 +1,6 @@
 # ***penguinRice***
 
--***author***: [p3nguin-kun](https://github.com/p3nguin-kun)
+- ***author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - ***wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
 - ***discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
