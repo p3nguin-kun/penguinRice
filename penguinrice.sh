@@ -48,7 +48,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr archlinux-xdg-menu bspwm btop calcurse dunst feh fish gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xorg xorg-drivers xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr archlinux-xdg-menu bspwm btop calcurse dunst feh firefox fish gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xorg xorg-drivers xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -77,7 +77,7 @@ else
 fi
 
 echo "Installing AUR packages"
-aur=(betterlockscreen brave-bin dragon-drop lmaofetch qogir-icon-theme ttf-icomoon-feather)
+aur=(betterlockscreen dragon-drop lmaofetch qogir-icon-theme ttf-icomoon-feather)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -113,6 +113,9 @@ logo "Downloading dotfiles"
 printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
+printf "Cloning rice from https://github.com/p3nguin-kun/penguinFox\n"
+cd
+git clone --depth=1 https://github.com/p3nguin-kun/penguinFox.git
 sleep 1
 clear
 
@@ -211,6 +214,17 @@ for archivos in ~/penguinDotfiles/wallpapers; do
 		sleep 1
 	fi
 done
+
+for archivos in ~/penguinFox/*; do
+  cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
