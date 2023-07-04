@@ -30,7 +30,7 @@ Showcase video:
 | Nord | Catppuccin | Dracula |
 | ![img](https://i.imgur.com/ABglZDS.png) | ![img](https://i.imgur.com/hMRV1Bs.png) | ![img](https://i.imgur.com/aCYPnLm.png) |
 | Monochrome |
-| ![img](https://i.imgur.com/Keg5lHS.png) |
+| ![img](https://i.imgur.com/lyDNUkM.png) |
 
 # ***Packages***
 - 🔴 ***Dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
