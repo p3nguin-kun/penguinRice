@@ -158,6 +158,7 @@ printf "Copying files to respective directories..\n"
 
 [ ! -d ~/.config ] && mkdir -p ~/.config
 [ ! -d ~/.themes ] && mkdir -p ~/.themes
+[ ! -d ~/.local/share/applications ] && mkdir -p ~/.local/share/applications
 
 for archivos in ~/penguinDotfiles/.config/*; do
 	cp -R "${archivos}" ~/.config/
@@ -197,6 +198,16 @@ for archivos in ~/penguinDotfiles/wallpapers; do
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
 	fi
+done
+
+for archivos in ~/penguinDotfiles/misc/applications/*; do
+  cp -R "${archivos}" ~/.local/share/applications/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s file copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
 done
 
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
