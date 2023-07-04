@@ -45,6 +45,11 @@ while true; do
 done
 clear
 
+# Update system
+logo "Updating system"
+sudo rm -rf /var/lib/pacman/db.lck
+sudo pacman -Syu
+
 # Install packages
 logo "Installing needed packages"
 
