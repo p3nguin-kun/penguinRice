@@ -28,7 +28,7 @@ Showcase video:
 | :--------: | :---------: | :-----: |
 | ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/wMMFW8w.png) | ![img](https://i.imgur.com/CEKxCch.png) |
 | Nord | Catppuccin | Dracula |
-| ![img](https://i.imgur.com/ABglZDS.png) | ![img](https://i.imgur.com/hMRV1Bs.png) | ![img](https://i.imgur.com/ZbMtf6x.png) |
+| ![img](https://i.imgur.com/ABglZDS.png) | ![img](https://i.imgur.com/hMRV1Bs.png) | ![img](https://i.imgur.com/aCYPnLm.png) |
 | Monochrome |
 | ![img](https://i.imgur.com/Keg5lHS.png) |
 
