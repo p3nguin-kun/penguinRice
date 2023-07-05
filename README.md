@@ -28,9 +28,9 @@
 
 # ***packages***
 - ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
-- ***window manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [Openbox](http://openbox.org/wiki/Main_Page)
+- ***window manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [openbox](http://openbox.org/wiki/Main_Page)
 - ***terminal***: [alacritty](https://alacritty.org/)
-- ***browser***: [Brave](https://brave.com/)
+- ***browser***: [brave](https://brave.com/)
 - ***file manager***: [ranger](https://ranger.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start)
 - ***launcher***: [rofi](https://github.com/davatorium/rofi)
 - ***text editor***: [neovim](https://neovim.io) with [nvchad](https://github.com/NvChad/NvChad)
