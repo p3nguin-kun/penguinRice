@@ -59,7 +59,7 @@ sleep 2
 clear
 
 # Install Pipewire (audio)
-logo "Installing Pipewire (audio)
+logo "Installing Pipewire (audio)"
 yes y | sudo pacman -S --needed pipewire pipewire-pulse wireplumber
 sleep 2
 clear
