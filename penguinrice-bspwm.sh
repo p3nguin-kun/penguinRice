@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# penguinRice
+# penguinRice (bspwm ver.)
 # p3nguin-kun's auto rice script
 # Author: Khanh Hien Hoang (p3nguin-kun)
 # GitHub: p3nguin-kun
