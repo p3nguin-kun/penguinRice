@@ -81,7 +81,10 @@ cd penguinRice
 
 4. run this script
 ```
-sh penguinrice.sh
+sh penguinrice.sh  (install all wm)
+sh penguinrice-bspwm.sh  (install bspwm only)
+sh penguinrice-openbox.sh  (install openbox only)
+sh penguinrice-i3.sh  (install i3wm only)
 ```
 
 5. follow the instruction
