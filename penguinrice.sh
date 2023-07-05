@@ -49,6 +49,8 @@ clear
 logo "Updating system"
 sudo rm -rf /var/lib/pacman/db.lck
 sudo pacman -Syu --noconfirm
+sleep 1
+clear
 
 # Install packages
 logo "Installing needed packages"
