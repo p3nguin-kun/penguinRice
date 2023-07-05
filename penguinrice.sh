@@ -271,6 +271,8 @@ fi
 
 echo "Enabling LightDM"
 sudo systemctl enable lightdm
+printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
 clear
 
 # Enabling services
@@ -280,6 +282,13 @@ systemctl --user enable mpd.service
 systemctl --user start mpd.service
 sudo systemctl enable NetworkManager
 systemctl --user enable pipewire pipewire-pulse wireplumber
+printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
+clear
+
+# Remove unneeded files
+logo "Removing unneeded files"
+rm -rf ~/lightdm-minimal ~/penguinDotfiles
 printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
