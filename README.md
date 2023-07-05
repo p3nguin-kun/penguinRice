@@ -51,9 +51,9 @@
 
 # ***what does this script do?***
 - install some necessary packages such as brave, neovim, ...
-- automatically rice your system
-- customize your computer
-- automatically install yay, an AUR helper
+- rice your system
+- config some packages like nvim, ncmpcpp, ...
+- install yay, an AUR helper
 
 # ***style selector***
 penguinRice now has style selector for people want to change desktop's style, just press ```Alt + space``` and style selector will appear on your screen
