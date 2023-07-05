@@ -55,7 +55,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr archlinux-xdg-menu bspwm btop calcurse dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xorg xorg-drivers xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr archlinux-xdg-menu bspwm btop calcurse dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xorg xorg-drivers xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -84,7 +84,7 @@ else
 fi
 
 echo "Installing AUR packages"
-aur=(betterlockscreen brave-bin dragon-drop lmaofetch qogir-icon-theme ttf-icomoon-feather)
+aur=(betterlockscreen brave-bin dragon-drop lmaofetch picom-pijulius-git qogir-icon-theme ttf-icomoon-feather)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -94,7 +94,7 @@ is_installed() {
 printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
 for paquete in "${aur[@]}"; do
 	if ! is_installed "$paquete"; then
-		yay -S --noconfirm "$paquete"
+		yes y | yay -S "$paquete"
 		printf "\n"
 	else
 		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
