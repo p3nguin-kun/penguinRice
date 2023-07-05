@@ -18,12 +18,12 @@
 
 # ***screenshots***
 
-| everforest | tokyo night | gruvbox |
+| ***everforest*** | ***tokyo night*** | ***gruvbox*** |
 | :--------: | :---------: | :-----: |
 | ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/wMMFW8w.png) | ![img](https://i.imgur.com/CEKxCch.png) |
-| nord | catppuccin | dracula |
+| ***nord*** | ***catppuccin*** | ***dracula*** |
 | ![img](https://i.imgur.com/ABglZDS.png) | ![img](https://i.imgur.com/ERnoQQi.png) | ![img](https://i.imgur.com/aCYPnLm.png) |
-| monochrome |
+| ***monochrome*** |
 | ![img](https://i.imgur.com/lyDNUkM.png) |
 
 # ***packages***
