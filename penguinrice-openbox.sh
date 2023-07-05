@@ -59,7 +59,7 @@ sleep 2
 clear
 
 # Install Pipewire (audio)
-logo "Installing Pipewire (audio)
+logo "Installing Pipewire (audio)"
 yes y | sudo pacman -S --needed pipewire pipewire-pulse wireplumber
 sleep 2
 clear
@@ -77,7 +77,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen brave-bin btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb jq lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank polkit-gnome polybar qogir-icon-theme ranger rofi sed thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen brave-bin btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb inetutils jq lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank polkit-gnome polybar qogir-icon-theme ranger rofi sed thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
