@@ -222,16 +222,8 @@ clear
 
 # Configuring dotfiles
 logo "Configuring dotfiles"
-chmod -R +x ~/.config/bspwm/
-chmod -R +x ~/.config/openbox
-chmod -R +x ~/.config/i3
-chmod -R +x ~/.config/style
-chmod +x ~/.config/sxhkd/sxhkdrc
-chmod -R +x ~/.config/polybar
-chmod -R +x ~/.config/rofi
-chmod +x ~/.config/ranger/scope.sh
+chmod -R +x ~/.config/
 cp /etc/X11/xinit/xinitrc .xinitrc
-echo "exec bspwm" >>.xinitrc
 touch ~/.Xresources
 printf "Xcursor.theme: Qogir-dark\nXcursor.size: 16" >>~/.Xresources
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
@@ -240,7 +232,6 @@ clear
 
 # Configuring pacman (for what???)
 logo "Configuring pacman (for what???)"
-
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
@@ -270,7 +261,6 @@ clear
 
 # Enabling services
 logo "Enabling services"
-
 systemctl --user enable mpd.service
 systemctl --user start mpd.service
 sudo systemctl enable NetworkManager
