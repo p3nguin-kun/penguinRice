@@ -52,10 +52,32 @@ sudo pacman -Syu --noconfirm
 sleep 1
 clear
 
+# Install X.Org
+logo "Installing X.Org"
+sudo pacman -S --needed --noconfirm xorg xorg-drivers
+sleep 2
+clear
+
+# Install Pipewire (audio)
+logo "Installing Pipewire (audio)
+yes y | sudo pacman -S --needed pipewire pipewire-pulse wireplumber
+sleep 2
+clear
+
+# Install Yay (AUR helper)
+logo "Installing yay"
+if command -v yay &>/dev/null; then
+	echo "Yay is installed in your system"
+else
+	sudo pacman -S --needed --noconfirm base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd ..
+fi
+sleep 2
+clear
+
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr archlinux-xdg-menu bspwm btop calcurse dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol pipewire pipewire-pulse plank playerctl polkit-gnome polybar ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip wireplumber xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xorg xorg-drivers xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen brave-bin bspwm btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm jq lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank playerctl polkit-gnome polybar qogir-icon-theme ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -64,35 +86,6 @@ is_installed() {
 
 printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
 for paquete in "${dependencies[@]}"; do
-	if ! is_installed "$paquete"; then
-		sudo pacman -S --noconfirm "$paquete"
-		printf "\n"
-	else
-		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
-	fi
-done
-sleep 1
-clear
-
-# Installing yay
-logo "Installing yay and AUR packages"
-if command -v yay &>/dev/null; then
-	echo "Yay is installed in your system"
-else
-	echo "Installing yay"
-	sudo pacman -S --needed --noconfirm base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd ..
-fi
-
-echo "Installing AUR packages"
-aur=(betterlockscreen brave-bin dragon-drop lmaofetch picom-pijulius-git qogir-icon-theme ttf-icomoon-feather)
-
-is_installed() {
-	pacman -Qi "$1" &>/dev/null
-	return $?
-}
-
-printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
-for paquete in "${aur[@]}"; do
 	if ! is_installed "$paquete"; then
 		yes y | yay -S "$paquete"
 		printf "\n"
