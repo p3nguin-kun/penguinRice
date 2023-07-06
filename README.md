@@ -20,7 +20,7 @@
 
 | ***everforest*** | ***tokyo night*** | ***gruvbox*** |
 | :--------: | :---------: | :-----: |
-| ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/bW1LzHu.png) | ![img](https://i.imgur.com/2kKChq2.png) |
+| ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/bW1LzHu.png) | ![img](https://i.imgur.com/XE0IoTx.png) |
 | ***nord*** | ***catppuccin*** | ***dracula*** |
 | ![img](https://i.imgur.com/LOZ4VTD.png) | ![img](https://i.imgur.com/49ohjOd.png) | ![img](https://i.imgur.com/QuiN2wr.png) |
 | ***monochrome*** |
