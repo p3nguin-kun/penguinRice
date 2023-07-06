@@ -22,7 +22,7 @@
 | :--------: | :---------: | :-----: |
 | ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/wMMFW8w.png) | ![img](https://i.imgur.com/CEKxCch.png) |
 | ***nord*** | ***catppuccin*** | ***dracula*** |
-| ![img](https://i.imgur.com/LOZ4VTD.png) | ![img](https://i.imgur.com/ERnoQQi.png) | ![img](https://i.imgur.com/QuiN2wr.png) |
+| ![img](https://i.imgur.com/LOZ4VTD.png) | ![img](https://i.imgur.com/M76QvNE.png) | ![img](https://i.imgur.com/QuiN2wr.png) |
 | ***monochrome*** |
 | ![img](https://i.imgur.com/lyDNUkM.png) |
 
