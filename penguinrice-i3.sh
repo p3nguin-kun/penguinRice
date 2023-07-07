@@ -49,18 +49,21 @@ clear
 logo "Updating system"
 sudo rm -rf /var/lib/pacman/db.lck
 sudo pacman -Syu --noconfirm
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
 
 # Install X.Org
 logo "Installing X.Org"
 sudo pacman -S --needed --noconfirm xorg xorg-drivers
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 clear
 
 # Install Pipewire (audio)
 logo "Installing Pipewire (audio)"
 yes y | sudo pacman -S --needed pipewire pipewire-pulse wireplumber
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 2
 clear
 
@@ -116,6 +119,7 @@ git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
 printf "Cloning rice from https://github.com/p3nguin-kun/penguinFox-Librewolf\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinFox-Librewolf.git
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
 
@@ -272,6 +276,7 @@ clear
 # Install oh-my-fish
 logo "Installing oh-my-fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
 
