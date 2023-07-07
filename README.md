@@ -95,7 +95,7 @@ sh penguinrice-i3.sh  (install i3wm only)
 
 # ***tutorial***
 - penguinRice has a keybinding list, you can read it by pressing ``` Super + ` ``` or click [here](https://github.com/p3nguin-kun/penguinRice/wiki/2.-Keybindings-and-commands)
-- you can read penguinRice's wiki [here](https://codeberg.org/p3nguin-kun/penguinRice/wiki)
+- you can read penguinRice's wiki [here](https://github.com/p3nguin-kun/penguinRice/wiki)
 
 # ***contributions***
 
