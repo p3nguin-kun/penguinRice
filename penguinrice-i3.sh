@@ -231,7 +231,7 @@ for archivos in ~/penguinFox-Librewolf/*; do
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 	else
-		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		printf "%s%s%s failed to been copied, you must run sh ~/penguinFox-Librewolf/penguinfox/librewolf.sh or copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
 	fi
 done
