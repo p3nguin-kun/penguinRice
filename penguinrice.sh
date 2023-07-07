@@ -304,7 +304,7 @@ clear
 
 # Remove unneeded files
 logo "Removing unneeded files"
-rm -rf ~/lightdm-minimal ~/penguinDotfiles ~/penguinFox-Librewolf
+rm -rf ~/lightdm-minimal
 printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
