@@ -303,13 +303,6 @@ printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
 
-# Remove unneeded files
-logo "Removing unneeded files"
-rm -rf ~/lightdm-minimal
-printf "%s%sDone!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
-sleep 1
-clear
-
 # Changing shell to fish and goodbye
 logo "Changing default shell to fish"
 printf "%s%sIf your shell is not fish will be changed now.\nYour root password is needed to make the change.\n\nAfter that is important for you to reboot.\n %s\n" "${BLD}" "${CYE}" "${CNC}"
