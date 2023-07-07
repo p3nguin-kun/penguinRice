@@ -77,7 +77,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb inetutils jq librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank polkit-gnome polybar qogir-icon-theme ranger rofi sed thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs inetutils jq librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank polkit-gnome polybar qogir-icon-theme ranger rofi sed thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xclip xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -268,6 +268,12 @@ logo "Configuring pacman (for what???)"
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 1
+clear
+
+# Install oh-my-fish
+logo "Installing oh-my-fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 sleep 1
 clear
 
