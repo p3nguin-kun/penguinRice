@@ -87,7 +87,7 @@ is_installed() {
 printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
 for paquete in "${dependencies[@]}"; do
 	if ! is_installed "$paquete"; then
-		yay -S "$paquete"
+		yay -S --noconfirm "$paquete"
 		printf "\n"
 	else
 		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
