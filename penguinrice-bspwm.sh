@@ -113,7 +113,7 @@ logo "Downloading dotfiles"
 printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
-printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
+printf "Cloning rice from https://github.com/p3nguin-kun/penguinFox-Librewolf\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinFox-Librewolf.git
 sleep 1
@@ -152,12 +152,13 @@ for folder in chrome; do
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
 	else
 		echo "The folder $folder does not exist in $HOME/.librewolf/"
+
 	fi
 done
 
 for file in user.js prefs.js; do
 	if [ -e "$HOME"/.librewolf/*.default-default/$file ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-default/$file "$backup_folder"/${file}_$date
+		mv "$HOME"/.librewolf/*.default-default/$file "$backup_folder"/${file}_$date
 		echo "$file file backed up successfully at $backup_folder/${file}_$date"
 	else
 		echo "The file $file does not exist in $HOME/.librewolf/"
