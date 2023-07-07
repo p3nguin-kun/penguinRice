@@ -20,7 +20,7 @@ logo() {
 
 	local text="${1:?}"
 	echo -en "                                 
-  penguinRice\n\n"
+  penguinRice (i3wm ver.)\n\n"
 	printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}"
 }
 
@@ -77,7 +77,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr betterlockscreen brave-bin btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm inetutils jq lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet pamixer pavucontrol picom-pijulius-git playerctl polkit-gnome polybar qogir-icon-theme ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr betterlockscreen btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm inetutils jq librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet pamixer pavucontrol picom-pijulius-git playerctl polkit-gnome polybar qogir-icon-theme ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -113,6 +113,9 @@ logo "Downloading dotfiles"
 printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
+printf "Cloning rice from https://github.com/p3nguin-kun/penguinFox-Librewolf\n"
+cd
+git clone --depth=1 https://github.com/p3nguin-kun/penguinFox-Librewolf.git
 sleep 1
 clear
 
@@ -139,7 +142,25 @@ for folder in wallpapers; do
 		mv "$HOME"/$folder "$backup_folder"/${folder}_$date
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
 	else
-		echo "The folder $folder does not exist in $HOME/.mozilla/firefox/"
+		echo "The folder $folder does not exist in $HOME"
+	fi
+done
+
+for folder in chrome; do
+	if [ -d "$HOME"/.librewolf/*.default-default/$folder ]; then
+		mv "$HOME"/.librewolf/*.default-default/$folder "$backup_folder"/${folder}_$date
+		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
+	else
+		echo "The folder $folder does not exist in $HOME/.librewolf/"
+	fi
+done
+
+for file in user.js prefs.js; do
+	if [ -e "$HOME"/.librewolf/*.default-default/$file ]; then
+		mv "$HOME"/.librewolf/*.default-default/$file "$backup_folder"/${file}_$date
+		echo "$file file backed up successfully at $backup_folder/${file}_$date"
+	else
+		echo "The file $file does not exist in $HOME/.librewolf/"
 	fi
 done
 
@@ -203,6 +224,16 @@ for archivos in ~/penguinDotfiles/misc/applications/*; do
 	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 	sleep 1
   fi
+done
+
+for archivos in ~/penguinFox-Librewolf/*; do
+	cp -R "${archivos}" ~/.librewolf/*.default-default/
+	if [ $? -eq 0 ]; then
+		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	else
+		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		sleep 1
+	fi
 done
 
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
