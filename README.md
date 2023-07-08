@@ -27,7 +27,7 @@
 | ![img](https://i.imgur.com/lyDNUkM.png) |
 
 # ***packages***
-- ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
+- ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles), [penguinDotfiles-void](https://github.com/p3nguin-kun/penguinDotfiles-void)
 - ***window manager***: [i3](https://i3wm.org), [bspwm](https://github.com/baskerville/bspwm) and [openbox](http://openbox.org/wiki/Main_Page)
 - ***terminal***: [alacritty](https://alacritty.org/)
 - ***browser***: [librewolf](https://librewolf.net/)  (i use librewolf-bin because my computer cant compile librewolf)
