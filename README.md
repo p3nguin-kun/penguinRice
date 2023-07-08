@@ -84,7 +84,7 @@ cd penguinRice
 ```
 sh penguinrice-arch.sh  (arch linux or arch-based distro)
 sh penguinrice-void.sh  (void linux)
-sh penguinrice-artixrunit.sh  (artix linux, enable arch repo before run this script)
+sh penguinrice-artixrunit.sh  (artix linux | not completed, dont try it, enable arch repo before run this script)
 ```
 
 5. follow the instruction
