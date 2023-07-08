@@ -145,8 +145,8 @@ for folder in wallpapers; do
 done
 
 for folder in chrome; do
-	if [ -d "$HOME"/.mozilla/firefox/*.default-release/$folder ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-release/$folder "$backup_folder"/${folder}_$date
+	if [ -d "$HOME"/.mozilla/firefox/*.default-default/$folder ]; then
+		mv "$HOME"/.mozilla/firefox/*.default-default/$folder "$backup_folder"/${folder}_$date
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
 	else
 		echo "The folder $folder does not exist in $HOME/.mozilla/firefox/"
@@ -155,8 +155,8 @@ for folder in chrome; do
 done
 
 for file in user.js prefs.js; do
-	if [ -e "$HOME"/.mozilla/firefox/*.default-release/$file ]; then
-		mv "$HOME"/.mozilla/firefox/*.default-release/$file "$backup_folder"/${file}_$date
+	if [ -e "$HOME"/.mozilla/firefox/*.default-default/$file ]; then
+		mv "$HOME"/.mozilla/firefox/*.default-default/$file "$backup_folder"/${file}_$date
 		echo "$file file backed up successfully at $backup_folder/${file}_$date"
 	else
 		echo "The file $file does not exist in $HOME/.mozilla/firefox/"
@@ -197,7 +197,7 @@ for archivos in ~/penguinDotfiles-void/themes/*; do
 done
 
 for archivos in ~/penguinDotfiles-void/fonts/*; do
-	cp -R "${archivos}" ~/.fonts/
+	cp "${archivos}" ~/.fonts/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 	else
@@ -237,7 +237,7 @@ for archivos in ~/penguinDotfiles-void/misc/applications/*; do
 done
 
 for archivos in ~/penguinFox/*; do
-	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
+	cp -R "${archivos}" ~/.mozilla/firefox/*.default-default/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 	else
