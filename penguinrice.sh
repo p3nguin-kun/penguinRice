@@ -276,7 +276,7 @@ sleep 1
 clear
 
 # Install oh-my-fish
-logo "Installing oh-my-fish
+logo "Installing oh-my-fish"
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
