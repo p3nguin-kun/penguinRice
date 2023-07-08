@@ -4,7 +4,7 @@
 - ***wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
 - ***discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
-**this script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
+**this script will automatically install fully-featured tiling/floating window manager-based system on any supported Linux distro.**
 
 # ***menu***
 - [screenshots](#screenshots)
@@ -66,7 +66,8 @@ penguinRice now has style selector for people want to change desktop's style, ju
 
 1. install [Git](https://git-scm.com/) if you don't have it
 ```
-sudo pacman -S git
+sudo pacman -S git  (arch linux or arch-based distro)
+sudo xbps-install -S git  (void linux)
 ```
 
 2. clone this repository
@@ -81,10 +82,8 @@ cd penguinRice
 
 4. run this script
 ```
-sh penguinrice.sh  (install all wm)
-sh penguinrice-bspwm.sh  (install bspwm only)
-sh penguinrice-openbox.sh  (install openbox only)
-sh penguinrice-i3.sh  (install i3wm only)
+sh penguinrice-arch.sh  (arch linux or arch-based distro)
+sh penguinrice-void.sh  (void linux)
 ```
 
 5. follow the instruction
