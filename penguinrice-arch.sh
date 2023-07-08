@@ -80,7 +80,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen bspwm btop calcurse dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm inetutils jq librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank playerctl polkit-gnome polybar qogir-icon-theme ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
+dependencies=(alacritty arandr archlinux-xdg-menu betterlockscreen bspwm btop calcurse curl dragon-drop dunst feh fish git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb i3-wm inetutils jq librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet obconf openbox pamixer pavucontrol picom-pijulius-git plank playerctl polkit-gnome polybar qogir-icon-theme ranger rofi sed sxhkd thunar thunar-archive-plugin thunar-volman ttf-icomoon-feather ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xdg-user-dirs-gtk xfce4-power-manager xfce4-screenshooter xss-lock zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -113,6 +113,7 @@ clear
 # Downloading dotfiles
 logo "Downloading dotfiles"
 [ -d ~/penguinDotfiles ] && rm -rf ~/penguinDotfiles
+[ -d ~/penguinFox-Librewolf ] && rm -rf ~/penguinFox-Librewolf
 printf "Cloning rice from https://github.com/p3nguin-kun/penguinDotfiles\n"
 cd
 git clone --depth=1 https://github.com/p3nguin-kun/penguinDotfiles.git
@@ -272,13 +273,6 @@ logo "Configuring pacman (for what???)"
 grep "^Color" /etc/pacman.conf >/dev/null || sudo sed -i "s/^#Color$/Color/" /etc/pacman.conf
 grep "ILoveCandy" /etc/pacman.conf >/dev/null || sudo sed -i "/#VerbosePkgLists/a ILoveCandy" /etc/pacman.conf
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
-sleep 1
-clear
-
-# Install oh-my-fish
-logo "Installing oh-my-fish"
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
 
