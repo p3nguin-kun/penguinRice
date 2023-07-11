@@ -28,7 +28,7 @@
 | ![img](https://i.imgur.com/lyDNUkM.png) |
 
 # ***packages***
-- ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles), [penguinDotfiles-void](https://github.com/p3nguin-kun/penguinDotfiles-void)
+- ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
 - ***window manager***: [awesome](https://awesomewm.org/)
 - ***terminal***: [siduck's st](https://github.com/siduck/st)
 - ***browser***: [librewolf](https://librewolf.net/)  (i use librewolf-bin because my computer cant compile librewolf)
