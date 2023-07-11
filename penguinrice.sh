@@ -99,6 +99,15 @@ done
 sleep 1
 clear
 
+# Install siduck's st 
+logo "Installing siduck's st"
+cd
+git clone https://github.com/siduck/st.git
+cd st
+sudo make install
+sleep 1
+clear
+
 # Preparing folders
 logo "Preparing Folders"
 if [ ! -e $HOME/.config/user-dirs.dirs ]; then
@@ -134,7 +143,7 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in fish gtk-3.0 mpd ncmpcpp nvim picom ranger wallpapers xfce4 zathura; do
+for folder in awesome fish gtk-3.0 mpd ncmpcpp nvim picom ranger tym wallpapers xfce4 zathura; do
 	if [ -d "$HOME/.config/$folder" ]; then
 		mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date"
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
