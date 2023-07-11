@@ -101,6 +101,7 @@ clear
 
 # Install siduck's st 
 logo "Installing siduck's st"
+[ -d ~/st ] && rm -rf ~/st
 cd
 git clone https://github.com/siduck/st.git
 cd st
@@ -181,6 +182,9 @@ for file in user.js; do
 	fi
 done
 
+[ -f ~/.Xresources ] && mv ~/.Xresources ~/.RiceBackup/.Xresources-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
+[ -f ~/.xsettingsd ] && mv ~/.xsettingsd ~/.RiceBackup/.xsettingsd-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
+
 printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
 clear
@@ -224,7 +228,7 @@ for archivos in ~/penguinDotfiles/lightdm-config/*; do
 done
 
 for archivos in ~/penguinDotfiles/home/*; do
-	cp -R "${archivos}" ~/
+	cp -f "${archivos}" ~/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 	else
@@ -252,6 +256,10 @@ for archivos in ~/penguinFox-Librewolf/*; do
 		sleep 1
 	fi
 done
+
+
+cp -f "$HOME"/penguinDotfiles/home/.Xresources "$HOME"
+cp -f "$HOME"/penguinDotfiles/home/.xsettingsd "$HOME"
 
 printf "%s%sDone!\n\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 1
