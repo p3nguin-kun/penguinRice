@@ -80,7 +80,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(arandr awesome-git btop calcurse curl dragon-drop dunst feh fish gd git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb inotify-tools librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 maim mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet noto-fonts noto-fonts-emoji noto-fonts-extra pavucontrol picom playerctl polkit-gnome qogir-icon-theme ranger sed thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xclip xdg-user-dirs-gtk xfce4-power-manager zathura zathura-pdf-mupdf zip)
+dependencies=(arandr awesome-git brightnessctl btop calcurse curl dragon-drop dunst feh fish gd git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb inotify-tools librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 maim mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet noto-fonts noto-fonts-emoji noto-fonts-extra pavucontrol picom playerctl polkit-gnome qogir-icon-theme ranger sed thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip xarchiver xbindkeys xclip xdg-user-dirs-gtk xfce4-power-manager zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
