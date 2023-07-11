@@ -222,7 +222,7 @@ for archivos in ~/penguinDotfiles/lightdm-config/*; do
 	fi
 done
 
-for archivos in ~/penguinDotfiles/.Xresources; do
+for archivos in ~/penguinDotfiles/home/*; do
 	cp -R "${archivos}" ~/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
