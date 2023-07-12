@@ -84,3 +84,7 @@ sh penguinrice.sh  (arch linux or arch-based distro)
 1. fork this project.
 2. edit the scripts, add/edit the keybindings.
 3. make a pull request.
+
+# ***references***
+- [elenapan's dotfiles](https://github.com/elenapan/dotfiles)
+- [stardust's dotfiles](https://github.com/Stardust-kyun/dotfiles)
