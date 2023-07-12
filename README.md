@@ -1,4 +1,4 @@
-# ***penguinRice***
+<h1 align="center">penguinRice</h1>
 
 - ***author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - ***wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
@@ -6,31 +6,22 @@
 
 **this script will automatically install fully-featured tiling/floating window manager-based system on any arch linux or arch-based distro.**
 
-# ***menu***
-- [screenshots](#screenshots)
-- [packages](#packages)
-- [types of penguinRice users](#types-of-penguinrice-users)
-- [what does this script do?](#what-does-this-script-do)
-- [installation](#installation)
-- [tutorial](#tutorial)
-- [support](#support)
 
-# ***screenshots***
-![img](https://i.imgur.com/OU7cuBA.png)
+<img src="https://i.imgur.com/OU7cuBA.png" width="67%" align="right">
 
-# ***packages***
-- ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
-- ***window manager***: [awesome](https://awesomewm.org/)
-- ***terminal***: [siduck's st](https://github.com/siduck/st)
-- ***browser***: [librewolf](https://librewolf.net/)  (i use librewolf-bin because my computer cant compile librewolf)
-- ***file manager***: [ranger](https://ranger.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start)
-- ***text editor***: [neovim](https://neovim.io) with [nvchad](https://github.com/NvChad/NvChad)
-- ***pdf viewer***: [zathura](https://pwmt.org/projects/zathura/)
-- ***calendar***: [calcurse](https://calcurse.org/)
-- ***video player***: [mpv](https://mpv.io)
-- ***music player***: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
-- ***fetch***: [lmaofetch](https://github.com/p3nguin-kun/lmaofetch)
-- ***system monitor***: [btop](https://github.com/aristocratos/btop)
+| ***dotfiles*** | [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles) |
+| :------------- | :---------------------------------------------------------------- |
+| ***window manager*** | [awesome](https://awesomewm.org/) |
+| ***terminal*** | [siduck's st](https://github.com/siduck/st) |
+| ***browser*** | [librewolf](https://librewolf.net/) |
+| ***file manager*** | [ranger](https://ranger.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start) |
+| ***text editor*** | [neovim](https://neovim.io) with [nvchad](https://github.com/NvChad/NvChad) |
+| ***pdf viewer*** | [zathura](https://pwmt.org/projects/zathura/) |
+| ***calendar*** | [calcurse](https://calcurse.org/) |
+| ***video player*** | [mpv](https://mpv.io) |
+| ***music player*** | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) |
+| ***fetch*** | [lmaofetch](https://github.com/p3nguin-kun/lmaofetch) |
+| ***system monitor*** | [btop](https://github.com/aristocratos/btop) |
 
 # ***types of penguinRice users***
 - people who already know their stuff and just want to automate installing a system without doing the boring stuff you’ve done a million times.
