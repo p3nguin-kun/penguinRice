@@ -66,7 +66,7 @@ cd penguinRice
 
 4. run this script
 ```
-sh penguinrice.sh  (arch linux or arch-based distro)
+sh penguinrice.sh
 ```
 
 5. follow the instruction
