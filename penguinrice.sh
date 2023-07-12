@@ -80,7 +80,7 @@ clear
 # Install packages
 logo "Installing needed packages"
 
-dependencies=(arandr awesome-git brightnessctl btop calcurse dragon-drop dunst feh fish gd git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb inetutils inotify-tools librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 maim mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet pavucontrol picom playerctl polkit-gnome qogir-icon-theme ranger sed thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-material-icons-git ttf-sarasa-gothic udisks2 ueberzug unrar unzip w3m xarchiver xclip xdg-user-dirs-gtk xfce4-power-manager zathura zathura-pdf-mupdf zip)
+dependencies=(arandr awesome-git brightnessctl btop calcurse dragon-drop dunst feh fish gd git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb inetutils inotify-tools librewolf-bin lightdm lightdm-webkit2-greeter lmaofetch lxappearance-gtk3 maim mpc mpd mpv ncmpcpp neovim networkmanager network-manager-applet pavucontrol picom playerctl polkit-gnome qogir-icon-theme ranger sed thunar thunar-archive-plugin thunar-volman ttf-iosevka-nerd ttf-sarasa-gothic udisks2 ueberzug unrar unzip w3m xarchiver xclip xdg-user-dirs-gtk xfce4-power-manager zathura zathura-pdf-mupdf zip)
 
 is_installed() {
 	pacman -Qi "$1" &>/dev/null
@@ -90,7 +90,7 @@ is_installed() {
 printf "%s%sChecking for required packages%s\n" "${BLD}" "${CBL}" "${CNC}"
 for paquete in "${dependencies[@]}"; do
 	if ! is_installed "$paquete"; then
-		yay -S --noconfirm "$paquete"
+		yes y | yay -S "$paquete"
 		printf "\n"
 	else
 		printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
@@ -194,6 +194,7 @@ logo "Installing dotfiles.."
 printf "Copying files to respective directories..\n"
 
 [ ! -d ~/.config ] && mkdir -p ~/.config
+[ ! -d ~/.fonts ] && mkdir -p ~/.fonts
 [ ! -d ~/.themes ] && mkdir -p ~/.themes
 [ ! -d ~/.local/share/applications ] && mkdir -p ~/.local/share/applications
 
@@ -209,6 +210,16 @@ done
 
 for archivos in ~/penguinDotfiles/themes/*; do
 	cp -R "${archivos}" ~/.themes/
+	if [ $? -eq 0 ]; then
+		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	else
+		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		sleep 1
+	fi
+done
+
+for archivos in ~/penguinDotfiles/fonts/*; do
+	cp -R "${archivos}" ~/.fonts/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 	else
