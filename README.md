@@ -7,15 +7,15 @@
 **this script will automatically install fully-featured tiling/floating window manager-based system on any arch linux or arch-based distro.**
 
 
-<img src="https://i.imgur.com/OU7cuBA.png" width="60%" align="right">
+<img src="https://i.imgur.com/OU7cuBA.png" width="65%" align="right">
 
 | ***dotfiles*** | [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles) |
 | :------------- | :---------------------------------------------------------------- |
 | ***window manager*** | [awesome](https://awesomewm.org/) |
 | ***terminal*** | [siduck's st](https://github.com/siduck/st) |
 | ***browser*** | [librewolf](https://librewolf.net/) |
-| ***file manager*** | [ranger](https://ranger.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start) |
-| ***text editor*** | [neovim](https://neovim.io) with [nvchad](https://github.com/NvChad/NvChad) |
+| ***file manager*** | [ranger](https://ranger.github.io/), [thunar](https://docs.xfce.org/xfce/thunar/start) |
+| ***text editor*** | [neovim](https://neovim.io) + [nvchad](https://github.com/NvChad/NvChad) |
 | ***pdf viewer*** | [zathura](https://pwmt.org/projects/zathura/) |
 | ***calendar*** | [calcurse](https://calcurse.org/) |
 | ***video player*** | [mpv](https://mpv.io) |
