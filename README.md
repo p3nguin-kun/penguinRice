@@ -7,7 +7,7 @@
 **this script will automatically install fully-featured tiling/floating window manager-based system on any arch linux or arch-based distro.**
 
 
-<img src="https://i.imgur.com/OU7cuBA.png" width="67%" align="right">
+<img src="https://i.imgur.com/OU7cuBA.png" width="65%" align="right">
 
 | ***dotfiles*** | [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles) |
 | :------------- | :---------------------------------------------------------------- |
