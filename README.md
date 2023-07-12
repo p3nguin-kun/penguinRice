@@ -1,7 +1,5 @@
 # ***penguinRice***
 
-# this script is not completed, dont use it
-
 - ***author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - ***wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
 - ***discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
@@ -18,14 +16,7 @@
 - [support](#support)
 
 # ***screenshots***
-
-| ***everforest*** | ***tokyo night*** | ***gruvbox*** |
-| :--------: | :---------: | :-----: |
-| ![img](https://i.imgur.com/bDQsb9t.png) | ![img](https://i.imgur.com/bW1LzHu.png) | ![img](https://i.imgur.com/XE0IoTx.png) |
-| ***nord*** | ***catppuccin*** | ***dracula*** |
-| ![img](https://i.imgur.com/LOZ4VTD.png) | ![img](https://i.imgur.com/49ohjOd.png) | ![img](https://i.imgur.com/QuiN2wr.png) |
-| ***monochrome*** |
-| ![img](https://i.imgur.com/lyDNUkM.png) |
+![img](https://i.imgur.com/OU7cuBA.png)
 
 # ***packages***
 - ***dotfiles***: [penguinDotfiles](https://github.com/p3nguin-kun/penguinDotfiles)
