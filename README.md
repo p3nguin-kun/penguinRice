@@ -4,7 +4,7 @@
 - ***wiki***: https://github.com/p3nguin-kun/penguinRice/wiki
 - ***discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
-**this script will automatically install fully-featured tiling/floating window manager-based system on any Arch Linux or Arch-based distro.**
+**this script will automatically install fully-featured tiling/floating window manager-based system on any arch linux or arch-based distro.**
 
 # ***menu***
 - [screenshots](#screenshots)
